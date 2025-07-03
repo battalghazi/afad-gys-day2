@@ -1,0 +1,262 @@
+/**
+ * Global CSS Stilleri
+ * 
+ * Bu dosya uygulamanın tüm stil tanımlarını içerir.
+ * Tailwind CSS, özel animasyonlar, CSS değişkenleri ve tema ayarları burada tanımlanır.
+ * 
+ * İçerik:
+ * 1. Tailwind CSS katmanları
+ * 2. Global font ayarları
+ * 3. Özel utility sınıfları
+ * 4. Animasyonlar
+ * 5. Gradient ve glassmorphism efektleri
+ * 6. CSS değişkenleri (light/dark theme)
+ */
+
+/* Tailwind CSS Katmanları */
+@tailwind base;        /* Temel reset ve normalize stilleri */
+@tailwind components;  /* Yeniden kullanılabilir bileşen stilleri */
+@tailwind utilities;   /* Utility-first CSS sınıfları */
+
+/**
+ * Global Font Ayarları
+ * 
+ * Tüm body element'i için font ailesi tanımlar.
+ * Geist font'u kullanılamadığında Arial'a fallback yapar.
+ */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/**
+ * Özel Utility Sınıfları
+ * 
+ * Tailwind CSS'e ek olarak özel utility sınıfları tanımlar.
+ * Bu sınıflar HTML element'lerinde doğrudan kullanılabilir.
+ */
+@layer utilities {
+  /**
+   * Text Balance Utility
+   * 
+   * Metin satırlarını daha dengeli şekilde böler.
+   * Başlıklar ve kısa paragraflar için kullanışlıdır.
+   */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /**
+   * Line Clamp Utility
+   * 
+   * Metni 2 satırla sınırlar ve overflow durumunda "..." ekler.
+   * Kart başlıkları ve açıklamalar için kullanılır.
+   */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /**
+   * Line Clamp-3 Utility
+   * 
+   * Metni 3 satırla sınırlar ve overflow durumunda "..." ekler.
+   * Uzun kart başlıkları için kullanılır.
+   */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /**
+   * Float Animasyonu
+   * 
+   * Element'i yavaşça yukarı-aşağı hareket ettirir.
+   * Hero section'daki icon'lar için kullanılır.
+   */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /**
+   * Soft Pulse Animasyonu
+   * 
+   * Element'in opacity'sini yumuşak şekilde değiştirir.
+   * Loading state'leri ve attention-grabbing element'ler için.
+   */
+  .animate-pulse-soft {
+    animation: pulse-soft 2s ease-in-out infinite;
+  }
+}
+
+/**
+ * Float Animasyon Tanımı
+ * 
+ * Y ekseni boyunca yukarı-aşağı hareket animasyonu.
+ * 3 saniye sürer ve sürekli tekrar eder.
+ */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/**
+ * Soft Pulse Animasyon Tanımı
+ * 
+ * Opacity değerini 1 ile 0.8 arasında değiştirir.
+ * 2 saniye sürer ve yumuşak geçişler kullanır.
+ */
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/**
+ * Gradient Text Efekti
+ * 
+ * Metne renkli gradient efekti uygular.
+ * Ana başlıklar ve önemli metinler için kullanılır.
+ * Mor-mavi tonlarda diagonal gradient.
+ */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/**
+ * Glass Effect (Glassmorphism)
+ * 
+ * Modern glassmorphism tasarım efekti.
+ * Arka plan bulanıklığı ve şeffaf beyaz overlay.
+ * Modal'lar ve özel kart'lar için kullanılır.
+ */
+.glass-effect {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+/**
+ * CSS Değişkenleri ve Tema Ayarları
+ * 
+ * Shadcn/ui tarafından kullanılan CSS custom properties.
+ * Light ve dark theme için ayrı renk paleti tanımlar.
+ * HSL renk formatı kullanır (Hue, Saturation, Lightness).
+ */
+@layer base {
+  /**
+   * Light Theme Renk Paleti
+   * 
+   * Varsayılan (light) tema için tüm renk değişkenlerini tanımlar.
+   * Semantic naming: background, foreground, primary, secondary, etc.
+   */
+  :root {
+    --background: 0 0% 100%;           /* Ana arka plan: Beyaz */
+    --foreground: 20 14.3% 4.1%;      /* Ana metin: Koyu gri */
+    --card: 0 0% 100%;                /* Kart arka planı: Beyaz */
+    --card-foreground: 20 14.3% 4.1%; /* Kart metni: Koyu gri */
+    --popover: 0 0% 100%;             /* Popover arka planı */
+    --popover-foreground: 20 14.3% 4.1%; /* Popover metni */
+    --primary: 24 9.8% 10%;           /* Ana tema rengi: Koyu */
+    --primary-foreground: 60 9.1% 97.8%; /* Ana tema metni: Açık */
+    --secondary: 60 4.8% 95.9%;       /* İkincil renk: Açık gri */
+    --secondary-foreground: 24 9.8% 10%; /* İkincil metin: Koyu */
+    --muted: 60 4.8% 95.9%;           /* Pasif element'ler: Açık gri */
+    --muted-foreground: 25 5.3% 44.7%; /* Pasif metin: Orta gri */
+    --accent: 60 4.8% 95.9%;          /* Vurgu rengi: Açık gri */
+    --accent-foreground: 24 9.8% 10%; /* Vurgu metni: Koyu */
+    --destructive: 0 84.2% 60.2%;     /* Hata/silme rengi: Kırmızı */
+    --destructive-foreground: 60 9.1% 97.8%; /* Hata metni: Beyaz */
+    --border: 20 5.9% 90%;            /* Border rengi: Açık gri */
+    --input: 20 5.9% 90%;             /* Input border: Açık gri */
+    --ring: 20 14.3% 4.1%;            /* Focus ring: Koyu gri */
+    
+    /* Chart Renkleri (İstatistik grafikleri için) */
+    --chart-1: 12 76% 61%;            /* Turuncu */
+    --chart-2: 173 58% 39%;           /* Teal */
+    --chart-3: 197 37% 24%;           /* Koyu mavi */
+    --chart-4: 43 74% 66%;            /* Sarı */
+    --chart-5: 27 87% 67%;            /* Kırmızı */
+    
+    --radius: 0.5rem;                 /* Border radius değeri */
+  }
+  
+  /**
+   * Dark Theme Renk Paleti
+   * 
+   * Karanlık tema için renk değişkenlerini override eder.
+   * Light theme'in tersine çevrilmiş versiyonu.
+   */
+  .dark {
+    --background: 20 14.3% 4.1%;      /* Ana arka plan: Koyu gri */
+    --foreground: 60 9.1% 97.8%;      /* Ana metin: Beyaz */
+    --card: 20 14.3% 4.1%;            /* Kart arka planı: Koyu */
+    --card-foreground: 60 9.1% 97.8%; /* Kart metni: Beyaz */
+    --popover: 20 14.3% 4.1%;         /* Popover arka planı: Koyu */
+    --popover-foreground: 60 9.1% 97.8%; /* Popover metni: Beyaz */
+    --primary: 60 9.1% 97.8%;         /* Ana tema rengi: Beyaz */
+    --primary-foreground: 24 9.8% 10%; /* Ana tema metni: Koyu */
+    --secondary: 12 6.5% 15.1%;       /* İkincil renk: Koyu gri */
+    --secondary-foreground: 60 9.1% 97.8%; /* İkincil metin: Beyaz */
+    --muted: 12 6.5% 15.1%;           /* Pasif element'ler: Koyu gri */
+    --muted-foreground: 24 5.4% 63.9%; /* Pasif metin: Orta gri */
+    --accent: 12 6.5% 15.1%;          /* Vurgu rengi: Koyu gri */
+    --accent-foreground: 60 9.1% 97.8%; /* Vurgu metni: Beyaz */
+    --destructive: 0 62.8% 30.6%;     /* Hata/silme: Koyu kırmızı */
+    --destructive-foreground: 60 9.1% 97.8%; /* Hata metni: Beyaz */
+    --border: 12 6.5% 15.1%;          /* Border: Koyu gri */
+    --input: 12 6.5% 15.1%;           /* Input border: Koyu gri */
+    --ring: 24 5.7% 82.9%;            /* Focus ring: Açık gri */
+    
+    /* Dark Theme Chart Renkleri */
+    --chart-1: 220 70% 50%;           /* Mavi */
+    --chart-2: 160 60% 45%;           /* Yeşil */
+    --chart-3: 30 80% 55%;            /* Turuncu */
+    --chart-4: 280 65% 60%;           /* Mor */
+    --chart-5: 340 75% 55%;           /* Pembe */
+  }
+}
+
+/**
+ * Base Layer Stilleri
+ * 
+ * Tüm element'ler için temel stil kuralları.
+ * Tailwind utility sınıflarını CSS değişkenleriyle birleştirir.
+ */
+@layer base {
+  /**
+   * Universal Border Ayarı
+   * 
+   * Tüm element'lere --border değişkenini uygular.
+   * Consistent border rengi sağlar.
+   */
+  * {
+    @apply border-border;
+  }
+  
+  /**
+   * Body Element Ayarları
+   * 
+   * Ana arka plan ve metin rengini CSS değişkenlerinden alır.
+   * Tema değişikliklerinde otomatik olarak güncellenir.
+   */
+  body {
+    @apply bg-background text-foreground;
+  }
+}
