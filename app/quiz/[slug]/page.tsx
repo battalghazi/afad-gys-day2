@@ -17,6 +17,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { questions, Question } from '@/lib/questions';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -49,11 +50,20 @@ interface QuizAnswer {
  * @param params.slug - Konu slug'ı (URL'den gelir)
  */
 export default function QuizPage({ params }: { params: { slug: string } }) {
+  const searchParams = useSearchParams();
+  const questionCount = parseInt(searchParams.get('count') || '20', 10); // Varsayılan 20 soru
+  
+  // Soru sayısına göre süre hesaplama (soru başına 30 saniye)
+  const calculateTimeLimit = (count: number) => {
+    const timePerQuestion = 30; // 30 saniye per soru
+    return count * timePerQuestion;
+  };
+
   // State Yönetimi
   const [topicQuestions, setTopicQuestions] = useState<Question[]>([]);      // Quiz soruları
   const [answers, setAnswers] = useState<QuizAnswer[]>([]);                 // Kullanıcı cevapları
   const [isSubmitted, setIsSubmitted] = useState(false);                    // Sınav bitiş durumu
-  const [timeLeft, setTimeLeft] = useState(20 * 60);                        // Kalan süre (saniye)
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLimit(questionCount)); // Kalan süre (saniye)
   const [isTimeUp, setIsTimeUp] = useState(false);                          // Süre doldu mu?
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);        // Sınavı bitir onay popup'ı
 
@@ -85,7 +95,7 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
    * Soru Yükleme Effect Hook'u
    * 
    * Slug değiştiğinde ilgili konunun sorularını yükler.
-   * Mevcut soru havuzundan rastgele 20 soru seçer.
+   * Query parameter'dan gelen soru sayısı kadar rastgele soru seçer.
    */
   useEffect(() => {
     const q = questions[params.slug] || [];
@@ -100,12 +110,12 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
       return shuffled;
     };
 
-    // Soruları karıştır ve ilk 20'sini al
+    // Soruları karıştır ve seçilen sayı kadar al
     const shuffledQuestions = shuffleArray(q);
-    const quizQuestions = shuffledQuestions.slice(0, Math.min(20, shuffledQuestions.length));
+    const quizQuestions = shuffledQuestions.slice(0, Math.min(questionCount, shuffledQuestions.length));
     
     setTopicQuestions(quizQuestions);
-  }, [params.slug]);
+  }, [params.slug, questionCount]);
 
   /**
    * Zaman Formatlama Fonksiyonu
@@ -187,10 +197,10 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
    * Sonuç ekranından tekrar sınava dönmek için kullanılır.
    */
   const handleRestart = () => {
-    setAnswers([]);           // Tüm cevapları sil
-    setIsSubmitted(false);    // Sınav durumunu sıfırla
-    setTimeLeft(20 * 60);     // Süreyi yeniden 20 dakika yap
-    setIsTimeUp(false);       // Süre doldu flag'ini sıfırla
+    setAnswers([]);                               // Tüm cevapları sil
+    setIsSubmitted(false);                        // Sınav durumunu sıfırla
+    setTimeLeft(calculateTimeLimit(questionCount)); // Süreyi seçilen soru sayısına göre ayarla
+    setIsTimeUp(false);                           // Süre doldu flag'ini sıfırla
   };
 
   /**

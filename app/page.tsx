@@ -114,6 +114,10 @@ export default function HomePage() {
   // Temel bilgiler kategorisi varsayılan olarak açık
   const [openCategories, setOpenCategories] = useState<string[]>(['temel']);
 
+  // Quiz seçim modal durumları
+  const [showQuizSelector, setShowQuizSelector] = useState(false);
+  const [selectedTopic, setSelectedTopic] = useState<{id: string, title: string} | null>(null);
+
   /**
    * Kategori Açma/Kapama Fonksiyonu
    * 
@@ -128,6 +132,41 @@ export default function HomePage() {
         ? prev.filter(id => id !== categoryId)  // Kategori açıksa kapat
         : [...prev, categoryId]                 // Kategori kapalıysa aç
     );
+  };
+
+  /**
+   * Quiz Seçim Modal'ını Açma Fonksiyonu
+   * 
+   * Kullanıcı bir quiz card'ına tıkladığında çalışır.
+   * Soru sayısı seçim modal'ını açar.
+   * 
+   * @param topic - Seçilen konu (id ve title içerir)
+   */
+  const handleTopicClick = (topic: {id: string, title: string}) => {
+    setSelectedTopic(topic);
+    setShowQuizSelector(true);
+  };
+
+  /**
+   * Quiz Başlatma Fonksiyonu
+   * 
+   * Kullanıcı soru sayısını seçtikten sonra quiz'i başlatır.
+   * 
+   * @param questionCount - Seçilen soru sayısı (10, 20 veya 30)
+   */
+  const startQuiz = (questionCount: number) => {
+    if (selectedTopic) {
+      // URL'de soru sayısını query parameter olarak geçir
+      window.location.href = `/quiz/${selectedTopic.id}?count=${questionCount}`;
+    }
+  };
+
+  /**
+   * Modal Kapatma Fonksiyonu
+   */
+  const closeQuizSelector = () => {
+    setShowQuizSelector(false);
+    setSelectedTopic(null);
   };
 
   /**
@@ -334,26 +373,28 @@ export default function HomePage() {
                   Sınav Konuları
                 </h2>
                 <p className="text-xs sm:text-sm md:text-lg text-gray-600 max-w-2xl mx-auto px-1 sm:px-2">
-                  Aşağıdaki konulardan birini seçerek hemen teste başlayın. Her konu için 20 soruluk test hazır.
+                  Aşağıdaki konulardan birini seçerek teste başlayın. 10, 20 veya 30 soruluk test seçenekleri mevcuttur.
                 </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-3">
                 {topics.map((topic, index) => (
-                  <Link href={`/quiz/${topic.id}`} key={topic.id} passHref legacyBehavior>
-                    <a className="block h-full group">
-                      <Card className="h-32 sm:h-36 md:h-40 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-gray-200 bg-white group-hover:border-blue-300 relative overflow-hidden flex flex-col">
-                        <CardHeader className="p-2 sm:p-3 md:p-4 text-center flex-1 flex flex-col justify-center">
-                          <div className="p-1 sm:p-1.5 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-md sm:rounded-lg mb-2 mx-auto w-fit group-hover:from-blue-200 group-hover:to-indigo-200 transition-all duration-300">
-                            <BookOpen className="h-3 w-3 sm:h-4 sm:w-4 text-blue-600" />
-                          </div>
-                          <CardTitle className="text-xs sm:text-sm md:text-sm lg:text-base leading-tight font-medium text-gray-900 group-hover:text-blue-700 transition-colors duration-300 line-clamp-3 px-1">
-                            {topic.title}
-                          </CardTitle>
-                        </CardHeader>
-                      </Card>
-                    </a>
-                  </Link>
+                  <div 
+                    key={topic.id}
+                    onClick={() => handleTopicClick({id: topic.id, title: topic.title})}
+                    className="block h-full group cursor-pointer"
+                  >
+                    <Card className="h-32 sm:h-36 md:h-40 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-gray-200 bg-white group-hover:border-blue-300 relative overflow-hidden flex flex-col">
+                      <CardHeader className="p-2 sm:p-3 md:p-4 text-center flex-1 flex flex-col justify-center">
+                        <div className="p-1 sm:p-1.5 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-md sm:rounded-lg mb-2 mx-auto w-fit group-hover:from-blue-200 group-hover:to-indigo-200 transition-all duration-300">
+                          <BookOpen className="h-3 w-3 sm:h-4 sm:w-4 text-blue-600" />
+                        </div>
+                        <CardTitle className="text-xs sm:text-sm md:text-sm lg:text-base leading-tight font-medium text-gray-900 group-hover:text-blue-700 transition-colors duration-300 line-clamp-3 px-1">
+                          {topic.title}
+                        </CardTitle>
+                      </CardHeader>
+                    </Card>
+                  </div>
                 ))}
               </div>
             </div>
@@ -428,6 +469,60 @@ export default function HomePage() {
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
           onClick={() => setSidebarOpen(false)}
         ></div>
+      )}
+
+      {/* Quiz Seçim Modal'ı */}
+      {showQuizSelector && selectedTopic && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <Card className="w-full max-w-md border-0 shadow-2xl bg-white">
+            <CardHeader className="text-center">
+              <div className="flex justify-center mb-4">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <BookOpen className="h-8 w-8 text-blue-600" />
+                </div>
+              </div>
+              <CardTitle className="text-xl font-bold text-gray-900">
+                {selectedTopic.title}
+              </CardTitle>
+              <CardDescription className="text-gray-600 mt-2">
+                Kaç soruluk test çözmek istiyorsunuz?
+              </CardDescription>
+            </CardHeader>
+            <div className="p-6 space-y-3">
+              <Button 
+                onClick={() => startQuiz(10)}
+                className="w-full h-12 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold rounded-lg transition-all duration-200"
+              >
+                <Clock className="mr-2 h-4 w-4" />
+                10 Soru (5 dakika)
+              </Button>
+              
+              <Button 
+                onClick={() => startQuiz(20)}
+                className="w-full h-12 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold rounded-lg transition-all duration-200"
+              >
+                <Clock className="mr-2 h-4 w-4" />
+                20 Soru (10 dakika)
+              </Button>
+              
+              <Button 
+                onClick={() => startQuiz(30)}
+                className="w-full h-12 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-200"
+              >
+                <Clock className="mr-2 h-4 w-4" />
+                30 Soru (15 dakika)
+              </Button>
+              
+              <Button 
+                onClick={closeQuizSelector}
+                variant="outline" 
+                className="w-full h-10 mt-4"
+              >
+                İptal
+              </Button>
+            </div>
+          </Card>
+        </div>
       )}
     </div>
   );
