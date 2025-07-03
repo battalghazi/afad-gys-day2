@@ -55,6 +55,7 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
   const [isSubmitted, setIsSubmitted] = useState(false);                    // Sınav bitiş durumu
   const [timeLeft, setTimeLeft] = useState(20 * 60);                        // Kalan süre (saniye)
   const [isTimeUp, setIsTimeUp] = useState(false);                          // Süre doldu mu?
+  const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);        // Sınavı bitir onay popup'ı
 
   /**
    * Zamanlayıcı Effect Hook'u
@@ -151,13 +152,32 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
   };
 
   /**
+   * Sınav Bitirme Onay Fonksiyonu
+   * 
+   * Kullanıcı "Sınavı Bitir" butonuna bastığında önce onay popup'ını gösterir.
+   */
+  const handleSubmitRequest = () => {
+    setShowSubmitConfirm(true);
+  };
+
+  /**
    * Sınav Bitirme Fonksiyonu
    * 
-   * Kullanıcı "Sınavı Bitir" butonuna bastığında çalışır.
+   * Kullanıcı onay verdikten sonra çalışır.
    * Sınavı sonlandırır ve sonuç ekranına geçer.
    */
   const handleSubmit = () => {
+    setShowSubmitConfirm(false);
     setIsSubmitted(true);
+  };
+
+  /**
+   * Sınav Bitirme İptal Fonksiyonu
+   * 
+   * Kullanıcı onay popup'ında iptal ederse çalışır.
+   */
+  const handleSubmitCancel = () => {
+    setShowSubmitConfirm(false);
   };
 
   /**
@@ -222,16 +242,31 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
             </h1>
             <div className="flex items-center space-x-4">
               {!isSubmitted && (
-                <div className={`flex items-center space-x-2 px-3 py-2 rounded-lg ${
-                  timeLeft <= 300 ? 'bg-red-100 text-red-700' : timeLeft <= 600 ? 'bg-yellow-100 text-yellow-700' : 'bg-blue-100 text-blue-700'
-                }`}>
-                  <Clock className="h-4 w-4" />
-                  <span className="font-mono font-semibold">{formatTime(timeLeft)}</span>
+                <>
+                  <div className={`flex items-center space-x-2 px-3 py-2 rounded-lg ${
+                    timeLeft <= 300 ? 'bg-red-100 text-red-700' : timeLeft <= 600 ? 'bg-yellow-100 text-yellow-700' : 'bg-blue-100 text-blue-700'
+                  }`}>
+                    <Clock className="h-4 w-4" />
+                    <span className="font-mono font-semibold">{formatTime(timeLeft)}</span>
+                  </div>
+                  <div className="text-sm text-gray-500">
+                    {answeredCount} / {topicQuestions.length}
+                  </div>
+                  <Button 
+                    onClick={handleSubmitRequest}
+                    size="sm"
+                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800"
+                  >
+                    <Trophy className="mr-1 h-4 w-4" />
+                    Sınavı Bitir
+                  </Button>
+                </>
+              )}
+              {isSubmitted && (
+                <div className="text-sm text-gray-500">
+                  Sınav Tamamlandı
                 </div>
               )}
-              <div className="text-sm text-gray-500">
-                {answeredCount} / {topicQuestions.length}
-              </div>
             </div>
           </div>
         </div>
@@ -307,36 +342,6 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                   </Card>
                 );
               })}
-            </div>
-
-            {/* Submit Button */}
-            <div className="text-center mb-8">
-              <Card className="inline-block border-0 shadow-lg bg-white/80 backdrop-blur-sm">
-                <CardContent className="p-6">
-                  <div className="mb-4">
-                    <p className="text-lg font-semibold text-gray-900 mb-2">
-                      Sınavı Bitir
-                    </p>
-                    <p className="text-sm text-gray-600 mb-4">
-                      {answeredCount} / {topicQuestions.length} soru cevaplanmış
-                    </p>
-                    {answeredCount < topicQuestions.length && (
-                      <div className="flex items-center justify-center text-amber-600 text-sm mb-4">
-                        <AlertTriangle className="h-4 w-4 mr-2" />
-                        {topicQuestions.length - answeredCount} soru cevaplanmamış
-                      </div>
-                    )}
-                  </div>
-                  <Button 
-                    onClick={handleSubmit}
-                    size="lg"
-                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-8"
-                  >
-                    <Trophy className="mr-2 h-5 w-5" />
-                    Sınavı Bitir
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </>
         ) : (
@@ -492,6 +497,56 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
           </div>
         )}
       </div>
+
+      {/* Submit Confirmation Popup */}
+      {showSubmitConfirm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <Card className="w-full max-w-md border-0 shadow-2xl bg-white">
+            <CardHeader className="text-center">
+              <div className="flex justify-center mb-4">
+                <div className="p-3 bg-amber-100 rounded-full">
+                  <AlertTriangle className="h-8 w-8 text-amber-600" />
+                </div>
+              </div>
+              <CardTitle className="text-xl font-bold text-gray-900">
+                Sınavı Bitirmek İstediğinizden Emin Misiniz?
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="text-center text-gray-600">
+                <p className="mb-2">
+                  <span className="font-semibold">{answeredCount}</span> / {topicQuestions.length} soru cevaplanmış
+                </p>
+                {answeredCount < topicQuestions.length && (
+                  <p className="text-amber-600 text-sm">
+                    <span className="font-semibold">{topicQuestions.length - answeredCount}</span> soru henüz cevaplanmamış
+                  </p>
+                )}
+                <p className="mt-3 text-sm">
+                  Sınavı bitirdikten sonra cevaplarınızı değiştiremezsiniz.
+                </p>
+              </div>
+              
+              <div className="flex gap-3 pt-4">
+                <Button 
+                  onClick={handleSubmitCancel}
+                  variant="outline" 
+                  className="flex-1"
+                >
+                  İptal
+                </Button>
+                <Button 
+                  onClick={handleSubmit}
+                  className="flex-1 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800"
+                >
+                  <Trophy className="mr-2 h-4 w-4" />
+                  Evet, Bitir
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
     </div>
   );
 }
