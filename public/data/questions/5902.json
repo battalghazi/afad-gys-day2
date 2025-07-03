@@ -1,0 +1,128 @@
+[
+    {
+      "question": "5902 sayılı Afet ve Acil Durum Yönetimi Hakkında Kanun hangi yılda yürürlüğe girmiştir?",
+      "options": ["2009", "2010", "2011", "2012", "2013"],
+      "answer": "2009",
+      "explanation": "5902 sayılı kanun 15 Mayıs 2009 tarihinde yürürlüğe girmiştir."
+    },
+    {
+      "question": "AFAD'ın tam adı nedir?",
+      "options": [
+        "Afet ve Acil Durum Yönetimi Başkanlığı",
+        "Afet ve Acil Durum Arama ve Kurtarma Başkanlığı",
+        "Afet ve Acil Durum Müdahale Başkanlığı",
+        "Afet ve Acil Durum Koordinasyon Başkanlığı",
+        "Afet ve Acil Durum Planlama Başkanlığı"
+      ],
+      "answer": "Afet ve Acil Durum Yönetimi Başkanlığı",
+      "explanation": "5902 sayılı kanunun 3. maddesine göre AFAD'ın tam adı 'Afet ve Acil Durum Yönetimi Başkanlığı'dır."
+    },
+    {
+      "question": "Afet yönetimi kaç aşamadan oluşur?",
+      "options": ["2", "3", "4", "5", "6"],
+      "answer": "4",
+      "explanation": "5902 sayılı kanunun 3. maddesine göre afet yönetimi 4 aşamadan oluşur: Zarar azaltma, hazırlık, müdahale ve iyileştirme."
+    },
+    {
+      "question": "AFAD hangi bakanlığa bağlıdır?",
+      "options": ["İçişleri Bakanlığı", "Sağlık Bakanlığı", "Milli Savunma Bakanlığı", "Çevre Bakanlığı", "Adalet Bakanlığı"],
+      "answer": "İçişleri Bakanlığı",
+      "explanation": "5902 sayılı kanunun 7. maddesine göre AFAD İçişleri Bakanlığı'na bağlıdır."
+    },
+    {
+      "question": "Afet ve acil durum tanımı hangi maddede yapılmıştır?",
+      "options": ["Madde 2", "Madde 3", "Madde 4", "Madde 5", "Madde 6"],
+      "answer": "Madde 3",
+      "explanation": "5902 sayılı kanunun 3. maddesinde afet ve acil durum tanımları yapılmıştır."
+    },
+    {
+      "question": "AFAD Başkanı kim tarafından atanır?",
+      "options": ["Cumhurbaşkanı", "İçişleri Bakanı", "Başbakan", "TBMM", "Bakanlar Kurulu"],
+      "answer": "Cumhurbaşkanı",
+      "explanation": "5902 sayılı kanunun 7. maddesine göre AFAD Başkanı Cumhurbaşkanı tarafından atanır."
+    },
+    {
+      "question": "İl Afet ve Acil Durum Müdürlüklerinin kurulması hangi maddede düzenlenmiştir?",
+      "options": ["Madde 8", "Madde 9", "Madde 10", "Madde 11", "Madde 12"],
+      "answer": "Madde 9",
+      "explanation": "5902 sayılı kanunun 9. maddesinde İl Afet ve Acil Durum Müdürlüklerinin kurulması düzenlenmiştir."
+    },
+    {
+      "question": "Afet ve acil durum planları kaç yılda bir gözden geçirilir?",
+      "options": ["1 yıl", "2 yıl", "3 yıl", "4 yıl", "5 yıl"],
+      "answer": "2 yıl",
+      "explanation": "5902 sayılı kanunun 15. maddesine göre afet ve acil durum planları 2 yılda bir gözden geçirilir."
+    },
+    {
+      "question": "AFAD'ın görevleri hangi maddede sayılmıştır?",
+      "options": ["Madde 6", "Madde 7", "Madde 8", "Madde 9", "Madde 10"],
+      "answer": "Madde 8",
+      "explanation": "5902 sayılı kanunun 8. maddesinde AFAD'ın görevleri sayılmıştır."
+    },
+    {
+      "question": "Ulusal Deprem Araştırma Programı hangi madde ile düzenlenmiştir?",
+      "options": ["Madde 16", "Madde 17", "Madde 18", "Madde 19", "Madde 20"],
+      "answer": "Madde 17",
+      "explanation": "5902 sayılı kanunun 17. maddesinde Ulusal Deprem Araştırma Programı düzenlenmiştir."
+    },
+    {
+      "question": "Afet bölgelerinde yapı denetimi zorunluluğu hangi maddede düzenlenmiştir?",
+      "options": ["Madde 18", "Madde 19", "Madde 20", "Madde 21", "Madde 22"],
+      "answer": "Madde 21",
+      "explanation": "5902 sayılı kanunun 21. maddesinde afet bölgelerinde yapı denetimi zorunluluğu düzenlenmiştir."
+    },
+    {
+      "question": "Afet sigortaları hangi madde ile düzenlenmiştir?",
+      "options": ["Madde 22", "Madde 23", "Madde 24", "Madde 25", "Madde 26"],
+      "answer": "Madde 23",
+      "explanation": "5902 sayılı kanunun 23. maddesinde afet sigortaları düzenlenmiştir."
+    },
+    {
+      "question": "AFAD personelinin eğitimi hangi maddede düzenlenmiştir?",
+      "options": ["Madde 24", "Madde 25", "Madde 26", "Madde 27", "Madde 28"],
+      "answer": "Madde 26",
+      "explanation": "5902 sayılı kanunun 26. maddesinde AFAD personelinin eğitimi düzenlenmiştir."
+    },
+    {
+      "question": "Afet ve acil durum rezerv fonu hangi maddede düzenlenmiştir?",
+      "options": ["Madde 27", "Madde 28", "Madde 29", "Madde 30", "Madde 31"],
+      "answer": "Madde 29",
+      "explanation": "5902 sayılı kanunun 29. maddesinde afet ve acil durum rezerv fonu düzenlenmiştir."
+    },
+    {
+      "question": "Koordinasyon kurulları hangi maddede düzenlenmiştir?",
+      "options": ["Madde 10", "Madde 11", "Madde 12", "Madde 13", "Madde 14"],
+      "answer": "Madde 12",
+      "explanation": "5902 sayılı kanunun 12. maddesinde koordinasyon kurulları düzenlenmiştir."
+    },
+    {
+      "question": "Afet ve acil durum eğitimi hangi maddede düzenlenmiştir?",
+      "options": ["Madde 14", "Madde 15", "Madde 16", "Madde 17", "Madde 18"],
+      "answer": "Madde 16",
+      "explanation": "5902 sayılı kanunun 16. maddesinde afet ve acil durum eğitimi düzenlenmiştir."
+    },
+    {
+      "question": "Afet ve acil durumda mali yardım hangi maddede düzenlenmiştir?",
+      "options": ["Madde 24", "Madde 25", "Madde 26", "Madde 27", "Madde 28"],
+      "answer": "Madde 28",
+      "explanation": "5902 sayılı kanunun 28. maddesinde afet ve acil durumda mali yardım düzenlenmiştir."
+    },
+    {
+      "question": "AFAD'ın yetkileri hangi maddede düzenlenmiştir?",
+      "options": ["Madde 6", "Madde 7", "Madde 8", "Madde 9", "Madde 10"],
+      "answer": "Madde 7",
+      "explanation": "5902 sayılı kanunun 7. maddesinde AFAD'ın yetkileri düzenlenmiştir."
+    },
+    {
+      "question": "Afet bölgesi ilan etme yetkisi kime aittir?",
+      "options": ["AFAD Başkanı", "İçişleri Bakanı", "Bakanlar Kurulu", "Cumhurbaşkanı", "Vali"],
+      "answer": "Bakanlar Kurulu",
+      "explanation": "5902 sayılı kanunun 10. maddesine göre afet bölgesi ilan etme yetkisi Bakanlar Kurulu'na aittir."
+    },
+    {
+      "question": "5902 sayılı kanunun yürürlük maddesi kaçıncı maddedir?",
+      "options": ["Madde 32", "Madde 33", "Madde 34", "Madde 35", "Madde 36"],
+      "answer": "Madde 35",
+      "explanation": "5902 sayılı kanunun 35. maddesi yürürlük maddesidir."
+    }
+  ]

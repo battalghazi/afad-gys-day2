@@ -1,0 +1,128 @@
+[
+    {
+      "question": "Aşağıdaki cümlelerden hangisi doğru yazılmıştır?",
+      "options": [
+        "Kitabı okumaya başladım.",
+        "Kitabı okumeye başladım.",
+        "Kitabı okumya başladım.",
+        "Kitabı okumağa başladım.",
+        "Kitabı okumuya başladım."
+      ],
+      "answer": "Kitabı okumaya başladım.",
+      "explanation": "Mastar eki -mak/-mek'e -ya/-ye hali eki getirilerek 'okumaya' şeklinde yazılır."
+    },
+    {
+      "question": "Hangi kelime büyük harfle yazılmalıdır?",
+      "options": ["pazartesi", "ocak", "türkçe", "matematik", "istanbul"],
+      "answer": "istanbul",
+      "explanation": "Özel isimler büyük harfle başlar. İstanbul bir şehir adı olduğu için 'İstanbul' şeklinde yazılır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi birleşik fiildir?",
+      "options": ["koştu", "gelecek", "yardım etti", "okuyor", "yazdı"],
+      "answer": "yardım etti",
+      "explanation": "Yardım etti' bir isim ile yardımcı fiilden oluşan birleşik fiildir."
+    },
+    {
+      "question": "Hangi kelimede yazım yanlışı vardır?",
+      "options": ["düğün", "öğretmen", "büyük", "küçük", "güzel"],
+      "answer": "Hepsi doğru yazılmış",
+      "explanation": "Verilen seçeneklerin hepsi doğru yazılmıştır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ünlü türemesi örneğidir?",
+      "options": ["beyin", "boyun", "karın", "burun", "ağız"],
+      "answer": "burun",
+      "explanation": "Burun kelimesi 'burn' köküne ünlü türemesi ile oluşmuştur."
+    },
+    {
+      "question": "Hangi kelimede ünsüz yumuşaması vardır?",
+      "options": ["kitap", "kitabı", "masa", "kalem", "defter"],
+      "answer": "kitabı",
+      "explanation": "Kitap kelimesindeki 'p' sesi 'kitabı'nda 'b'ye yumuşamıştır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi pekiştirme edatıdır?",
+      "options": ["bile", "dahi", "kadar", "gibi", "için"],
+      "answer": "bile",
+      "explanation": "'Bile' bir pekiştirme edatıdır."
+    },
+    {
+      "question": "Hangi kelime türemiş kelimedir?",
+      "options": ["ev", "evli", "su", "ağaç", "göz"],
+      "answer": "evli",
+      "explanation": "'Evli' kelimesi 'ev' köküne '-li' eki getirilerek türetilmiştir."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi fiilimsidir?",
+      "options": ["koşan", "güzel", "masa", "kalem", "beyaz"],
+      "answer": "koşan",
+      "explanation": "'Koşan' kelimesi -an/-en sıfat-fiil ekiyle oluşturulmuş bir fiilimsidir."
+    },
+    {
+      "question": "Hangi cümlede nesne yoktur?",
+      "options": ["Çocuk oyun oynadı.", "Ali kitap okudu.", "Kuş uçtu.", "Anne yemek pişirdi.", "Öğrenci ders çalıştı."],
+      "answer": "Kuş uçtu.",
+      "explanation": "'Kuş uçtu' cümlesinde nesne yoktur, geçişsiz fiil kullanılmıştır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi zamir cümlesidir?",
+      "options": ["O geldi.", "Güzel bir gün.", "Ne kadar mutlu!", "Evde kimse yok.", "Yarın hava güzel olacak."],
+      "answer": "O geldi.",
+      "explanation": "'O geldi' cümlesinde özne zamir olduğu için zamir cümlesidir."
+    },
+    {
+      "question": "Hangi kelimede ünlü daralması vardır?",
+      "options": ["demek", "diyor", "yapmak", "okuyor", "gelmek"],
+      "answer": "diyor",
+      "explanation": "'De-' kökündeki 'e' sesi 'diyor'da 'i'ye daralır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi isim tamlamasıdır?",
+      "options": ["güzel çocuk", "Ali'nin kitabı", "çok güzel", "hızla koştu", "bugün geldi"],
+      "answer": "Ali'nin kitabı",
+      "explanation": "'Ali'nin kitabı' belirtili isim tamlamasıdır."
+    },
+    {
+      "question": "Hangi kelime basit kelimedir?",
+      "options": ["okul", "öğretmenlik", "güzellik", "kitaplık", "çocukluk"],
+      "answer": "okul",
+      "explanation": "'Okul' herhangi bir ek almamış basit kelimedir."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi şimdiki zaman ekidir?",
+      "options": ["-di", "-acak", "-yor", "-mış", "-sa"],
+      "answer": "-yor",
+      "explanation": "'-yor' şimdiki zaman ekidir."
+    },
+    {
+      "question": "Hangi cümlede dolaylı anlatım vardır?",
+      "options": ["Ali geldi.", "Mehmet çalışıyor.", "Ayşe kitap okumuş.", "Fatma uyudu.", "Ahmet koşuyor."],
+      "answer": "Ayşe kitap okumuş.",
+      "explanation": "'-mış' eki dolaylı anlatım bildiren geçmiş zaman ekidir."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi emir kipidir?",
+      "options": ["geldi", "gelecek", "geliyor", "gel", "gelmiş"],
+      "answer": "gel",
+      "explanation": "'Gel' emir kipi çekimidir."
+    },
+    {
+      "question": "Hangi kelimede ünlü uyumu bozuktur?",
+      "options": ["masalar", "kitaplar", "kalemler", "defterler", "elma"],
+      "answer": "defterler",
+      "explanation": "'Defterler' kelimesinde ünlü uyumu bozuktur, 'deftarlar' olmalıdır."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi soru zamiridir?",
+      "options": ["bu", "şu", "o", "kim", "ben"],
+      "answer": "kim",
+      "explanation": "'Kim' soru zamiridir."
+    },
+    {
+      "question": "Hangi cümlede zarf tümleci vardır?",
+      "options": ["Ali geldi.", "Çocuk hızla koştu.", "Kitap masada.", "Ders çalıştı.", "Yemek yedi."],
+      "answer": "Çocuk hızla koştu.",
+      "explanation": "'Hızla' kelimesi zarf tümleci görevindedir."
+    }
+  ]

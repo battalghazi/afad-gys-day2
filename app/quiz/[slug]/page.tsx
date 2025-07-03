@@ -18,27 +18,12 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { questions, Question } from '@/lib/questions';
+import { Question, QuizAnswer } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { ArrowLeft, Clock, Trophy, RotateCcw, Home, CheckCircle, XCircle, AlertTriangle } from 'lucide-react';
 import Link from 'next/link';
-
-/**
- * Quiz Cevap Interface'i
- * 
- * Kullanıcının verdiği her cevap için gerekli bilgileri tutar.
- * 
- * @property questionIndex - Sorunun index numarası (0'dan başlar)
- * @property selectedAnswer - Kullanıcının seçtiği cevap metni
- * @property isCorrect - Cevabın doğru olup olmadığı (boolean)
- */
-interface QuizAnswer {
-  questionIndex: number;
-  selectedAnswer: string;
-  isCorrect: boolean;
-}
 
 /**
  * Quiz Sayfası Ana Bileşeni
@@ -94,27 +79,42 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
   /**
    * Soru Yükleme Effect Hook'u
    * 
-   * Slug değiştiğinde ilgili konunun sorularını yükler.
+   * Slug değiştiğinde ilgili konunun sorularını JSON dosyasından yükler.
    * Query parameter'dan gelen soru sayısı kadar rastgele soru seçer.
    */
   useEffect(() => {
-    const q = questions[params.slug] || [];
-    
-    // Rastgele soru seçimi için Fisher-Yates shuffle algoritması
-    const shuffleArray = (array: Question[]) => {
-      const shuffled = [...array]; // Orijinal diziyi korumak için kopyala
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    const loadQuestions = async () => {
+      try {
+        // JSON dosyasından soruları yükle
+        const response = await fetch(`/data/questions/${params.slug}.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const q: Question[] = await response.json();
+        
+        // Rastgele soru seçimi için Fisher-Yates shuffle algoritması
+        const shuffleArray = (array: Question[]) => {
+          const shuffled = [...array]; // Orijinal diziyi korumak için kopyala
+          for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+          }
+          return shuffled;
+        };
+
+        // Soruları karıştır ve seçilen sayı kadar al
+        const shuffledQuestions = shuffleArray(q);
+        const quizQuestions = shuffledQuestions.slice(0, Math.min(questionCount, shuffledQuestions.length));
+        
+        setTopicQuestions(quizQuestions);
+      } catch (error) {
+        console.error('Sorular yüklenirken hata oluştu:', error);
+        // Hata durumunda boş dizi set et
+        setTopicQuestions([]);
       }
-      return shuffled;
     };
 
-    // Soruları karıştır ve seçilen sayı kadar al
-    const shuffledQuestions = shuffleArray(q);
-    const quizQuestions = shuffledQuestions.slice(0, Math.min(questionCount, shuffledQuestions.length));
-    
-    setTopicQuestions(quizQuestions);
+    loadQuestions();
   }, [params.slug, questionCount]);
 
   /**
