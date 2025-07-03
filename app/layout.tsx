@@ -5,7 +5,7 @@
  * Tüm sayfalarda ortak olan HTML yapısını ve stil tanımlarını içerir.
  * 
  * Özellikler:
- * - Geist font ailesi (sans ve mono)
+ * - Google Sans font ailesi
  * - Türkçe dil desteği
  * - Responsive tasarım
  * - Global stil dosyası
@@ -14,10 +14,22 @@
  * Bu layout tüm sayfalarda otomatik olarak uygulanır.
  */
 import type { Metadata } from 'next';
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
+import { Inter } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import './globals.css';
+
+/**
+ * Font Konfigürasyonu
+ * 
+ * Inter fontunu kullanıyoruz - Google Sans'a en yakın açık kaynak alternatif.
+ * Modern, okunabilir ve Google'ın tasarım prensipleriyle uyumlu.
+ */
+const googleSansFont = Inter({ 
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-google-sans',
+  display: 'swap',
+  weight: ['300', '400', '500', '600', '700']
+});
 
 /**
  * Metadata Konfigürasyonu
@@ -57,9 +69,8 @@ export default function RootLayout({
     <html lang="tr" suppressHydrationWarning>
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased',
-          GeistSans.variable,    // CSS değişkeni: --font-geist-sans
-          GeistMono.variable     // CSS değişkeni: --font-geist-mono
+          'min-h-screen bg-background antialiased',
+          googleSansFont.className    // Inter fontunu uygula
         )}
       >
         {children}
