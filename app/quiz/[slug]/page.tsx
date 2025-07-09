@@ -316,8 +316,8 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                     </CardHeader>
                     <CardContent className="space-y-4">
                       <div className="bg-gray-50 p-4 rounded-lg">
-                        <p className="text-base text-gray-800 leading-relaxed">
-                          {question.question}
+                        <p className="text-base text-gray-800 leading-relaxed whitespace-pre-wrap">
+                          {question.question.replace(/\\n/g, '\n')}
                         </p>
                       </div>
                       
@@ -329,20 +329,20 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                             <Button
                               key={option}
                               onClick={() => handleAnswer(index, option)}
-                              className={`justify-start text-left h-auto py-3 px-4 text-sm transition-all duration-200 border-2 ${
+                              className={`justify-start text-left h-auto min-h-[3rem] py-3 px-4 text-sm transition-all duration-200 border-2 ${
                                 isSelected
                                   ? 'bg-blue-100 border-blue-500 text-blue-800 hover:bg-blue-100'
                                   : 'bg-white hover:bg-gray-50 border-gray-200 hover:border-gray-300'
                               }`}
                               variant="outline"
                             >
-                              <div className="flex items-center w-full">
-                                <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center mr-3 text-xs font-semibold ${
+                              <div className="flex items-start w-full">
+                                <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center mr-3 mt-1 text-xs font-semibold flex-shrink-0 ${
                                   isSelected ? 'border-blue-500 bg-blue-500 text-white' : 'border-gray-400'
                                 }`}>
                                   {String.fromCharCode(65 + optionIndex)}
                                 </div>
-                                <span className="flex-1">{option}</span>
+                                <span className="flex-1 text-left leading-relaxed whitespace-pre-wrap break-words pt-0.5">{option.replace(/\\n/g, '\n')}</span>
                               </div>
                             </Button>
                           );
@@ -433,8 +433,8 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                     </CardHeader>
                     <CardContent className="space-y-4">
                       <div className="bg-white p-4 rounded-lg">
-                        <p className="text-base text-gray-800 leading-relaxed">
-                          {question.question}
+                        <p className="text-base text-gray-800 leading-relaxed whitespace-pre-wrap">
+                          {question.question.replace(/\\n/g, '\n')}
                         </p>
                       </div>
                       
@@ -443,7 +443,7 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                           const isCorrectAnswer = option === question.answer;
                           const isUserAnswer = userAnswer?.selectedAnswer === option;
                           
-                          let className = "p-3 rounded-lg border-2 text-sm ";
+                          let className = "p-4 rounded-lg border-2 text-sm min-h-[3rem] ";
                           if (isCorrectAnswer) {
                             className += "bg-green-100 border-green-500 text-green-800";
                           } else if (isUserAnswer && !isCorrectAnswer) {
@@ -454,17 +454,19 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                           
                           return (
                             <div key={option} className={className}>
-                              <div className="flex items-center">
-                                <div className="w-6 h-6 rounded-full border-2 border-current flex items-center justify-center mr-3 text-xs font-semibold">
+                              <div className="flex items-start">
+                                <div className="w-6 h-6 rounded-full border-2 border-current flex items-center justify-center mr-3 mt-1 text-xs font-semibold flex-shrink-0">
                                   {String.fromCharCode(65 + optionIndex)}
                                 </div>
-                                <span className="flex-1">{option}</span>
-                                {isCorrectAnswer && (
-                                  <CheckCircle className="h-5 w-5 text-green-600 ml-2" />
-                                )}
-                                {isUserAnswer && !isCorrectAnswer && (
-                                  <XCircle className="h-5 w-5 text-red-600 ml-2" />
-                                )}
+                                <span className="flex-1 text-left leading-relaxed whitespace-pre-wrap break-words pt-0.5">{option.replace(/\\n/g, '\n')}</span>
+                                <div className="flex-shrink-0 ml-2 mt-1">
+                                  {isCorrectAnswer && (
+                                    <CheckCircle className="h-5 w-5 text-green-600" />
+                                  )}
+                                  {isUserAnswer && !isCorrectAnswer && (
+                                    <XCircle className="h-5 w-5 text-red-600" />
+                                  )}
+                                </div>
                               </div>
                             </div>
                           );
@@ -481,8 +483,8 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
                               </svg>
                             </div>
                             <div className="ml-3">
-                              <p className="text-sm text-blue-800">
-                                <strong>Açıklama:</strong> {question.explanation}
+                              <p className="text-sm text-blue-800 whitespace-pre-wrap leading-relaxed">
+                                <strong>Açıklama:</strong> {question.explanation.replace(/\\n/g, '\n')}
                               </p>
                             </div>
                           </div>
