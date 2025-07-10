@@ -1,128 +1,230 @@
 [
-    {
-      "question": "5902 sayılı Afet ve Acil Durum Yönetimi Hakkında Kanun hangi yılda yürürlüğe girmiştir?",
-      "options": ["2009", "2010", "2011", "2012", "2013"],
-      "answer": "2009",
-      "explanation": "5902 sayılı kanun 15 Mayıs 2009 tarihinde yürürlüğe girmiştir."
-    },
-    {
-      "question": "AFAD'ın tam adı nedir?",
-      "options": [
-        "Afet ve Acil Durum Yönetimi Başkanlığı",
-        "Afet ve Acil Durum Arama ve Kurtarma Başkanlığı",
-        "Afet ve Acil Durum Müdahale Başkanlığı",
-        "Afet ve Acil Durum Koordinasyon Başkanlığı",
-        "Afet ve Acil Durum Planlama Başkanlığı"
-      ],
-      "answer": "Afet ve Acil Durum Yönetimi Başkanlığı",
-      "explanation": "5902 sayılı kanunun 3. maddesine göre AFAD'ın tam adı 'Afet ve Acil Durum Yönetimi Başkanlığı'dır."
-    },
-    {
-      "question": "Afet yönetimi kaç aşamadan oluşur?",
-      "options": ["2", "3", "4", "5", "6"],
-      "answer": "4",
-      "explanation": "5902 sayılı kanunun 3. maddesine göre afet yönetimi 4 aşamadan oluşur: Zarar azaltma, hazırlık, müdahale ve iyileştirme."
-    },
-    {
-      "question": "AFAD hangi bakanlığa bağlıdır?",
-      "options": ["İçişleri Bakanlığı", "Sağlık Bakanlığı", "Milli Savunma Bakanlığı", "Çevre Bakanlığı", "Adalet Bakanlığı"],
-      "answer": "İçişleri Bakanlığı",
-      "explanation": "5902 sayılı kanunun 7. maddesine göre AFAD İçişleri Bakanlığı'na bağlıdır."
-    },
-    {
-      "question": "Afet ve acil durum tanımı hangi maddede yapılmıştır?",
-      "options": ["Madde 2", "Madde 3", "Madde 4", "Madde 5", "Madde 6"],
-      "answer": "Madde 3",
-      "explanation": "5902 sayılı kanunun 3. maddesinde afet ve acil durum tanımları yapılmıştır."
-    },
-    {
-      "question": "AFAD Başkanı kim tarafından atanır?",
-      "options": ["Cumhurbaşkanı", "İçişleri Bakanı", "Başbakan", "TBMM", "Bakanlar Kurulu"],
-      "answer": "Cumhurbaşkanı",
-      "explanation": "5902 sayılı kanunun 7. maddesine göre AFAD Başkanı Cumhurbaşkanı tarafından atanır."
-    },
-    {
-      "question": "İl Afet ve Acil Durum Müdürlüklerinin kurulması hangi maddede düzenlenmiştir?",
-      "options": ["Madde 8", "Madde 9", "Madde 10", "Madde 11", "Madde 12"],
-      "answer": "Madde 9",
-      "explanation": "5902 sayılı kanunun 9. maddesinde İl Afet ve Acil Durum Müdürlüklerinin kurulması düzenlenmiştir."
-    },
-    {
-      "question": "Afet ve acil durum planları kaç yılda bir gözden geçirilir?",
-      "options": ["1 yıl", "2 yıl", "3 yıl", "4 yıl", "5 yıl"],
-      "answer": "2 yıl",
-      "explanation": "5902 sayılı kanunun 15. maddesine göre afet ve acil durum planları 2 yılda bir gözden geçirilir."
-    },
-    {
-      "question": "AFAD'ın görevleri hangi maddede sayılmıştır?",
-      "options": ["Madde 6", "Madde 7", "Madde 8", "Madde 9", "Madde 10"],
-      "answer": "Madde 8",
-      "explanation": "5902 sayılı kanunun 8. maddesinde AFAD'ın görevleri sayılmıştır."
-    },
-    {
-      "question": "Ulusal Deprem Araştırma Programı hangi madde ile düzenlenmiştir?",
-      "options": ["Madde 16", "Madde 17", "Madde 18", "Madde 19", "Madde 20"],
-      "answer": "Madde 17",
-      "explanation": "5902 sayılı kanunun 17. maddesinde Ulusal Deprem Araştırma Programı düzenlenmiştir."
-    },
-    {
-      "question": "Afet bölgelerinde yapı denetimi zorunluluğu hangi maddede düzenlenmiştir?",
-      "options": ["Madde 18", "Madde 19", "Madde 20", "Madde 21", "Madde 22"],
-      "answer": "Madde 21",
-      "explanation": "5902 sayılı kanunun 21. maddesinde afet bölgelerinde yapı denetimi zorunluluğu düzenlenmiştir."
-    },
-    {
-      "question": "Afet sigortaları hangi madde ile düzenlenmiştir?",
-      "options": ["Madde 22", "Madde 23", "Madde 24", "Madde 25", "Madde 26"],
-      "answer": "Madde 23",
-      "explanation": "5902 sayılı kanunun 23. maddesinde afet sigortaları düzenlenmiştir."
-    },
-    {
-      "question": "AFAD personelinin eğitimi hangi maddede düzenlenmiştir?",
-      "options": ["Madde 24", "Madde 25", "Madde 26", "Madde 27", "Madde 28"],
-      "answer": "Madde 26",
-      "explanation": "5902 sayılı kanunun 26. maddesinde AFAD personelinin eğitimi düzenlenmiştir."
-    },
-    {
-      "question": "Afet ve acil durum rezerv fonu hangi maddede düzenlenmiştir?",
-      "options": ["Madde 27", "Madde 28", "Madde 29", "Madde 30", "Madde 31"],
-      "answer": "Madde 29",
-      "explanation": "5902 sayılı kanunun 29. maddesinde afet ve acil durum rezerv fonu düzenlenmiştir."
-    },
-    {
-      "question": "Koordinasyon kurulları hangi maddede düzenlenmiştir?",
-      "options": ["Madde 10", "Madde 11", "Madde 12", "Madde 13", "Madde 14"],
-      "answer": "Madde 12",
-      "explanation": "5902 sayılı kanunun 12. maddesinde koordinasyon kurulları düzenlenmiştir."
-    },
-    {
-      "question": "Afet ve acil durum eğitimi hangi maddede düzenlenmiştir?",
-      "options": ["Madde 14", "Madde 15", "Madde 16", "Madde 17", "Madde 18"],
-      "answer": "Madde 16",
-      "explanation": "5902 sayılı kanunun 16. maddesinde afet ve acil durum eğitimi düzenlenmiştir."
-    },
-    {
-      "question": "Afet ve acil durumda mali yardım hangi maddede düzenlenmiştir?",
-      "options": ["Madde 24", "Madde 25", "Madde 26", "Madde 27", "Madde 28"],
-      "answer": "Madde 28",
-      "explanation": "5902 sayılı kanunun 28. maddesinde afet ve acil durumda mali yardım düzenlenmiştir."
-    },
-    {
-      "question": "AFAD'ın yetkileri hangi maddede düzenlenmiştir?",
-      "options": ["Madde 6", "Madde 7", "Madde 8", "Madde 9", "Madde 10"],
-      "answer": "Madde 7",
-      "explanation": "5902 sayılı kanunun 7. maddesinde AFAD'ın yetkileri düzenlenmiştir."
-    },
-    {
-      "question": "Afet bölgesi ilan etme yetkisi kime aittir?",
-      "options": ["AFAD Başkanı", "İçişleri Bakanı", "Bakanlar Kurulu", "Cumhurbaşkanı", "Vali"],
-      "answer": "Bakanlar Kurulu",
-      "explanation": "5902 sayılı kanunun 10. maddesine göre afet bölgesi ilan etme yetkisi Bakanlar Kurulu'na aittir."
-    },
-    {
-      "question": "5902 sayılı kanunun yürürlük maddesi kaçıncı maddedir?",
-      "options": ["Madde 32", "Madde 33", "Madde 34", "Madde 35", "Madde 36"],
-      "answer": "Madde 35",
-      "explanation": "5902 sayılı kanunun 35. maddesi yürürlük maddesidir."
-    }
-  ]
+  {
+    "question": "5902 sayılı Kanun'un 23. maddesinde düzenlenen 'Kaynak Yönetimi'ne göre, yurt dışında meydana gelen afetler için oluşturulan özel hesaptan yapılacak harcamaların usul ve esasları hangi kurumlar tarafından müştereken belirlenir?",
+    "options": [
+      "İçişleri Bakanlığı ve Başkanlık (AFAD)",
+      "Hazine ve Maliye Bakanlığı ve Başkanlık (AFAD)",
+      "Cumhurbaşkanlığı ve Dışişleri Bakanlığı",
+      "Hazine ve Maliye Bakanlığı ve İçişleri Bakanlığı",
+      "Dışişleri Bakanlığı ve İçişleri Bakanlığı"
+    ],
+    "answer": "Hazine ve Maliye Bakanlığı ve İçişleri Bakanlığı",
+    "explanation": "Madde 23/2'de açıkça belirtildiği üzere, '...bu hesaptan ve insani yardım kampanya hesaplarından yapılacak harcamalar... harcanması, muhasebeleştirilmesi, denetlenmesi ve alımlarda kullanılacak ihale yöntemlerine ilişkin esas ve usuller, Hazine ve Maliye Bakanlığı ile İçişleri Bakanlığı tarafından müştereken belirlenir.' Bu soru, yurt içi ve yurt dışı harcamalardaki yetkili makam farkını ölçmektedir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Ek Madde 1'ine göre, arama ve kurtarma teknisyeni kadrosuna ilk defa açıktan atanacak personel ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Adaylar, Kamu Personel Seçme Sınavı (B) Grubu puan sırasına göre çağrılır.",
+      "Atama, yapılacak sözlü ve uygulamalı sınav sonucu başarı sırasına göre yapılır.",
+      "Başvuru tarihi itibarıyla otuz yaşından gün almamış olmaları şartı aranır.",
+      "Arama ve kurtarma teknisyenleri, bu hizmetlerde elli beş yaşına kadar görev alırlar.",
+      "Alım yapılacak her bir kadro için boş kadro sayısının beş katına kadar aday sınava çağrılabilir."
+    ],
+    "answer": "Arama ve kurtarma teknisyenleri, bu hizmetlerde elli beş yaşına kadar görev alırlar.",
+    "explanation": "Ek Madde 1/4'e göre, 'Arama ve kurtarma teknisyenleri, söz konusu hizmetlerde elli yaşına kadar görev alırlar.' Şıkta belirtilen 'elli beş yaşına kadar' ifadesi yanlıştır. Diğer tüm şıklar kanun metniyle uyumludur."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Ek Madde 1/5 hükmüne göre, büyükşehir belediyeleri ile diğer illerdeki il özel idarelerinin, AFAD'ın uygun gördüğü afet ve acil durumlara ilişkin yatırım projeleri için ayırmaları gereken asgari harcama oranları aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": [
+      "Büyükşehir Belediyesi: %1 - İl Özel İdaresi: %0.1",
+      "Büyükşehir Belediyesi: Binde Beş - İl Özel İdaresi: Yüzde Bir",
+      "Büyükşehir Belediyesi: Binde Bir - İl Özel İdaresi: Yüzde Bir",
+      "Büyükşehir Belediyesi: Yüzde Bir - İl Özel İdaresi: Yüzde Bir",
+      "Büyükşehir Belediyesi: Binde Bir - İl Özel İdaresi: Binde Beş"
+    ],
+    "answer": "Büyükşehir Belediyesi: Binde Bir - İl Özel İdaresi: Yüzde Bir",
+    "explanation": "Ek Madde 1/5'e göre, 'Büyükşehir belediyesi bulunan illerde büyükşehir belediyesinin gerçekleşen en son yıl bütçe giderinin en az binde biri oranında ve diğer illerde ise il özel idaresinin gerçekleşen en son yıl bütçe giderinin en az yüzde biri oranında' harcama yapılması zorunludur. Bu oranların karıştırılması yaygın bir hatadır."
+  },
+  {
+    "question": "AFAD, görevleriyle ilgili olarak ihtiyaç duyduğu bir konuda uluslararası bir firmaya etüt çalışması yaptırmak istemektedir. 5902 sayılı Kanun'un 15. maddesine göre bu süreçle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Bu alım, mutlaka 4734 sayılı Kamu İhale Kanunu'nun 'Belli İstekliler Arasında İhale Usulü'ne göre yapılmalıdır.",
+      "Başkanlık, bu tür işleri sadece yerli gerçek ve tüzel kişilere yaptırabilir.",
+      "Bu iş için yapılacak harcamalar 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'na tabidir.",
+      "Başkanlık bu işi, 4734 sayılı Kamu İhale Kanunu hükümlerine tabi olmaksızın yaptırabilir.",
+      "Bu alımın usul ve esasları doğrudan Başkanlık tarafından tek başına bir iç genelge ile düzenlenir."
+    ],
+    "answer": "Başkanlık bu işi, 4734 sayılı Kamu İhale Kanunu hükümlerine tabi olmaksızın yaptırabilir.",
+    "explanation": "Madde 15/2, bu durumu açıkça düzenler: 'Birinci fıkrada yazılı işler için 4/1/2002 tarihli ve 4734 sayılı Kamu İhale Kanunu hükümleri uygulanmaz.' Ayrıca 1. fıkra, 'yerli ve yabancı' gerçek ve tüzel kişilere iş yaptırılabileceğini belirtir. Usul ve esaslar ise Kamu İhale Kurumunun görüşü alınarak yönetmelikle düzenlenir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un 23. maddesi uyarınca oluşturulan özel hesaplarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Başkanlık bütçesinde afet ve acil durum faaliyetleri için ödenek tefrik edilir ve bu kaynak özel hesaba aktarılabilir.",
+      "AFAD, özel hesaptaki kaynaktan kamu kurum ve kuruluşlarının hesaplarına aktarma yapabilir.",
+      "Özel hesaptan yapılacak harcamalar, hem 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'na hem de 4734 sayılı Kamu İhale Kanunu'na tabidir.",
+      "Mahalli idareler, afet ve acil durumlarda kullanılmak üzere Başkanlık hesabına aktarma yapabilir.",
+      "Yurt dışı afetler için Cumhurbaşkanı kararıyla insani yardım kampanyası başlatılabilir."
+    ],
+    "answer": "Özel hesaptan yapılacak harcamalar, hem 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'na hem de 4734 sayılı Kamu İhale Kanunu'na tabidir.",
+    "explanation": "Madde 23/1 ve 23/2'de bu durumun tam tersi belirtilmiştir: '...bu hesaptan yapılacak harcamalar, 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu ile 4734 sayılı Kamu İhale Kanunu hükümlerine tabi değildir.' Bu muafiyet, acil durumlarda hızlı hareket edebilmek için kritik öneme sahiptir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Geçici 8. maddesine göre, diğer kamu idarelerinden Afet ve Acil Durum Yönetimi Denetçisi kadrolarına naklen atanacak kişilerle ilgili aranan şartlar arasında aşağıdakilerden hangisi yer almaz?",
+    "options": [
+      "Mesleğe özel yarışma sınavı ile girmiş olmak.",
+      "Müfettiş, denetçi, denetmen veya kontrolör kadrolarında görev yapmış olmak.",
+      "Yardımcılık veya stajyerlik süreleri dâhil en az beş yıl görev yapmış olmak.",
+      "Yapılacak yazılı ve/veya sözlü sınavda başarılı olmak.",
+      "En az on yıl denetim tecrübesine sahip olmak."
+    ],
+    "answer": "En az on yıl denetim tecrübesine sahip olmak.",
+    "explanation": "Geçici Madde 8/1'e göre, aranan şart 'yardımcılık veya stajyerlikte geçen süreler dâhil en az beş yıl görev yapmış olanlar' şeklindedir. 'On yıl tecrübe' şartı kanunda yer almamaktadır."
+  },
+  {
+    "question": "5902 sayılı Kanun'un hukuki statüsüyle ilgili olarak, kanun metnindeki dipnotlar ışığında aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Kanunun 1'den 14'e kadar olan maddeleri 703 sayılı KHK ile kalıcı olarak yürürlükten kaldırılmıştır.",
+      "Anayasa Mahkemesi, 703 sayılı KHK'nin kanunu ilga eden hükümlerini Anayasa'ya uygun bulmuştur.",
+      "Kanunun adı 'Afet ve Acil Durum Yönetimi Başkanlığının Teşkilat ve Görevleri Hakkında Kanun' olarak kalmıştır.",
+      "Anayasa Mahkemesi'nin 2023 tarihli kararı ile, 703 sayılı KHK'nin kanunun pek çok maddesini (Örn: Madde 1-14, 16-22) ilga eden düzenlemesi iptal edilmiş ve bu maddeler tekrar yürürlüğe girmiştir.",
+      "Kanunda 'Mülga' ibaresi taşıyan tüm maddeler, istisnasız olarak yürürlükten kalkmıştır."
+    ],
+    "answer": "Anayasa Mahkemesi'nin 2023 tarihli kararı ile, 703 sayılı KHK'nin kanunun pek çok maddesini (Örn: Madde 1-14, 16-22) ilga eden düzenlemesi iptal edilmiş ve bu maddeler tekrar yürürlüğe girmiştir.",
+    "explanation": "Kanun metnindeki 2 numaralı dipnot bu durumu açıkça ortaya koymaktadır. Anayasa Mahkemesi'nin E: 2021/125, K: 2023/213 sayılı kararı ile KHK ile yapılan ilga işlemi iptal edilmiştir. Bu, 'mülga' görünen birçok maddenin aslında yürürlükte olduğu anlamına gelir ve kanunun hukuki durumunu anlamak için kritik bir bilgidir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un 23. maddesine göre, yurt içi afet ve acil durum faaliyetleri için özel hesaba aktarılan kaynağın harcanması, muhasebeleştirilmesi ve denetlenmesine ilişkin esas ve usuller hangi kurumlarca müştereken belirlenir?",
+    "options": [
+      "Maliye Bakanlığı ve Başkanlık (AFAD)",
+      "Hazine ve Maliye Bakanlığı ve İçişleri Bakanlığı",
+      "Sayıştay ve Başkanlık (AFAD)",
+      "İçişleri Bakanlığı ve Kamu İhale Kurumu",
+      "Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı ve Başkanlık (AFAD)"
+    ],
+    "answer": "Maliye Bakanlığı ve Başkanlık (AFAD)",
+    "explanation": "Madde 23/1'in son cümlesinde, yurt içi harcamalar için '...aktarılan bu tutarların harcanması, muhasebeleştirilmesi, denetlenmesi ve alımlarda kullanılacak ihale yöntemlerine ilişkin esas ve usuller, Maliye Bakanlığı ve Başkanlıkça müştereken belirlenir.' hükmü yer almaktadır. Bu, yurt dışı harcamalardan farklı bir düzenlemedir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Geçici 8. maddesi uyarınca, Afet ve Acil Durum Yönetimi Denetçisi kadrosuna naklen atanabileceklerin sayısı en fazla kaç olabilir?",
+    "options": [
+      "Üç",
+      "Beş",
+      "Yedi",
+      "On",
+      "Sayı sınırı yoktur."
+    ],
+    "answer": "Yedi",
+    "explanation": "Geçici Madde 8/1'in son cümlesi bu konuda nettir: 'Bu şekilde atananların sayısı yediyi geçemez.' Bu, sınavla atanabilecek kişi sayısına bir üst sınır getirmektedir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Ek Madde 1/4'e göre, arama ve kurtarma teknisyeni alımında adayların çağrılma usulü nasıldır?",
+    "options": [
+      "KPSS (B) Grubu puanı en yüksek olan adaydan başlayarak boş kadro sayısı kadar aday doğrudan atanır.",
+      "Boş kadro sayısının on katına kadar aday yazılı sınava çağrılır.",
+      "KPSS (B) Grubu puan sırasına göre boş kadro sayısının beş katına kadar aday sözlü ve uygulamalı sınava çağrılır.",
+      "Tüm başvuru sahipleri mülakata alınır ve başarı sırasına göre atama yapılır.",
+      "Boş kadro sayısının üç katına kadar aday sadece uygulamalı sınava çağrılır."
+    ],
+    "answer": "KPSS (B) Grubu puan sırasına göre boş kadro sayısının beş katına kadar aday sözlü ve uygulamalı sınava çağrılır.",
+    "explanation": "Ek Madde 1/4'te süreç şöyle tanımlanmıştır: '...alım yapılacak her bir kadro için boş kadro sayısının beş katına kadar çağrılacak adaylar arasından yapılacak sözlü ve uygulamalı sınav sonucu başarı sırasına göre atanır.' Bu, hem kat sayısı hem de sınav türü hakkında spesifik bilgi içerir."
+  },
+  {
+    "question": "AFAD'ın yurt içi afet faaliyetleri için özel hesabına, aşağıdaki kaynaklardan hangisi veya hangileri aktarım yapabilir?\nI. AFAD'ın kendi bütçesinden\nII. Diğer kamu kurum ve kuruluşları\nIII. Mahalli idareler",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": "I, II ve III",
+    "explanation": "Madde 23/1 bu durumu netleştirir: 'Başkanlık bütçesinde gider kaydedilmek suretiyle özel hesaba aktarılarak...' (I. öncül), '...kamu kurum ve kuruluşları ile mahalli idarelerin hesaplarına da aktarma yapılabilir.' (AFAD'ın aktarımı) ve 'Kamu kurum ve kuruluşları ile mahalli idareler de, yukarıda belirtilen amaçlarda kullanılmak üzere Başkanlık hesabına aktarma yapabilir.' (II. ve III. öncül). Dolayısıyla her üç kaynak da hesaba aktarım yapabilir."
+  },
+  {
+    "question": "5902 sayılı Kanun uyarınca, Başkanlığın görevlerini yerine getirirken hizmet satın alabilmesi hangi maddede düzenlenmiştir ve bu yetkinin kapsamı nedir?",
+    "options": [
+      "Madde 15 - Sadece araştırma, etüt ve proje hizmetlerini kapsar.",
+      "Madde 23/4 - Kanunlarla ve Cumhurbaşkanlığı kararnameleriyle belirlenen tüm görevlerini kapsar.",
+      "Ek Madde 1 - Sadece arama ve kurtarma hizmetlerini kapsar.",
+      "Madde 16 - Sadece koordinasyon ve işbirliği gerektiren hizmetleri kapsar.",
+      "Geçici Madde 8 - Sadece denetim hizmetlerini kapsar."
+    ],
+    "answer": "Madde 23/4 - Kanunlarla ve Cumhurbaşkanlığı kararnameleriyle belirlenen tüm görevlerini kapsar.",
+    "explanation": "Madde 23'ün 4. fıkrasında, 'Başkanlık, kanunlarla ve Cumhurbaşkanlığı kararnameleriyle belirlenen görevlerini yerine getirirken hizmet satın alabilir.' hükmü yer almaktadır. Bu, Başkanlığa görevlerini ifa etmek için geniş bir hizmet satın alma yetkisi tanır."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, 5902 sayılı Kanun'un 23. maddesi kapsamında, AFAD'ın özel hesabından yapılacak harcamaların tabi olmadığı kanunlardan biridir?",
+    "options": [
+      "2886 sayılı Devlet İhale Kanunu",
+      "657 sayılı Devlet Memurları Kanunu",
+      "5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu",
+      "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+      "6245 sayılı Harcırah Kanunu"
+    ],
+    "answer": "5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu",
+    "explanation": "Madde 23/1 ve 23/2'de, özel hesaptan yapılacak harcamaların '5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu ile 4734 sayılı Kamu İhale Kanunu hükümlerine tabi olmadığı' açıkça belirtilmiştir. Bu iki kanundan muafiyet, en önemli mali ayrıcalıklardan biridir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Ek Madde 1/5 hükmüne göre, bir il özel idaresinin afet projeleri için bütçesinden ayırması gereken asgari pay, o idarenin hangi bütçe verisine göre hesaplanır?",
+    "options": [
+      "Gerçekleşen en son yıl bütçe gelirinin yüzde biri",
+      "Gerçekleşen en son yıl bütçe giderinin en az yüzde biri",
+      "Planlanan cari yıl bütçe giderinin en az yüzde biri",
+      "Gerçekleşen son üç yılın bütçe gider ortalamasının yüzde biri",
+      "Gerçekleşen en son yıl yatırım bütçesinin yüzde biri"
+    ],
+    "answer": "Gerçekleşen en son yıl bütçe giderinin en az yüzde biri",
+    "explanation": "Ek Madde 1/5'teki ifade çok nettir: '...il özel idaresinin gerçekleşen en son yıl bütçe giderinin en az yüzde biri oranında...' Bu soru, hesaplamanın 'gelir' değil 'gider' üzerinden, 'planlanan' değil 'gerçekleşen' üzerinden ve 'en son yıl' verisine göre yapıldığını test etmektedir."
+  },
+  {
+    "question": "5902 sayılı Kanun'un Geçici 8. maddesi uyarınca Afet ve Acil Durum Yönetimi Denetçisi olarak atanan bir kişinin, önceki kurumunda denetmen yardımcısı olarak geçirdiği süreler, yeni kurumunda hangi kadroda geçirilmiş sayılır?",
+    "options": [
+      "Afet ve Acil Durum Yönetimi Uzmanı",
+      "Afet ve Acil Durum Yönetimi Denetçisi",
+      "Afet ve Acil Durum Yönetimi Denetçi Yardımcısı",
+      "Stajyer Kontrolör",
+      "Hiçbir kadroda sayılmaz, kıdem hesabında dikkate alınmaz."
+    ],
+    "answer": "Afet ve Acil Durum Yönetimi Denetçi Yardımcısı",
+    "explanation": "Geçici Madde 8/2'de bu intibak hükmü açıkça belirtilmiştir: 'Bu maddeye göre atananların yardımcılık veya stajyerlik kadrolarında geçirdikleri süreler, Afet ve Acil Durum Yönetimi Denetçi Yardımcısı kadrolarında... geçirilmiş sayılır.'"
+  },
+  {
+    "question": "5902 sayılı Kanun'un adı, 2/7/2018 tarihli 703 sayılı KHK ile nasıl değiştirilmiştir?",
+    "options": [
+      "Afet Yönetimi ve Sivil Savunma Başkanlığı Teşkilat Kanunu",
+      "Afet ve Acil Durum Yönetimi Başkanlığının Teşkilat ve Görevleri Hakkında Kanun",
+      "Afet ve Acil Durum Yönetimi Başkanlığı ile İlgili Bazı Düzenlemeler Hakkında Kanun",
+      "Türkiye Afet Müdahale ve Koordinasyon Kanunu",
+      "Kanunun adında bir değişiklik yapılmamıştır."
+    ],
+    "answer": "Afet ve Acil Durum Yönetimi Başkanlığı ile İlgili Bazı Düzenlemeler Hakkında Kanun",
+    "explanation": "Kanun metninin başlığındaki 1 numaralı dipnot bu değişikliği açıklar: 'Bu Kanunun Adı “Afet ve Acil Durum Yönetimi Başkanlığının Teşkilat ve Görevleri Hakkında Kanun” iken, 2/7/2018 tarihli 703 sayılı KHK’nin 62 nci maddesiyle metne işlendiği şekilde değiştirilmiştir.' Bu, kanunun metadatasına ilişkin detay bir bilgidir."
+  },
+  {
+    "question": "Bir büyükşehir belediyesi, 5902 sayılı Kanun'un Ek Madde 1/5'i uyarınca ayırması gereken binde birlik payı, aşağıdaki yatırım projelerinden hangisi için harcayabilir?",
+    "options": [
+      "Belediyenin uygun gördüğü herhangi bir altyapı projesi",
+      "Başkanlıkça (AFAD) uygun görülen sivil savunmaya ilişkin bir yatırım projesi",
+      "Belediyenin kendi itfaiye teşkilatının modernizasyonu projesi",
+      "Park ve bahçeler için acil durum aydınlatma projesi",
+      "Sadece deprem konteynerleri alımı projesi"
+    ],
+    "answer": "Başkanlıkça (AFAD) uygun görülen sivil savunmaya ilişkin bir yatırım projesi",
+    "explanation": "Ek Madde 1/5, bu harcamanın keyfi olamayacağını belirtir. Harcama, 'Başkanlıkça uygun görülen afet ve acil durumlar ile sivil savunmaya ilişkin hizmetler kapsamındaki yatırım projeleri için' yapılmalıdır. Yani projenin AFAD tarafından uygun görülmesi kritik bir şarttır."
+  },
+  {
+    "question": "5902 sayılı Kanun'un yürürlükte olan hükümleri çerçevesinde AFAD'ın mali kaynakları ve harcama yetkileri düşünüldüğünde, aşağıdaki senaryolardan hangisi kanuna aykırı bir durum oluşturur?",
+    "options": [
+      "AFAD'ın, yurt dışındaki bir sel felaketi için Hazine ve Maliye Bakanlığı ile İçişleri Bakanlığı'nca belirlenen usullere göre özel hesaptan doğrudan çadır satın alması.",
+      "AFAD'ın, yurt içindeki bir deprem sonrası enkaz kaldırma çalışması için bir şirketten 4734 sayılı kanuna tabi olmadan hizmet satın alması.",
+      "AFAD'ın, bir il özel idaresinin afetler için ayırdığı %1'lik payın, valiliğin talebiyle bir okul inşaatına aktarılmasına onay vermesi.",
+      "AFAD'ın, deprem riski analizi için bir üniversiteye Kamu İhale Kanunu'na tabi olmadan proje yaptırması.",
+      "Cumhurbaşkanı'nın kararıyla, yurt dışındaki bir kıtlık için 'Türkiye İnsani Yardım Kampanyası' başlatılması."
+    ],
+    "answer": "AFAD'ın, bir il özel idaresinin afetler için ayırdığı %1'lik payın, valiliğin talebiyle bir okul inşaatına aktarılmasına onay vermesi.",
+    "explanation": "Ek Madde 1/5'e göre, il özel idarelerinin ayırdığı pay, 'afet ve acil durumlar ile sivil savunmaya ilişkin hizmetler kapsamındaki yatırım projeleri için' harcanmalıdır. Bir okul inşaatı, doğrudan bu kapsama girmediği için bu kaynağın amacı dışında kullanılması kanuna aykırı olacaktır. Diğer seçenekler kanunun tanıdığı yetki ve muafiyetler dahilindedir."
+  },
+  {
+    "question": "5902 sayılı Kanun'a göre 'Arama ve kurtarma teknisyeni' kadrosu ile ilgili usul ve esasları düzenleme yetkisi kime aittir?",
+    "options": [
+      "İçişleri Bakanlığı tarafından çıkarılacak bir kararname ile",
+      "Cumhurbaşkanlığı tarafından çıkarılacak bir yönetmelikle",
+      "Başkanlık (AFAD) tarafından çıkarılacak bir yönetmelikle",
+      "Devlet Personel Başkanlığı'nın görüşü alınarak Başbakanlık tarafından",
+      "Kanunun kendisinde tüm detaylar belirtilmiştir, ek bir düzenlemeye gerek yoktur."
+    ],
+    "answer": "Başkanlık (AFAD) tarafından çıkarılacak bir yönetmelikle",
+    "explanation": "Ek Madde 1/4'ün son cümlesi, düzenleyici yetkiyi açıkça belirtir: 'Bu fıkranın uygulanmasına ilişkin usul ve esaslar, bunların aktif görev süreleri ile elli yaşın üzerinde aktif görevde bulunacaklara ilişkin şartlar ve diğer hususlar yönetmelikle düzenlenir.' Burada yönetmeliği çıkaracak olan kurum, kanunun genel ruhu ve teşkilat yapısı gereği Başkanlık'tır (AFAD)."
+  }
+]
