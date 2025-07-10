@@ -7,10 +7,11 @@
  * İçerik:
  * 1. Tailwind CSS katmanları
  * 2. Global font ayarları
- * 3. Özel utility sınıfları
- * 4. Animasyonlar
- * 5. Gradient ve glassmorphism efektleri
- * 6. CSS değişkenleri (light/dark theme)
+ * 3. Text seçim ve kopyalama engelleme
+ * 4. Özel utility sınıfları
+ * 5. Animasyonlar
+ * 6. Gradient ve glassmorphism efektleri
+ * 7. CSS değişkenleri (light/dark theme)
  */
 
 /* Tailwind CSS Katmanları */
@@ -28,6 +29,73 @@ body {
   font-family: 'Inter', 'Google Sans', 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-optical-sizing: auto;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/**
+ * Yazı Seçimi ve Kopyalama Engelleme
+ * 
+ * Tüm uygulamada metin seçimini, kopyalamayı ve yapıştırmayı engeller.
+ * Quiz güvenliği için önemli güvenlik önlemleri.
+ */
+
+/* Ana metin seçim engelleme */
+* {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  
+  /* Sağ tık menüsünü engelle */
+  -webkit-touch-callout: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  
+  /* Drag & drop engelleme */
+  -webkit-user-drag: none !important;
+  -khtml-user-drag: none !important;
+  -moz-user-drag: none !important;
+  -o-user-drag: none !important;
+  user-drag: none !important;
+}
+
+/* Input alanları için gerekli seçim izinleri (sadece input ve textarea) */
+input, textarea {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+/* Kopyalama klavye kısayollarını engelle */
+body {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Seçili metin için görsel efektleri kaldır */
+::selection {
+  background: transparent !important;
+}
+
+::-moz-selection {
+  background: transparent !important;
+}
+
+/* Metin imlecini varsayılan yapma */
+* {
+  cursor: default !important;
+}
+
+/* Link ve butonlar için pointer cursor */
+a, button, [role="button"], .cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* Text input alanları için text cursor */
+input[type="text"], input[type="email"], input[type="password"], 
+input[type="search"], input[type="url"], textarea {
+  cursor: text !important;
 }
 
 /**
