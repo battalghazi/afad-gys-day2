@@ -26,6 +26,65 @@ import { ArrowLeft, Clock, Trophy, RotateCcw, Home, CheckCircle, XCircle, AlertT
 import Link from 'next/link';
 
 /**
+ * Soru Benzersizliği ve Seçim Utility Fonksiyonları
+ */
+
+/**
+ * Soruları benzersizleştirme fonksiyonu
+ * Aynı soru metnine sahip soruları filtreler ve benzersiz ID atar
+ * 
+ * @param questions - Filtrelenecek sorular
+ * @returns Benzersiz sorular
+ */
+const removeDuplicateQuestions = (questions: Question[]): Question[] => {
+  const seen = new Set<string>();
+  const uniqueQuestions: Question[] = [];
+  
+  questions.forEach((question, index) => {
+    // Soru metni ve seçenekleri üzerinden benzersizlik kontrolü
+    const questionKey = `${question.question.trim().toLowerCase()}|${question.options.map(opt => opt.trim().toLowerCase()).sort().join('|')}`;
+    
+    if (!seen.has(questionKey)) {
+      seen.add(questionKey);
+      // Sorulara benzersiz ID ata (eğer yoksa)
+      uniqueQuestions.push({
+        ...question,
+        id: question.id || `q_${Date.now()}_${index}_${Math.random().toString(36).substr(2, 9)}`
+      });
+    }
+  });
+  
+  return uniqueQuestions;
+};
+
+/**
+ * Gelişmiş Fisher-Yates shuffle algoritması
+ * Kriptografik olarak güvenli rastgele sayı üretici kullanır
+ * 
+ * @param array - Karıştırılacak dizi
+ * @returns Karıştırılmış dizi
+ */
+const secureShuffleArray = <T extends any>(array: T[]): T[] => {
+  const shuffled = [...array];
+  
+  // Crypto API'si varsa kullan, yoksa Math.random() kullan
+  const getRandomInt = (max: number): number => {
+    if (typeof window !== 'undefined' && window.crypto && window.crypto.getRandomValues) {
+      const cryptoArray = new Uint32Array(1);
+      window.crypto.getRandomValues(cryptoArray);
+      return cryptoArray[0] % max;
+    }
+    return Math.floor(Math.random() * max);
+  };
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = getRandomInt(i + 1);
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
+/**
  * Quiz Sayfası Ana Bileşeni
  * 
  * Dynamic routing ile gelen slug parametresine göre quiz sayfasını render eder.
@@ -81,6 +140,7 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
    * 
    * Slug değiştiğinde ilgili konunun sorularını JSON dosyasından yükler.
    * Query parameter'dan gelen soru sayısı kadar rastgele soru seçer.
+   * Aynı sorunun birden fazla kez seçilmesini engeller.
    */
   useEffect(() => {
     const loadQuestions = async () => {
@@ -92,19 +152,35 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
         }
         const q: Question[] = await response.json();
         
-        // Rastgele soru seçimi için Fisher-Yates shuffle algoritması
-        const shuffleArray = (array: Question[]) => {
-          const shuffled = [...array]; // Orijinal diziyi korumak için kopyala
-          for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-          }
-          return shuffled;
-        };
-
-        // Soruları karıştır ve seçilen sayı kadar al
-        const shuffledQuestions = shuffleArray(q);
-        const quizQuestions = shuffledQuestions.slice(0, Math.min(questionCount, shuffledQuestions.length));
+        // Soru benzersizliğini kontrol et ve mükerrer soruları temizle
+        const uniqueQuestions = removeDuplicateQuestions(q);
+        
+        // Debug: Soru sayıları logla
+        console.log(`Toplam soru sayısı: ${q.length}`);
+        console.log(`Benzersiz soru sayısı: ${uniqueQuestions.length}`);
+        console.log(`Mükerrer soru sayısı: ${q.length - uniqueQuestions.length}`);
+        
+        // Güvenli rastgele soru seçimi
+        const shuffledQuestions = secureShuffleArray(uniqueQuestions);
+        const availableQuestions = Math.min(questionCount, shuffledQuestions.length);
+        const quizQuestions = shuffledQuestions.slice(0, availableQuestions);
+        
+        // Final kontrol: Seçilen soruların benzersiz olduğunu doğrula
+        const finalQuestions = quizQuestions.filter((question, index, self) =>
+          index === self.findIndex(q => q.id === question.id)
+        );
+        
+        // Debug: Seçilen soruları logla
+        console.log(`İstenilen soru sayısı: ${questionCount}`);
+        console.log(`Seçilen soru sayısı: ${quizQuestions.length}`);
+        console.log(`Final benzersiz soru sayısı: ${finalQuestions.length}`);
+        
+        // Eğer istenilen soru sayısı mevcut soru sayısından fazlaysa uyarı ver
+        if (questionCount > uniqueQuestions.length) {
+          console.warn(`İstenilen soru sayısı (${questionCount}) mevcut benzersiz soru sayısından (${uniqueQuestions.length}) fazla. ${availableQuestions} soru gösterilecek.`);
+        }
+        
+        setTopicQuestions(finalQuestions);
         
         setTopicQuestions(quizQuestions);
       } catch (error) {

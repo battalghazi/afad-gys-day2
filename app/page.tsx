@@ -151,13 +151,36 @@ export default function HomePage() {
    * Quiz Başlatma Fonksiyonu
    * 
    * Kullanıcı soru sayısını seçtikten sonra quiz'i başlatır.
+   * Seçilen konu için yeterli soru olup olmadığını kontrol eder.
    * 
    * @param questionCount - Seçilen soru sayısı (10, 20 veya 30)
    */
-  const startQuiz = (questionCount: number) => {
+  const startQuiz = async (questionCount: number) => {
     if (selectedTopic) {
-      // URL'de soru sayısını query parameter olarak geçir
-      window.location.href = `/quiz/${selectedTopic.id}?count=${questionCount}`;
+      try {
+        // Seçilen konu için soru sayısını kontrol et
+        const response = await fetch(`/data/questions/${selectedTopic.id}.json`);
+        if (response.ok) {
+          const questions = await response.json();
+          const availableQuestions = questions.length;
+          
+          if (availableQuestions < questionCount) {
+            console.warn(`Bu konu için sadece ${availableQuestions} soru mevcut. ${questionCount} soru isteniyordu.`);
+            // Mevcut soru sayısı ile devam et
+            window.location.href = `/quiz/${selectedTopic.id}?count=${Math.min(questionCount, availableQuestions)}`;
+          } else {
+            // Normal şekilde devam et
+            window.location.href = `/quiz/${selectedTopic.id}?count=${questionCount}`;
+          }
+        } else {
+          // Hata durumunda normal şekilde devam et
+          window.location.href = `/quiz/${selectedTopic.id}?count=${questionCount}`;
+        }
+      } catch (error) {
+        console.error('Soru sayısı kontrol edilirken hata:', error);
+        // Hata durumunda normal şekilde devam et
+        window.location.href = `/quiz/${selectedTopic.id}?count=${questionCount}`;
+      }
     }
   };
 

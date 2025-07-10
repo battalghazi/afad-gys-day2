@@ -10,12 +10,14 @@
  * 
  * Her sorunun sahip olması gereken özellikler:
  * 
+ * @property id - Soru benzersiz kimliği (opsiyonel, otomatik üretilir)
  * @property question - Soru metni (zorunlu)
  * @property options - Çoktan seçmeli şıklar dizisi (zorunlu, minimum 2 şık)
  * @property answer - Doğru cevap (options dizisindeki değerlerden biri olmalı)
  * @property explanation - Cevabın açıklaması (opsiyonel, eğitim amaçlı)
  */
 export type Question = {
+  id?: string;
   question: string;
   options: string[];
   answer: string;

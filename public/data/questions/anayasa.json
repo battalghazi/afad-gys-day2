@@ -1,834 +1,878 @@
- [
-    {
-      "question": "1982 Anayasası'nın Başlangıç metni ile ilgili aşağıdakilerden hangisi doğrudur?",
-      "options": [
-        "Yorumlayıcı nitelikte olup hukuki bağlayıcılığı yoktur.",
-        "Sadece Anayasa'nın ruhunu yansıtır, metne dahil değildir.",
-        "Anayasa metnine dahildir ve Anayasa'nın diğer maddeleri gibi bağlayıcıdır.",
-        "Sadece ilk üç maddenin değiştirilemeyeceğini belirtir.",
-        "Anayasa Mahkemesi tarafından denetlenemez."
-      ],
-      "answer": "Anayasa metnine dahildir ve Anayasa'nın diğer maddeleri gibi bağlayıcıdır.",
-      "explanation": "Anayasa'nın 176. maddesi, 'Anayasanın dayandığı temel görüş ve ilkeleri belirten başlangıç kısmı, Anayasa metnine dahildir.' hükmünü içerir. Bu nedenle hukuki olarak bağlayıcıdır ve Anayasa'nın bir parçasıdır."
-    },
-    {
-      "question": "Aşağıdakilerden hangisi, 1982 Anayasası'nın 5. maddesinde sayılan 'Devletin temel amaç ve görevleri' arasında yer almaz?",
-      "options": [
-        "Kişinin temel hak ve hürriyetlerini, sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan siyasal, ekonomik ve sosyal engelleri kaldırmaya çalışmak.",
-        "Türk Milletinin bağımsızlığını ve bütünlüğünü korumak.",
-        "Ülkenin bölünmez bütünlüğünü korumak.",
-        "Kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak.",
-        "Her vatandaşa ücretsiz barınma imkânı sağlamak."
-      ],
-      "answer": "Her vatandaşa ücretsiz barınma imkânı sağlamak.",
-      "explanation": "Anayasa'nın 5. maddesinde devletin temel amaç ve görevleri sayılmıştır. Bu görevler arasında kişilerin refahını sağlamak vardır ancak herkese ücretsiz barınma sağlamak gibi spesifik bir taahhüt bulunmamaktadır. Konut hakkı (Madde 57) devletin bu konuda planlama yapma ve tedbir alma ödevini belirtir, ücretsiz sağlama zorunluluğunu değil."
-    },
-    {
-      "question": "1982 Anayasası'nda 'Kişinin Hakları ve Ödevleri' (Negatif Statü Hakları) bölümünde düzenlenen haklardan hangisi, aynı zamanda bir ödev niteliği de taşır?",
-      "options": [
-        "Düşünce ve kanaat hürriyeti",
-        "Konut dokunulmazlığı",
-        "Eğitim ve öğrenim hakkı",
-        "Dernek kurma hürriyeti",
-        "Özel hayatın gizliliği"
-      ],
-      "answer": "Eğitim ve öğrenim hakkı",
-      "explanation": "Anayasa'nın 42. maddesi başlığı 'Eğitim ve Öğrenim Hakkı ve Ödevi' şeklindedir. Madde metninde de 'Kimse, eğitim ve öğrenim hakkından yoksun bırakılamaz.' denilerek hak boyutu, 'İlköğretim, kız ve erkek bütün vatandaşlar için zorunludur' denilerek ödev boyutu vurgulanmıştır. Diğer şıklar sadece hak niteliğindedir."
-    },
-    {
-      "question": "Aşağıdakilerden hangisi, 'Siyasi Haklar ve Ödevler' (Aktif Statü Hakları) arasında düzenlenmemiştir?",
-      "options": [
-        "Vatandaşlık hakkı",
-        "Seçme ve seçilme hakkı",
-        "Siyasi parti kurma hakkı",
-        "Sendika kurma hakkı",
-        "Vatan hizmeti"
-      ],
-      "answer": "Sendika kurma hakkı",
-      "explanation": "Sendika kurma hakkı (Madde 51), Anayasa'nın 'Sosyal ve Ekonomik Haklar ve Ödevler' (Pozitif Statü Hakları) başlıklı bölümünde yer alır. Diğer şıklar ise Siyasi Haklar ve Ödevler bölümündedir."
-    },
-    {
-      "question": "1982 Anayasası'na göre angarya yasaktır. 'Angarya' kavramının tanımı aşağıdakilerden hangisidir?",
-      "options": [
-        "Bir işin karşılığının geç ödenmesi",
-        "Ağır ve tehlikeli işlerde çalıştırma",
-        "Bir kimsenin emeğinin karşılıksız olarak zorla sömürülmesi",
-        "Haftalık çalışma süresinin aşılması",
-        "Çocuk işçi çalıştırılması"
-      ],
-      "answer": "Bir kimsenin emeğinin karşılıksız olarak zorla sömürülmesi",
-      "explanation": "Anayasa'nın 18. maddesi 'Zorla çalıştırma yasağı' başlığını taşır ve 'Hiç kimse zorla çalıştırılamaz. Angarya yasaktır.' der. Angarya, kişinin emeğinin bir bedel ödenmeksizin veya rızası dışında zorla kullandırılmasıdır. Madde, vatan hizmeti veya hükümlülük sırasındaki çalıştırmaları bu kapsamın dışında tutar."
-    },
-    {
-      "question": "Aşağıdakilerden hangisi hem bir hak hem de bir ödev olarak düzenlenmiştir?",
-      "options": [
-        "Çalışma hakkı",
-        "Mülkiyet hakkı",
-        "Sağlık hakkı",
-        "Vergi ödevi",
-        "Dernek kurma hakkı"
-      ],
-      "answer": "Çalışma hakkı",
-      "explanation": "Anayasa'nın 49. maddesi 'Çalışma Hakkı ve Ödevi' başlığını taşır. Madde, 'Çalışma, herkesin hakkı ve ödevidir.' diyerek her iki niteliği de açıkça belirtir. Vergi ise sadece bir ödevdir (Madde 73)."
-    },
-    {
-      "question": "Anayasa'ya göre, kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli, kural olarak en geç ne kadar sürede ve nasıl ödenir?",
-      "options": [
-        "Peşin ve nakden",
-        "Bir yıl içinde taksitle",
-        "Beş yıl içinde eşit taksitlerle",
-        "Devlet tahvili olarak",
-        "Mahkeme kararından sonraki mali yıl içinde"
-      ],
-      "answer": "Peşin ve nakden",
-      "explanation": "Anayasa'nın 46. maddesine göre, 'Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir.' Maddede belirtilen büyük enerji, sulama, iskan projeleri gibi istisnai durumlarda taksitle ödeme imkanı tanınmıştır, ancak kural peşin ödemedir."
-    },
-    {
-      "question": "Aşağıdakilerden hangisi hem 'Kişinin Hakları ve Ödevleri' hem de 'Siyasi Haklar ve Ödevler' bölümüyle ilgili ortak bir konu içerir?",
-      "options": [
-        "Vatandaşlık - Mülkiyet hakkı",
-        "Dernek kurma hürriyeti - Siyasi parti kurma hakkı",
-        "Düşünce hürriyeti - Seçme hakkı",
-        "Konut dokunulmazlığı - Vergi ödevi",
-        "Basın hürriyeti - Dilekçe hakkı"
-      ],
-      "answer": "Dernek kurma hürriyeti - Siyasi parti kurma hakkı",
-      "explanation": "Dernek kurma hürriyeti (Madde 33) Kişinin Hakları bölümündedir. Siyasi partiler ise dernekler kanununa tabi, özel bir örgütlenme biçimidir ve Siyasi Parti Kurma Hakkı (Madde 68) Siyasi Haklar bölümünde düzenlenmiştir. İkisi de örgütlenme özgürlüğünün farklı yansımalarıdır."
-    },
-    {
-      "question": "Olağanüstü hallerde dahi dokunulamayacak olan 'çekirdek haklar' arasında aşağıdakilerden hangisi yer almaz?",
-      "options": [
-        "Kişinin yaşama hakkına, maddî ve manevî varlığının bütünlüğüne dokunulmaması",
-        "Din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamama",
-        "Suç ve cezaların geriye yürümezliği ilkesi",
-        "Masumiyet karinesi",
-        "Dernek kurma hürriyeti"
-      ],
-      "answer": "Dernek kurma hürriyeti",
-      "explanation": "Anayasa'nın 15. maddesi, savaş, seferberlik ve olağanüstü hallerde dahi dokunulamayacak hakları sayar. Dernek kurma hürriyeti bu 'çekirdek haklar' arasında yer almaz ve olağanüstü halin gerektirdiği ölçüde sınırlandırılabilir veya durdurulabilir."
-    },
-    {
-      "question": "Aşağıdakilerden hangisi 1982 Anayasası'nın sosyal ve ekonomik haklar bölümünde özel olarak korunması gerekenler arasında sayılmamıştır?",
-      "options": [
-        "Harp ve vazife şehitlerinin dul ve yetimleri",
-        "Maluller ve gaziler",
-        "Sakatlar",
-        "Yaşlılar ve çocuklar",
-        "Memurlar"
-      ],
-      "answer": "Memurlar",
-      "explanation": "Anayasa'nın 61. maddesi 'Sosyal güvenlik bakımından özel olarak korunması gerekenler' başlığı altında harp ve vazife şehitlerinin dul ve yetimleri ile malûl ve gazileri, sakatları, yaşlıları ve korunmaya muhtaç çocukları saymıştır. Memurlar bu özel koruma kategorisinde yer almaz."
-    },
-    {
-      "question": "Türk vatandaşlığının kazanılması ile ilgili aşağıdakilerden hangisi yanlıştır?",
-      "options": [
-        "Türk ananın veya Türk babanın çocuğu Türktür.",
-        "Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve ancak kanunda belirtilen hallerde kaybedilir.",
-        "Hiçbir Türk, vatana bağlılıkla bağdaşmayan bir eylemde bulunmadıkça vatandaşlıktan çıkarılamaz.",
-        "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapalıdır.",
-        "Türk Devletine vatandaşlık bağı ile bağlı olan herkes Türktür."
-      ],
-      "answer": "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapalıdır.",
-      "explanation": "Anayasa'nın 66. maddesi vatandaşlığı düzenler. Maddeye göre, 'Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapatılamaz.' Bu, idarenin her türlü eylem ve işlemine karşı yargı yolunun açık olması (Madde 125) ilkesinin bir yansımasıdır."
-    },
-    {
-      "question": "1982 Anayasası'na göre, Türkiye'de ikamet eden yabancılar, karşılıklılık esası gözetilmek şartıyla hangi siyasi hakkı kullanabilirler?",
-      "options": [
-        "Seçme ve seçilme hakkı",
-        "Siyasi parti kurma hakkı",
-        "Kamu hizmetine girme hakkı",
-        "Dilekçe hakkı",
-        "Halkoylamasına katılma hakkı"
-      ],
-      "answer": "Dilekçe hakkı",
-      "explanation": "Anayasa'nın 74. maddesi, 'Vatandaşlar ve karşılıklılık esası gözetilmek kaydıyla Türkiye’de ikamet eden yabancılar kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında... Türkiye Büyük Millet Meclisine ve yetkili makamlara yazı ile başvurma hakkına sahiptir.' demektedir. Diğer siyasi haklar genellikle sadece vatandaşlara tanınmıştır."
-    },
-    {
-      "question": "TBMM ara seçimleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-      "options": [
-        "TBMM üyeliklerinde boşalma olması halinde yapılır.",
-        "Her seçim döneminde sadece bir defa yapılabilir.",
-        "Genel seçimlerden otuz ay geçmedikçe ara seçime gidilemez.",
-        "Genel seçimlere bir yıl kala ara seçim yapılamaz.",
-        "Boşalan üyeliklerin sayısı üye tamsayısının yüzde beşini bulursa, ara seçimin üç ay içinde yapılmasına karar verilir."
-      ],
-      "answer": "Her seçim döneminde sadece bir defa yapılabilir.",
-      "explanation": "Anayasa'nın 78. maddesinde ara seçimin bir yasama döneminde bir defa yapılabileceğine dair bir kısıtlama yoktur. Ancak genel seçimlerden 30 ay geçmedikçe ve genel seçimlere 1 yıl kala yapılamayacağı kuralı vardır. %5'lik boşalma istisnası bu kuralları geçersiz kılar."
-    },
-    {
-      "question": "Milletvekillerinin, Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden sorumlu tutulamamalarını ifade eden kavram hangisidir?",
-      "options": [
-        "Yasama sorumsuzluğu (Kürsü dokunulmazlığı)",
-        "Yasama dokunulmazlığı",
-        "Milletin temsili",
-        "Kanun önünde eşitlik",
-        "Takdir yetkisi"
-      ],
-      "answer": "Yasama sorumsuzluğu (Kürsü dokunulmazlığı)",
-      "explanation": "Anayasa'nın 83. maddesi iki tür koruma sağlar. 'Yasama sorumsuzluğu' (mutlak koruma), milletvekilinin Meclis'teki söz ve düşüncelerinden dolayı sorumlu tutulmamasını sağlar ve ömür boyu sürer. 'Yasama dokunulmazlığı' (nispi koruma) ise görev süresince suç iddialarına karşı tutuklama ve yargılamadan korur, kaldırılabilir ve geçicidir."
-    },
-    {
-      "question": "TBMM İçtüzüğünün yargısal denetimini hangi mahkeme yapar?",
-      "options": [
-        "Danıştay",
-        "Yargıtay",
-        "Uyuşmazlık Mahkemesi",
-        "Anayasa Mahkemesi",
-        "İdare Mahkemeleri"
-      ],
-      "answer": "Anayasa Mahkemesi",
-      "explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi, kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğünün Anayasaya şekil ve esas bakımlarından uygunluğunu denetler."
-    },
-    {
-      "question": "Anayasa'ya göre, Cumhurbaşkanı seçiminin ilk turunda genel geçer oyların ...... alan aday Cumhurbaşkanı seçilir. Bu çoğunluk sağlanamazsa ikinci tura gidilir.",
-      "options": [
-        "üçte ikisini",
-        "beşte üçünü",
-        "salt çoğunluğunu",
-        "en fazlasını",
-        "yüzde kırkını"
-      ],
-      "answer": "salt çoğunluğunu",
-      "explanation": "Anayasa'nın 101. maddesine göre, 'Genel oyla yapılacak seçimde, geçerli oyların salt çoğunluğunu alan aday, Cumhurbaşkanı seçilir. İlk oylamada bu çoğunluk sağlanamazsa, bu oylamayı izleyen ikinci pazar günü ikinci oylama yapılır.'"
-    },
-    {
-      "question": "Aşağıdakilerden hangisi Cumhurbaşkanlığı Kararnamesi (CBK) ile düzenlenemez?",
-      "options": [
-        "Bakanlıkların kurulması ve teşkilat yapısı",
-        "Devlet Denetleme Kurulunun işleyişi",
-        "Milli Güvenlik Kurulu Genel Sekreterliğinin teşkilatı",
-        "Anayasada münhasıran kanunla düzenlenmesi öngörülen konular",
-        "Üst kademe kamu yöneticilerinin atanmasına ilişkin usul ve esaslar"
-      ],
-      "answer": "Anayasada münhasıran kanunla düzenlenmesi öngörülen konular",
-      "explanation": "Anayasa'nın 104. maddesi Cumhurbaşkanlığı Kararnamesinin sınırlarını çizer. 'Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda' ve 'kanunda açıkça düzenlenen konularda' Cumhurbaşkanlığı kararnamesi çıkarılamaz. Ayrıca, temel haklar, kişi hakları ve ödevleriyle siyasi haklar ve ödevler CBK ile düzenlenemez."
-    },
-    {
-      "question": "Anayasa'ya göre, idarenin her türlü eylem ve işlemlerine karşı ...... yolu açıktır.",
-      "options": [
-        "yargı",
-        "itiraz",
-        "dilekçe",
-        "kamu denetçisine başvuru",
-        "uzlaşma"
-      ],
-      "answer": "yargı",
-      "explanation": "Anayasa'nın 125. maddesi, hukuk devleti ilkesinin en önemli güvencelerinden birini sunar: 'İdarenin her türlü eylem ve işlemlerine karşı yargı yolu açıktır.' Bu kuralın çok sınırlı istisnaları (YSK kararları, HSK'nın bazı kararları, Cumhurbaşkanının tek başına yaptığı işlemler vb.) yine Anayasada belirtilmiştir."
-    },
-    {
-      "question": "Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları kaç gün içinde yayımlar?",
-      "options": [
-        "10",
-        "15",
-        "30",
-        "45",
-        "60"
-      ],
-      "answer": "15",
-      "explanation": "Anayasa'nın 89. maddesi 'Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları onbeş gün içinde yayımlar.' der."
-    },
-    {
-      "question": "Anayasa Mahkemesi üyelerinin görev süresi kaç yıldır ve bir kimse kaç defa Anayasa Mahkemesi üyesi seçilebilir?",
-      "options": [
-        "10 yıl - Bir defa",
-        "12 yıl - Bir defa",
-        "12 yıl - İki defa",
-        "8 yıl - İki defa",
-        "65 yaşına kadar - Sınırsız"
-      ],
-      "answer": "12 yıl - Bir defa",
-      "explanation": "Anayasa'nın 147. maddesine göre, 'Anayasa Mahkemesi üyeleri oniki yıl için seçilirler. Bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez. Anayasa Mahkemesi üyeleri altmışbeş yaşını doldurunca emekliye ayrılırlar.'"
-    },
-    {
-      "question": "Bireysel başvuru hakkını düzenleyen Anayasa'nın 148. maddesine göre, bireysel başvuru yapabilmek için öncelikle neyin tüketilmiş olması gerekir?",
-      "options": [
-        "İdari başvuru yollarının",
-        "Olağan kanun yollarının",
-        "Uzlaşma yollarının",
-        "Dilekçe hakkının",
-        "Af talebinin"
-      ],
-      "answer": "Olağan kanun yollarının",
-      "explanation": "Anayasa'nın 148. maddesi, 'Bireysel başvuru ancak ihlale yol açtığı ileri sürülen işlem, eylem ya da ihmal nedeniyle güncel ve kişisel bir hakkı doğrudan etkilenenler tarafından yapılabilir. Bireysel başvuru, olağan kanun yollarının tüketilmiş olması şartıyla yapılabilir.' demektedir. Bu, AYM'nin ikincil bir denetim mercii olduğunu gösterir."
-    },
-    {
-      "question": "Yüce Divan sıfatıyla yargılama yapma görevi hangi mahkemeye aittir?",
-      "options": [
-        "Yargıtay Ceza Genel Kurulu",
-        "Danıştay İdari Dava Daireleri Kurulu",
-        "Anayasa Mahkemesi",
-        "Uyuşmazlık Mahkemesi",
-        "Özel yetkili ağır ceza mahkemeleri"
-      ],
-      "answer": "Anayasa Mahkemesi",
-      "explanation": "Anayasa'nın 148. maddesi, Anayasa Mahkemesi'nin görevleri arasında üst düzey devlet görevlilerini (Cumhurbaşkanı, Bakanlar, yüksek mahkeme başkan ve üyeleri vb.) görevleriyle ilgili suçlardan dolayı Yüce Divan sıfatıyla yargılamayı sayar."
-    },
-    {
-      "question": "Mali yılbaşından en az ...... gün önce merkezi yönetim bütçe kanun teklifinin TBMM'ye sunulması gerekir.",
-      "options": [
-        "30",
-        "45",
-        "60",
-        "75",
-        "90"
-      ],
-      "answer": "75",
-      "explanation": "Anayasa'nın 161. maddesi, 'Cumhurbaşkanı, merkezî yönetim bütçe kanun teklifini malî yılbaşından en az yetmişbeş gün önce Türkiye Büyük Millet Meclisine sunar.' hükmünü amirdir."
-    },
-    {
-      "question": "Bütçe kanununa, bütçeyle ilgili olmayan hükümler konulamaz. Bu yasağa ne ad verilir?",
-      "options": [
-        "Bütçenin genelliği ilkesi",
-        "Bütçenin torba kanun olmaması ilkesi",
-        "Bütçenin birliği ilkesi",
-        "Bütçenin açıklığı ilkesi",
-        "Bütçenin denkliği ilkesi"
-      ],
-      "answer": "Bütçenin torba kanun olmaması ilkesi",
-      "explanation": "Anayasa'nın 161. maddesinin son fıkrası 'Bütçe kanununa, bütçe ile ilgili hükümler dışında hiçbir hüküm konulamaz.' der. Bu, bütçe kanununun sadece gelir ve gider tahminlerini içermesi gerektiğini, konuyla ilgisiz kanun maddelerinin bütçeye eklenemeyeceğini ifade eder ve literatürde bu ilkeyle anılır."
-    },
-    {
-      "question": "Anayasa'nın değiştirilmesi teklifinin TBMM Genel Kurulunda kabul edilmesi için gereken en az oy sayısı kaçtır?",
-      "options": [
-        "301",
-        "360",
-        "400",
-        "450",
-        "600"
-      ],
-      "answer": "360",
-      "explanation": "Anayasa'nın 175. maddesine göre, Anayasa'nın değiştirilmesi hakkındaki tekliflerin kabulü, Meclis üye tamsayısının en az beşte üç çoğunluğunun (600'ün 3/5'i = 360) gizli oyuyla mümkündür."
-    },
-
-
-    {
-      "question": "1982 Anayasası'nın 2. maddesinde sayılan Cumhuriyetin nitelikleri arasında aşağıdakilerden hangisi yer almaz?",
-      "options": [
-        "Demokratik devlet",
-        "Laik devlet",
-        "İnsan haklarına dayanan devlet",
-        "Sosyal devlet",
-        "Hukuk devleti"
-      ],
-      "answer": "İnsan haklarına dayanan devlet",
-      "explanation": "Anayasa'nın 2. maddesinde 'Türkiye Cumhuriyeti, toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, lâik ve sosyal bir hukuk Devletidir.' ifadesi yer alır. Maddede 'insan haklarına saygılı' ifadesi kullanılır, 'dayanan' ifadesi kullanılmaz. Bu ince bir ayrımdır ve sınavlarda sıkça sorulur."
-    }, {
-      "question": "Anayasa'nın değiştirilmesi dahi teklif edilemeyecek olan ilk üç maddesini güvence altına alan hüküm, Anayasa'nın kaçıncı maddesidir?",
-      "options": [
-        "Madde 2",
-        "Madde 4",
-        "Madde 5",
-        "Madde 11",
-        "Madde 175"
-      ],
-      "answer": "Madde 4",
-      "explanation": "Anayasa'nın 4. maddesi, 'Anayasanın 1 inci maddesindeki Devletin şeklinin Cumhuriyet olduğu hakkındaki hüküm ile, 2 nci maddesindeki Cumhuriyetin nitelikleri ve 3 üncü maddesi hükümleri değiştirilemez ve değiştirilmesi teklif edilemez.' diyerek ilk üç maddeyi mutlak koruma altına almıştır."
-    }, {
-      "question": "Anayasa'ya göre egemenlik, kayıtsız şartsız ...... aittir.",
-      "options": [
-        "Devlete",
-        "Türkiye Büyük Millet Meclisine",
-        "Millete",
-        "Cumhurbaşkanına",
-        "Mahkemelere"
-      ],
-      "answer": "Millete",
-      "explanation": "Anayasa'nın 6. maddesi, 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' hükmünü içerir."
-    }, {
-      "question": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi kime aittir?",
-      "options": [
-        "Türkiye Büyük Millet Meclisine",
-        "Bakanlar Kuruluna",
-        "Başbakana",
-        "Cumhurbaşkanına",
-        "Yargıtay Başkanına"
-      ],
-      "answer": "Cumhurbaşkanına",
-      "explanation": "2017 Anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiştir. Bu kapsamda güncellenen 8. madde, 'Yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından, Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir.' şeklindedir."
-    }, {
-      "question": "Savaş, seferberlik veya olağanüstü hallerde, milletlerarası hukuktan doğan yükümlülükler ihlâl edilmemek kaydıyla, durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılmasının kısmen veya tamamen durdurulabileceğini düzenleyen madde aşağıdakilerden hangisidir?",
-      "options": [
-        "Madde 13",
-        "Madde 14",
-        "Madde 15",
-        "Madde 19",
-        "Madde 119"
-      ],
-      "answer": "Madde 15",
-      "explanation": "Anayasa'nın 15. maddesi, 'Temel hak ve hürriyetlerin kullanılmasının durdurulması' başlığını taşır ve olağanüstü durumlarda hakların sınırlandırılmasına ilişkin temel çerçeveyi çizer. Ancak bu durumda bile savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında, kişinin yaşama hakkına, maddî ve manevî varlığının bütünlüğüne dokunulamayacağı belirtilir."
-    }, {
-      "question": "Anayasa'nın 32. maddesine göre, kişilerin haysiyet ve şereflerine dokunan veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması halinde tanınan düzeltme ve cevap hakkının yerine getirilmediğine dair yapılan müracaatta, hâkim tarafından en geç ...... içinde karar verilmelidir.",
-      "options": [
-        "24 saat",
-        "48 saat",
-        "3 gün",
-        "7 gün",
-        "15 gün"
-      ],
-      "answer": "7 gün",
-      "explanation": "Anayasa'nın 32. maddesi, 'Düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç yedi gün içerisinde karar verilir.' hükmünü içerir."
-    }, {
-      "question": "Anayasa'ya göre toplantı ve gösteri yürüyüşü düzenleme hakkı, ...... ilkesine dayanır.",
-      "options": [
-        "bildirim esasına",
-        "önceden izin almaksızın",
-        "valilik onayına",
-        "mahkeme kararına",
-        "kolluk nezaretine"
-      ],
-      "answer": "önceden izin almaksızın",
-      "explanation": "Anayasa'nın 34. maddesi, 'Herkes, önceden izin almadan, silahsız ve saldırısız toplantı ve gösteri yürüyüşü düzenleme hakkına sahiptir.' diyerek bu hakkın izne tabi olmadığını açıkça belirtir."
-    }, {
-      "question": "Anayasa'nın 42. maddesine göre, 'İlköğretim kız ve erkek bütün vatandaşlar için ...... ve Devlet okullarında ...... .' cümlesindeki boşluklara sırasıyla ne gelmelidir?",
-      "options": [
-        "serbesttir - isteğe bağlıdır",
-        "zorunludur - ücretlidir",
-        "zorunludur - parasızdır",
-        "haktır - önceliklidir",
-        "tavsiye edilir - ücretsizdir"
-      ],
-      "answer": "zorunludur - parasızdır",
-      "explanation": "Anayasa'nın 42. maddesi eğitim ve öğrenim hakkını düzenler ve 'İlköğretim, kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır.' hükmünü amirdir."
-    }, {
-      "question": "1982 Anayasası'na göre aşağıdakilerden hangisi 'Sosyal ve Ekonomik Haklar ve Ödevler'den biri değildir?",
-      "options": [
-        "Konut hakkı",
-        "Sağlık hizmetleri ve çevrenin korunması",
-        "Sendika kurma hakkı",
-        "Dilekçe hakkı",
-        "Çalışma ve sözleşme hürriyeti"
-      ],
-      "answer": "Dilekçe hakkı",
-      "explanation": "Dilekçe, bilgi edinme ve kamu denetçisine başvurma hakkı (Madde 74), Anayasa'nın 'Siyasi Haklar ve Ödevler' başlıklı dördüncü bölümünde yer alır. Diğer şıklar 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümündedir."
-    }, {
-      "question": "Anayasa'nın 59. maddesine göre, spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı gidilebilecek tek hukuki yol aşağıdakilerden hangisidir?",
-      "options": [
-        "İdare Mahkemeleri",
-        "Danıştay",
-        "Zorunlu tahkim",
-        "Anayasa Mahkemesi",
-        "Yargıtay"
-      ],
-      "answer": "Zorunlu tahkim",
-      "explanation": "Anayasa'nın 59. maddesi çok nettir: 'Spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir. Tahkim kurulu kararları kesin olup bu kararlara karşı hiçbir yargı merciine başvurulamaz.'"
-    }, {
-      "question": "Anayasa'ya göre seçme, seçilme ve siyasi faaliyette bulunma hakkı için yaş sınırı kaçtır?",
-      "options": [
-        "25",
-        "21",
-        "20",
-        "18",
-        "30"
-      ],
-      "answer": "18",
-      "explanation": "Anayasa'nın 67. maddesi uyarınca, 'Onsekiz yaşını dolduran her Türk vatandaşı seçme ve halkoylamasına katılma haklarına sahiptir.'"
-    }, {
-      "question": "T.C. Anayasası'na göre, siyasi partilerle ilgili hükümler kapsamında, aşağıdakilerden hangisi doğrudur?",
-      "options": [
-        "Siyasi partiler önceden izin almadan kurulamazlar.",
-        "Silahlı Kuvvetler mensupları ile yükseköğretim öncesi öğrencileri siyasi partilere üye olabilirler.",
-        "Siyasi partiler, ticari faaliyetlere girişemezler.",
-        "Partilere yapılacak yardımın esasları TBMM İçtüzüğü ile düzenlenir.",
-        "Temelli kapatılan bir parti bir başka ad altında kurulabilir."
-      ],
-      "answer": "Siyasi partiler, ticari faaliyetlere girişemezler.",
-      "explanation": "Anayasa'nın 68. maddesine göre; a) Siyasi partiler önceden izin almadan kurulurlar. b) Silahlı Kuvvetler mensupları ve yükseköğretim öncesi öğrencileri partilere üye olamazlar. c) Siyasi partilerin gelir ve giderlerinin amaçlarına uygun olması gerekir ve ticari faaliyete girişemezler. d) Partilere yapılacak devlet yardımı kanunla düzenlenir. e) Temelli kapatılan bir parti başka ad altında kurulamaz."
-    }, {
-      "question": "Türkiye Büyük Millet Meclisi (TBMM) toplam ...... milletvekilinden oluşur.",
-      "options": [
-        "550",
-        "450",
-        "600",
-        "650",
-        "Değişkendir"
-      ],
-      "answer": "600",
-      "explanation": "Anayasa'nın 75. maddesi, 2017 değişikliği ile 'Türkiye Büyük Millet Meclisi, genel oyla seçilen altıyüz milletvekilinden oluşur.' şeklinde güncellenmiştir."
-    }, {
-      "question": "Anayasa'ya göre TBMM ve Cumhurbaşkanı seçimleri kaç yılda bir birlikte yapılır?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7",
-        "TBMM'nin belirleyeceği bir sürede"
-      ],
-      "answer": "5",
-      "explanation": "Anayasa'nın 77. maddesi, 'Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.' hükmünü içerir."
-    }, {
-      "question": "Anayasa'ya göre, savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse, TBMM, seçimlerin ...... süreyle geriye bırakılmasına karar verebilir.",
-      "options": [
-        "altı ay",
-        "bir yıl",
-        "iki yıl",
-        "süre sınırı olmaksızın",
-        "üç ay"
-      ],
-      "answer": "bir yıl",
-      "explanation": "Anayasa'nın 78. maddesi, 'Savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse, Türkiye Büyük Millet Meclisi, seçimlerin bir yıl geriye bırakılmasına karar verebilir. Geri bırakma sebebi ortadan kalkmamışsa, erteleme kararındaki usule göre bu işlem tekrarlanabilir.' der."
-    }, {
-      "question": "Anayasa'ya göre seçimlerin genel yönetimi ve denetimini yürütmekle görevli olan kurum aşağıdakilerden hangisidir?",
-      "options": [
-        "İçişleri Bakanlığı",
-        "Anayasa Mahkemesi",
-        "Yüksek Seçim Kurulu",
-        "Danıştay",
-        "Adalet Bakanlığı"
-      ],
-      "answer": "Yüksek Seçim Kurulu",
-      "explanation": "Anayasa'nın 79. maddesi, seçimlerin başlamasından bitimine kadar, seçimin düzen içinde yönetimi ve dürüstlüğü ile ilgili bütün işlemleri yapma ve yaptırma, seçim süresince ve seçimden sonra seçim konularıyla ilgili bütün yolsuzlukları, şikâyet ve itirazları inceleme ve kesin karara bağlama görevinin Yüksek Seçim Kuruluna (YSK) ait olduğunu belirtir."
-    }, {
-      "question": "TBMM Genel Kurulu, üye tamsayısının en az ...... ile toplanır ve Anayasada başkaca bir hüküm yoksa toplantıya katılanların ...... ile karar verir. Ancak karar yeter sayısı hiçbir şekilde üye tamsayısının ...... az olamaz.",
-      "options": [
-        "yarısı - salt çoğunluğu - üçte birinden",
-        "üçte biri - salt çoğunluğu - dörtte birinin bir fazlasından",
-        "beşte biri - üçte iki çoğunluğu - yarısından",
-        "üçte biri - basit çoğunluğu - beşte birinin bir fazlasından",
-        "salt çoğunluğu - oybirliği - yarısından"
-      ],
-      "answer": "üçte biri - salt çoğunluğu - dörtte birinin bir fazlasından",
-      "explanation": "Anayasa'nın 96. maddesi toplantı ve karar yeter sayılarını net bir şekilde düzenler: 'Türkiye Büyük Millet Meclisi, yapacağı seçimler dahil bütün işlerinde üye tamsayısının en az üçte biri (200 milletvekili) ile toplanır. Türkiye Büyük Millet Meclisi, Anayasada başkaca bir hüküm yoksa toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından (151 milletvekili) az olamaz.'"
-    }, {
-      "question": "Cumhurbaşkanı tarafından bir kanunun tekrar görüşülmek üzere Meclis'e geri gönderilmesi (veto) durumunda, TBMM geri gönderilen kanunu üye tamsayısının ...... ile aynen kabul ederse, kanun Cumhurbaşkanınca yayımlanır.",
-      "options": [
-        "salt çoğunluğu",
-        "üçte iki çoğunluğu",
-        "beşte üç çoğunluğu",
-        "dörtte üç çoğunluğu",
-        "basit çoğunluğu"
-      ],
-      "answer": "salt çoğunluğu",
-      "explanation": "Anayasa'nın 89. maddesi, 'Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları onbeş gün içinde yayımlar... Geri gönderilen kanun, Türkiye Büyük Millet Meclisi üye tamsayısının salt çoğunluğuyla (301 milletvekili) aynen kabul edilirse, kanun Cumhurbaşkanınca yayımlanır.' hükmünü içerir."
-    }, {
-      "question": "Aşağıdakilerden hangisi TBMM'nin bilgi edinme ve denetim yollarından biri değildir?",
-      "options": [
-        "Meclis araştırması",
-        "Genel görüşme",
-        "Meclis soruşturması",
-        "Yazılı soru",
-        "Gensoru"
-      ],
-      "answer": "Gensoru",
-      "explanation": "Gensoru, parlamenter sistemde hükümetin veya bir bakanın siyasi sorumluluğunu denetleme aracıydı. 2017 Anayasa değişikliği ile Cumhurbaşkanlığı Hükümet Sistemine geçilmesiyle birlikte gensoru, denetim yolları arasından kaldırılmıştır. Anayasa'nın 98. maddesinde mevcut denetim yolları sayılmıştır."
-    }, {
-      "question": "1982 Anayasası'na göre Cumhurbaşkanı adayı olabilmek için ...... yaşını doldurmuş olmak gerekir.",
-      "options": [
-        "30",
-        "35",
-        "40",
-        "45",
-        "25"
-      ],
-      "answer": "40",
-      "explanation": "Anayasa'nın 101. maddesi, Cumhurbaşkanı adaylık ve seçimi şartlarını düzenler. 'Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından... seçilir.' der."
-    }, {
-      "question": "Cumhurbaşkanı hakkında, bir suç işlediği iddiasıyla Türkiye Büyük Millet Meclisi üye tamsayısının ...... vereceği önergeyle soruşturma açılması istenebilir.",
-      "options": [
-        "üçte birinin",
-        "beşte üçünün",
-        "salt çoğunluğunun",
-        "dörtte birinin",
-        "üçte ikisinin"
-      ],
-      "answer": "salt çoğunluğunun",
-      "explanation": "Anayasa'nın 105. maddesi Cumhurbaşkanının cezai sorumluluğunu düzenler. Buna göre, 'Türkiye Büyük Millet Meclisi üye tamsayısının salt çoğunluğunun vereceği önergeyle' soruşturma açılması istenebilir. Meclis, bu istemi en geç bir ay içinde görüşür ve üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verebilir."
-    }, {
-      "question": "Cumhurbaşkanı yardımcıları ve bakanlar kime karşı sorumludur?",
-      "options": [
-        "Türkiye Büyük Millet Meclisine",
-        "Anayasa Mahkemesine",
-        "Cumhurbaşkanına",
-        "Halka",
-        "Yüce Divana"
-      ],
-      "answer": "Cumhurbaşkanına",
-      "explanation": "Anayasa'nın 106. maddesi uyarınca, 'Cumhurbaşkanı yardımcıları ve bakanlar, Cumhurbaşkanına karşı sorumludur.' Bu, Cumhurbaşkanlığı Hükümet Sisteminin hiyerarşik yapısının bir gereğidir."
-    }, {
-      "question": "TBMM adına kamu idarelerinin ve kamuya ait kuruluşların mali denetimini yapan yüksek denetim organı aşağıdakilerden hangisidir?",
-      "options": [
-        "Devlet Denetleme Kurulu",
-        "Maliye Bakanlığı Teftiş Kurulu",
-        "Hâkimler ve Savcılar Kurulu",
-        "Sayıştay",
-        "Danıştay"
-      ],
-      "answer": "Sayıştay",
-      "explanation": "Anayasa'nın 160. maddesi Sayıştay'ı düzenler ve 'Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek...le görevlidir.' der. Kesin hesap kanun tekliflerini de TBMM'ye sunar."
-    }, {
-      "question": "Anayasa'ya göre, Cumhurbaşkanı tarafından ilan edilen olağanüstü hal (OHAL), Resmi Gazete'de yayımlanarak derhal ...... onayına sunulur.",
-      "options": [
-        "Anayasa Mahkemesinin",
-        "Bakanlar Kurulunun",
-        "Yüksek Seçim Kurulunun",
-        "Türkiye Büyük Millet Meclisinin",
-        "Milli Güvenlik Kurulunun"
-      ],
-      "answer": "Türkiye Büyük Millet Meclisinin",
-      "explanation": "Anayasa'nın 119. maddesine göre, Cumhurbaşkanı OHAL ilan edebilir ancak bu karar derhal TBMM'nin onayına sunulmak zorundadır. 'Türkiye Büyük Millet Meclisi tatilde ise derhal toplantıya çağrılır; Meclis, olağanüstü hal süresini değiştirebilir, Cumhurbaşkanının istemi üzerine, her defasında dört ayı geçmemek üzere, süreyi uzatabilir veya olağanüstü hali kaldırabilir.'"
-    }, {
-      "question": "Cumhurbaşkanı, en fazla ...... süreyi geçmemek üzere olağanüstü hal ilan edebilir.",
-      "options": [
-        "üç ay",
-        "altı ay",
-        "bir yıl",
-        "dokuz ay",
-        "dört ay"
-      ],
-      "answer": "altı ay",
-      "explanation": "Anayasa'nın 119. maddesi, 'Cumhurbaşkanı... yurdun tamamında veya bir bölgesinde, süresi altı ayı geçmemek üzere olağanüstü hal ilân edebilir.' hükmünü içerir. Bu süre TBMM kararıyla uzatılabilir."
-    }, {
-      "question": "Anayasa'ya göre mahkemelerin bağımsızlığı ilkesi uyarınca, görülmekte olan bir dava hakkında Yasama Meclisinde yargı yetkisinin kullanılması ile ilgili soru sorulamaz, görüşme yapılamaz veya herhangi bir beyanda bulunulamaz. Bu yasağa ne ad verilir?",
-      "options": [
-        "Yargı dokunulmazlığı",
-        "Yasama sorumsuzluğu",
-        "Yargı bağımsızlığı ilkesinin gereği",
-        "Derdestlik itirazı",
-        "Kuvvetler ayrılığı"
-      ],
-      "answer": "Yargı bağımsızlığı ilkesinin gereği",
-      "explanation": "Anayasa'nın 138. maddesi mahkemelerin bağımsızlığını düzenler ve son fıkrasında 'Görülmekte olan bir dava hakkında Yasama Meclisinde yargı yetkisinin kullanılması ile ilgili soru sorulamaz, görüşme yapılamaz veya herhangi bir beyanda bulunulamaz; yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır' hükmü yer alır. Bu, yargının diğer organların etkisinden korunması amacını taşır."
-    }, {
-      "question": "Anayasa Mahkemesi toplam ...... üyeden oluşur.",
-      "options": [
-        "11",
-        "13",
-        "15",
-        "17",
-        "22"
-      ],
-      "answer": "15",
-      "explanation": "Anayasa'nın 146. maddesine göre 'Anayasa Mahkemesi onbeş üyeden kurulur.' Bu üyelerin üçünü TBMM, on ikisini ise Cumhurbaşkanı seçer."
-    }, {
-      "question": "Aşağıdakilerden hangisi Anayasa Mahkemesi'nin görev ve yetkileri içinde yer almaz?",
-      "options": [
-        "Kanunların Anayasaya şekil ve esas bakımından uygunluğunu denetlemek",
-        "Temel hak ve özgürlüklerin ihlali iddiasıyla yapılan bireysel başvuruları incelemek",
-        "Yüce Divan sıfatıyla Cumhurbaşkanını ve bakanları yargılamak",
-        "Siyasi partilerin kapatılmasına ilişkin davalara bakmak",
-        "Kanunların uygulanmasından doğan uyuşmazlıkları kesin olarak çözümlemek"
-      ],
-      "answer": "Kanunların uygulanmasından doğan uyuşmazlıkları kesin olarak çözümlemek",
-      "explanation": "Kanunların uygulanmasından doğan uyuşmazlıkları çözümlemek, adli ve idari yargı mahkemelerinin (Yargıtay, Danıştay, ilk derece mahkemeleri) görevidir. Anayasa Mahkemesi ise kanunların (normların) Anayasa'ya uygunluğunu denetler (norm denetimi yapar), bireysel başvurulara bakar ve Yüce Divan gibi özel görevleri yerine getirir."
-    }, {
-      "question": "Anayasa Mahkemesinin, bir kanun veya Cumhurbaşkanlığı kararnamesinin tamamını veya bir hükmünü iptal etmesi durumunda, iptal kararı geriye ...... .",
-      "options": [
-        "yürür",
-        "yürümez",
-        "ancak bir yıl geriye yürür",
-        "mağduriyet varsa yürür",
-        "TBMM onayıyla yürür"
-      ],
-      "answer": "yürümez",
-      "explanation": "Anayasa'nın 153. maddesi, 'İptal kararları geriye yürümez.' hükmünü açıkça belirtir. Bu, hukuk güvenliği ilkesinin bir gereğidir. İptal kararları Resmi Gazete'de yayımlandığı tarihte hüküm ifade eder."
-    }, {
-      "question": "Adli yargı alanındaki mahkemelerce verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii aşağıdakilerden hangisidir?",
-      "options": [
-        "Danıştay",
-        "Anayasa Mahkemesi",
-        "Uyuşmazlık Mahkemesi",
-        "Sayıştay",
-        "Yargıtay"
-      ],
-      "answer": "Yargıtay",
-      "explanation": "Anayasa'nın 154. maddesi, 'Yargıtay, adliye mahkemelerince verilen ve kanunun başka bir adlî yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir.' diyerek Yargıtay'ın adli yargıdaki temyiz mercii olduğunu tanımlar."
-    }, {
-      "question": "İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii aşağıdakilerden hangisidir?",
-      "options": [
-        "Yargıtay",
-        "Danıştay",
-        "Sayıştay",
-        "Anayasa Mahkemesi",
-        "Bölge İdare Mahkemesi"
-      ],
-      "answer": "Danıştay",
-      "explanation": "Anayasa'nın 155. maddesi, 'Danıştay, idare mahkemelerince verilen ve kanunun başka bir idarî yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir.' diyerek Danıştay'ın idari yargıdaki en üst mahkeme (temyiz mercii) olduğunu belirtir."
-    }, {
-      "question": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili mahkeme hangisidir?",
-      "options": [
-        "Anayasa Mahkemesi",
-        "Yargıtay",
-        "Danıştay",
-        "Uyuşmazlık Mahkemesi",
-        "Hâkimler ve Savcılar Kurulu"
-      ],
-      "answer": "Uyuşmazlık Mahkemesi",
-      "explanation": "Anayasa'nın 158. maddesi, Uyuşmazlık Mahkemesini 'adlî ve idarî yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili' olarak tanımlar."
-    }, {
-      "question": "Hâkimler ve Savcılar Kurulu (HSK) toplam ...... üyeden oluşur ve ...... daire halinde çalışır.",
-      "options": [
-        "15 - 3",
-        "13 - 2",
-        "17 - 3",
-        "11 - 2",
-        "22 - 4"
-      ],
-      "answer": "13 - 2",
-      "explanation": "Anayasa'nın 159. maddesine göre, Hâkimler ve Savcılar Kurulu onüç üyeden oluşur ve iki daire halinde çalışır. Kurulun Başkanı Adalet Bakanıdır. Adalet Bakanı Yardımcısı da Kurulun doğal üyesidir."
-    }, {
-      "question": "Anayasa'ya göre, bütçe kanun teklifini ve merkezi yönetim kesinhesap kanunu teklifini hazırlayıp TBMM'ye sunma görevi kime aittir?",
-      "options": [
-        "Hazine ve Maliye Bakanı",
-        "TBMM Plan ve Bütçe Komisyonu",
-        "Sayıştay Başkanı",
-        "Cumhurbaşkanı",
-        "TBMM Başkanı"
-      ],
-      "answer": "Cumhurbaşkanı",
-      "explanation": "Anayasa'nın 161. maddesi uyarınca, 'Cumhurbaşkanı, merkezî yönetim bütçe kanun teklifini malî yılbaşından en az yetmişbeş gün önce Türkiye Büyük Millet Meclisine sunar.' Kesinhesap kanunu teklifini de yine Cumhurbaşkanı sunar."
-    }, {
-      "question": "Anayasa değişikliği teklifi, TBMM üye tamsayısının en az ...... tarafından yazıyla önerilebilir.",
-      "options": [
-        "beşte biri",
-        "dörtte biri",
-        "üçte biri",
-        "salt çoğunluğu",
-        "üçte ikisi"
-      ],
-      "answer": "üçte biri",
-      "explanation": "Anayasa'nın 175. maddesi, anayasa değişikliği sürecini düzenler. 'Anayasanın değiştirilmesi Türkiye Büyük Millet Meclisi üye tamsayısının en az üçte biri (200 milletvekili) tarafından yazıyla teklif edilebilir.' hükmünü içerir."
-    }, {
-      "question": "TBMM'de Anayasa değişikliği teklifinin kabul edilebilmesi için gereken asgari çoğunluk nedir?",
-      "options": [
-        "Üye tamsayısının salt çoğunluğu (301)",
-        "Toplantıya katılanların salt çoğunluğu",
-        "Üye tamsayısının üçte iki çoğunluğu (400)",
-        "Üye tamsayısının beşte üç çoğunluğu (360)",
-        "Üye tamsayısının dörtte üç çoğunluğu (450)"
-      ],
-      "answer": "Üye tamsayısının beşte üç çoğunluğu (360)",
-      "explanation": "Anayasa'nın 175. maddesine göre, 'Değiştirme teklifinin kabulü, Meclisin üye tamsayısının beşte üç çoğunluğunun (360) gizli oyuyla mümkündür.' Bu oranın altında kalan teklifler reddedilmiş sayılır."
-    }, {
-      "question": "Anayasa değişikliğine ilişkin kanun, Meclis'te üye tamsayısının üçte ikisinden (400) az oyla kabul edilirse, Cumhurbaşkanı bu kanunu halkoyuna sunmak ...... .",
-      "options": [
-        "zorundadır",
-        "isterse sunabilir",
-        "sunamaz, veto etmelidir",
-        "Anayasa Mahkemesine gönderebilir",
-        "TBMM'ye geri gönderebilir"
-      ],
-      "answer": "zorundadır",
-      "explanation": "Anayasa'nın 175. maddesi bu durumu netleştirir. Değişiklik, beşte üç (360) ile üçte iki (400) arasında bir oyla kabul edilirse, Cumhurbaşkanı ya kanunu Meclis'e geri gönderir ya da zorunlu olarak halkoyuna sunar. Eğer Meclis'e geri gönderir ve Meclis yine aynı oyla kabul ederse, halkoyuna sunulması zorunlu hale gelir."
-    }, {
-      "question": "Anayasa'da sayılan İnkılâp Kanunlarının, Anayasaya aykırı olduğu şeklinde anlaşılamayacağını ve yorumlanamayacağını belirten koruma maddesi aşağıdakilerden hangisidir?",
-      "options": [
-        "Madde 4",
-        "Madde 11",
-        "Madde 174",
-        "Madde 176",
-        "Madde 68"
-      ],
-      "answer": "Madde 174",
-      "explanation": "Madde 174, 'İnkılâp Kanunlarının Korunması' başlığını taşır ve Tevhidi Tedrisat Kanunu, Şapka İktisası Hakkında Kanun, Harf İnkılabı gibi sekiz temel kanunun Anayasa'ya aykırılığının iddia edilemeyeceğini hüküm altına alır."
-    }, {
-      "question": "Anayasa'ya göre, 'Hiç kimse, kanunen tâbi olduğu ...... önünden başka bir merci önüne çıkarılamaz.' ifadesindeki boşluğa ne gelmelidir?",
-      "options": [
-        "hâkim",
-        "mahkeme",
-        "yargı kolu",
-        "savcı",
-        "mahkeme heyeti"
-      ],
-      "answer": "mahkeme",
-      "explanation": "Bu ilke 'kanuni/doğal hâkim güvencesi' olarak bilinir ve Anayasa'nın 37. maddesinde 'Hiç kimse, kanunen tâbi olduğu mahkemeden başka bir merci önüne çıkarılamaz.' şeklinde ifade edilmiştir."
-    }, {
-      "question": "Anayasa'ya göre, kamu hizmetine girme hakkına sahip olan kamu görevlileri ile işçi niteliği taşımayan diğer kamu görevlilerinin aylık ve ödenekleri ile ilgili uyuşmazlıkları çözümleyen yargı organı hangisidir?",
-      "options": [
-        "İş Mahkemeleri",
-        "Yüksek Hakem Kurulu",
-        "Kamu Görevlileri Hakem Kurulu",
-        "Danıştay",
-        "Sayıştay"
-      ],
-      "answer": "Kamu Görevlileri Hakem Kurulu",
-      "explanation": "Anayasa'nın 53. maddesi toplu sözleşme hakkını düzenler. Kamu görevlilerinin toplu sözleşmelerinde uyuşmazlık çıkması halinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir. Bu Kurulun kararları kesindir ve toplu sözleşme hükmündedir."
-    }, {
-      "question": "Anayasa'nın 19. maddesine göre, yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç ...... içinde hâkim önüne çıkarılır.",
-      "options": [
-        "24 saat",
-        "36 saat",
-        "48 saat",
-        "72 saat",
-        "12 saat"
-      ],
-      "answer": "48 saat",
-      "explanation": "Anayasa'nın 19. maddesi kişi hürriyeti ve güvenliğini düzenler ve 'Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırksekiz saat... içinde hâkim önüne çıkarılır.' hükmünü içerir. Toplu olarak işlenen suçlarda bu süre dört güne kadar uzatılabilir."
-    }, {
-      "question": "Anayasa'ya göre, Devlet Denetleme Kurulu kime bağlı olarak görev yapar?",
-      "options": [
-        "Türkiye Büyük Millet Meclisi Başkanlığına",
-        "Adalet Bakanlığına",
-        "Cumhurbaşkanlığına",
-        "Sayıştay Başkanlığına",
-        "Danıştay Başkanlığına"
-      ],
-      "answer": "Cumhurbaşkanlığına",
-      "explanation": "Anayasa'nın 108. maddesi, Devlet Denetleme Kurulunu düzenler ve 'İdarenin hukuka uygunluğunun, düzenli ve verimli şekilde yürütülmesinin ve geliştirilmesinin sağlanması amacıyla, Cumhurbaşkanlığına bağlı olarak kurulan Devlet Denetleme Kurulu, Cumhurbaşkanının isteği üzerine... denetlemeleri yapar.' der."
-    }, {
-      "question": "Anayasa'ya göre aşağıdakilerden hangisinin Yüce Divan'da yargılanma usulü yoktur?",
-      "options": [
-        "Cumhurbaşkanı",
-        "Bakanlar",
-        "Anayasa Mahkemesi Başkanı",
-        "Yargıtay Cumhuriyet Başsavcısı",
-        "Milletvekilleri"
-      ],
-      "answer": "Milletvekilleri",
-      "explanation": "Anayasa'nın 148. maddesi Yüce Divan'da yargılanacak kişileri sayar. Bunlar arasında Cumhurbaşkanı, Cumhurbaşkanı yardımcıları, bakanlar, yüksek mahkeme başkan ve üyeleri, HSK ve Sayıştay başkan ve üyeleri, Genelkurmay Başkanı ve kuvvet komutanları bulunur. Milletvekilleri, görevleriyle ilgili suçlardan dolayı Yüce Divan'da yargılanmazlar, ancak dokunulmazlıkları kaldırıldığında genel mahkemelerde yargılanırlar."
-    }, {
-      "question": "Anayasa'ya göre, Milli Güvenlik Kurulunun (MGK) gündemini kim belirler?",
-      "options": [
-        "Genelkurmay Başkanı",
-        "Milli Savunma Bakanı",
-        "TBMM Başkanı",
-        "Cumhurbaşkanı",
-        "İçişleri Bakanı"
-      ],
-      "answer": "Cumhurbaşkanı",
-      "explanation": "Anayasa'nın 118. maddesi MGK'yı düzenler. 'Milli Güvenlik Kurulunun gündemi; Cumhurbaşkanı yardımcıları ve Genelkurmay Başkanının önerileri dikkate alınarak Cumhurbaşkanınca düzenlenir.' der. Ayrıca MGK'ya Cumhurbaşkanı başkanlık eder."
-    }, {
-      "question": "Anayasa'ya göre, usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar ...... hükmündedir.",
-      "options": [
-        "kanun",
-        "yönetmelik",
-        "Anayasa",
-        "tavsiye kararı",
-        "genelge"
-      ],
-      "answer": "kanun",
-      "explanation": "Anayasa'nın 90. maddesi, 'Usulüne göre yürürlüğe konulmuş milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz.' hükmünü içerir. Hatta temel hak ve özgürlüklere ilişkin antlaşmalar ile kanunlar arasında çelişki olursa antlaşma hükümleri esas alınır."
-    }, {
-      "question": "Anayasa'ya göre TBMM, üye tamsayısının en az ...... kararıyla seçimlerin yenilenmesine karar verebilir.",
-      "options": [
-        "salt çoğunluğunun",
-        "beşte üçünün",
-        "üçte birinin",
-        "üçte ikisinin",
-        "dörtte üçünün"
-      ],
-      "answer": "beşte üçünün",
-      "explanation": "Anayasa'nın 116. maddesine göre, 'Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Bu halde Türkiye Büyük Millet Meclisi genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır.'"
-    }, {
-      "question": "Anayasa'ya göre, Diyanet İşleri Başkanlığı hangi idari yapı içinde yer alır?",
-      "options": [
-        "Doğrudan Cumhurbaşkanlığına bağlıdır.",
-        "Genel idare içinde yer alır.",
-        "Mahalli idareler kapsamındadır.",
-        "Kültür ve Turizm Bakanlığına bağlıdır.",
-        "Kamu kurumu niteliğinde bir meslek kuruluşudur."
-      ],
-      "answer": "Genel idare içinde yer alır.",
-      "explanation": "Anayasa'nın 136. maddesi, 'Genel idare içinde yer alan Diyanet İşleri Başkanlığı, lâiklik ilkesi doğrultusunda, bütün siyasî görüş ve düşünüşlerin dışında kalarak ve milletçe dayanışma ve bütünleşmeyi amaç edinerek, özel kanununda gösterilen görevleri yerine getirir.' hükmünü içerir."
-    }, {
-      "question": "Siyasi partilerin kapatılması davalarına hangi mahkeme bakar?",
-      "options": [
-        "Yargıtay Ceza Genel Kurulu",
-        "Danıştay",
-        "Anayasa Mahkemesi",
-        "Yargıtay Cumhuriyet Başsavcılığı",
-        "Ağır Ceza Mahkemesi"
-      ],
-      "answer": "Anayasa Mahkemesi",
-      "explanation": "Anayasa'nın 69. maddesi uyarınca, 'Siyasî partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır.'"
-    }
-  ]
-      
+[
+  {
+    "question": "Aşağıdakilerden hangisi, 1982 Anayasası'nın 5. maddesinde sayılan 'Devletin temel amaç ve görevleri' arasında yer almaz?",
+    "options": [
+      "Cumhuriyeti ve demokrasiyi korumak",
+      "Türk Milletinin bağımsızlığını ve bütünlüğünü korumak.",
+      "Ülkenin bölünmez bütünlüğünü korumak.",
+      "Kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak.",
+      "Her vatandaşa ücretsiz barınma imkânı sağlamak."
+    ],
+    "answer": "Her vatandaşa ücretsiz barınma imkânı sağlamak.",
+    "explanation": "'Madde 5 – Devletin temel amaç ve görevleri, Türk milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini, Cumhuriyeti ve demokrasiyi korumak, kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak; kişinin temel hak ve hürriyetlerini, sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan siyasal, ekonomik ve sosyal engelleri kaldırmaya, insanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmaktır.' Konut hakkı (Madde 57) devletin bu konuda planlama yapma ve tedbir alma ödevini belirtir, ücretsiz sağlama zorunluluğunu değil."
+  },
+  {
+    "question": "1982 Anayasası'nda 'Kişinin Hakları ve Ödevleri' (Negatif Statü Hakları) bölümünde düzenlenen haklardan hangisi, aynı zamanda bir ödev niteliği de taşır?",
+    "options": [
+      "Düşünce ve kanaat hürriyeti",
+      "Konut dokunulmazlığı",
+      "Eğitim ve öğrenim hakkı",
+      "Dernek kurma hürriyeti",
+      "Özel hayatın gizliliği"
+    ],
+    "answer": "Eğitim ve öğrenim hakkı",
+    "explanation": "Anayasa'nın 42. maddesi başlığı 'Eğitim ve Öğrenim Hakkı ve Ödevi' şeklindedir. Madde metninde de 'Kimse, eğitim ve öğrenim hakkından yoksun bırakılamaz.' denilerek hak boyutu, 'İlköğretim, kız ve erkek bütün vatandaşlar için zorunludur' denilerek ödev boyutu vurgulanmıştır. Diğer şıklar sadece hak niteliğindedir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, 'Siyasi Haklar ve Ödevler' (Aktif Statü Hakları) arasında düzenlenmemiştir?",
+    "options": [
+      "Vatandaşlık hakkı",
+      "Seçme ve seçilme hakkı",
+      "Siyasi parti kurma hakkı",
+      "Sendika kurma hakkı",
+      "Vatan hizmeti"
+    ],
+    "answer": "Sendika kurma hakkı",
+    "explanation": "Sendika kurma hakkı (Madde 51), Anayasa'nın 'Sosyal ve Ekonomik Haklar ve Ödevler' (Pozitif Statü Hakları) başlıklı bölümünde yer alır. Diğer şıklar ise Siyasi Haklar ve Ödevler bölümündedir."
+  },
+  {
+    "question": "1982 Anayasası'na göre angarya yasaktır. 'Angarya' kavramının tanımı aşağıdakilerden hangisidir?",
+    "options": [
+      "Bir işin karşılığının geç ödenmesi",
+      "Ağır ve tehlikeli işlerde çalıştırma",
+      "Bir kimsenin emeğinin karşılıksız olarak zorla sömürülmesi",
+      "Haftalık çalışma süresinin aşılması",
+      "Çocuk işçi çalıştırılması"
+    ],
+    "answer": "Bir kimsenin emeğinin karşılıksız olarak zorla sömürülmesi",
+    "explanation": "Anayasa'nın 18. maddesi 'Zorla çalıştırma yasağı' başlığını taşır ve 'Hiç kimse zorla çalıştırılamaz. Angarya yasaktır.' der. Angarya, kişinin emeğinin bir bedel ödenmeksizin veya rızası dışında zorla kullandırılmasıdır. Madde, vatan hizmeti veya hükümlülük sırasındaki çalıştırmaları bu kapsamın dışında tutar."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem bir hak hem de bir ödev olarak düzenlenmiştir?",
+    "options": [
+      "Çalışma hakkı",
+      "Mülkiyet hakkı",
+      "Sağlık hakkı",
+      "Vergi ödevi",
+      "Dernek kurma hakkı"
+    ],
+    "answer": "Çalışma hakkı",
+    "explanation": "Anayasa'nın 49. maddesi 'Çalışma Hakkı ve Ödevi' başlığını taşır. Madde, 'Çalışma, herkesin hakkı ve ödevidir.' diyerek her iki niteliği de açıkça belirtir. Vergi ise sadece bir ödevdir (Madde 73)."
+  },
+  {
+    "question": "Anayasa'ya göre, kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli, kural olarak en geç ne kadar sürede ve nasıl ödenir?",
+    "options": [
+      "Peşin ve nakden",
+      "Bir yıl içinde taksitle",
+      "Beş yıl içinde eşit taksitlerle",
+      "Devlet tahvili olarak",
+      "Mahkeme kararından sonraki mali yıl içinde"
+    ],
+    "answer": "Peşin ve nakden",
+    "explanation": "Anayasa'nın 46. maddesine göre, 'Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir.' Maddede belirtilen büyük enerji, sulama, iskan projeleri gibi istisnai durumlarda taksitle ödeme imkanı tanınmıştır, ancak kural peşin ödemedir."
+  },
+  {
+    "question": "Olağanüstü hallerde dahi dokunulamayacak olan 'çekirdek haklar' arasında aşağıdakilerden hangisi yer almaz?",
+    "options": [
+      "Kişinin yaşama hakkına, maddî ve manevî varlığının bütünlüğüne dokunulmaması",
+      "Din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamama",
+      "Suç ve cezaların geriye yürümezliği ilkesi",
+      "Masumiyet karinesi",
+      "Dernek kurma hürriyeti"
+    ],
+    "answer": "Dernek kurma hürriyeti",
+    "explanation": "Anayasa'nın 15. maddesi, savaş, seferberlik ve olağanüstü hallerde dahi dokunulamayacak hakları sayar. Dernek kurma hürriyeti bu 'çekirdek haklar' arasında yer almaz ve olağanüstü halin gerektirdiği ölçüde sınırlandırılabilir veya durdurulabilir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi 1982 Anayasası'nın sosyal ve ekonomik haklar bölümünde özel olarak korunması gerekenler arasında sayılmamıştır?",
+    "options": [
+      "Harp ve vazife şehitlerinin dul ve yetimleri",
+      "Maluller ve gaziler",
+      "Sakatlar",
+      "Yaşlılar ve çocuklar",
+      "Memurlar"
+    ],
+    "answer": "Memurlar",
+    "explanation": "Anayasa'nın 61. maddesi 'Sosyal güvenlik bakımından özel olarak korunması gerekenler' başlığı altında harp ve vazife şehitlerinin dul ve yetimleri ile malûl ve gazileri, sakatları, yaşlıları ve korunmaya muhtaç çocukları saymıştır. Memurlar bu özel koruma kategorisinde yer almaz."
+  },
+  {
+    "question": "Türk vatandaşlığının kazanılması ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Türk ananın veya Türk babanın çocuğu Türktür.",
+      "Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve ancak kanunda belirtilen hallerde kaybedilir.",
+      "Hiçbir Türk, vatana bağlılıkla bağdaşmayan bir eylemde bulunmadıkça vatandaşlıktan çıkarılamaz.",
+      "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapalıdır.",
+      "Türk Devletine vatandaşlık bağı ile bağlı olan herkes Türktür."
+    ],
+    "answer": "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapalıdır.",
+    "explanation": "Anayasa'nın 66. maddesi vatandaşlığı düzenler. Maddeye göre, 'Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapatılamaz.' Bu, idarenin her türlü eylem ve işlemine karşı yargı yolunun açık olması (Madde 125) ilkesinin bir yansımasıdır."
+  },
+  {
+    "question": "1982 Anayasası'na göre, Türkiye'de ikamet eden yabancılar, karşılıklılık esası gözetilmek şartıyla hangi siyasi hakkı kullanabilirler?",
+    "options": [
+      "Seçme ve seçilme hakkı",
+      "Siyasi parti kurma hakkı",
+      "Kamu hizmetine girme hakkı",
+      "Dilekçe hakkı",
+      "Halkoylamasına katılma hakkı"
+    ],
+    "answer": "Dilekçe hakkı",
+    "explanation": "Anayasa'nın 74. maddesi, 'Vatandaşlar ve karşılıklılık esası gözetilmek kaydıyla Türkiye’de ikamet eden yabancılar kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında... Türkiye Büyük Millet Meclisine ve yetkili makamlara yazı ile başvurma hakkına sahiptir.' demektedir. Diğer siyasi haklar genellikle sadece vatandaşlara tanınmıştır."
+  },
+  {
+    "question": "Milletvekillerinin, Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden sorumlu tutulamamalarını ifade eden kavram hangisidir?",
+    "options": [
+      "Yasama sorumsuzluğu (Kürsü dokunulmazlığı)",
+      "Yasama dokunulmazlığı",
+      "Milletin temsili",
+      "Kanun önünde eşitlik",
+      "Takdir yetkisi"
+    ],
+    "answer": "Yasama sorumsuzluğu (Kürsü dokunulmazlığı)",
+    "explanation": "Anayasa'nın 83. maddesi iki tür koruma sağlar. 'Yasama sorumsuzluğu' (mutlak koruma), milletvekilinin Meclis'teki söz ve düşüncelerinden dolayı sorumlu tutulmamasını sağlar ve ömür boyu sürer. 'Yasama dokunulmazlığı' (nispi koruma) ise görev süresince suç iddialarına karşı tutuklama ve yargılamadan korur, kaldırılabilir ve geçicidir."
+  },
+  {
+    "question": "TBMM İçtüzüğünün yargısal denetimini hangi mahkeme yapar?",
+    "options": [
+      "Danıştay",
+      "Yargıtay",
+      "Uyuşmazlık Mahkemesi",
+      "Anayasa Mahkemesi",
+      "İdare Mahkemeleri"
+    ],
+    "answer": "Anayasa Mahkemesi",
+    "explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi, kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğünün Anayasaya şekil ve esas bakımlarından uygunluğunu denetler."
+  },
+  {
+    "question": "Anayasa'ya göre, Cumhurbaşkanı seçiminin ilk turunda genel geçer oyların ...... alan aday Cumhurbaşkanı seçilir. Bu çoğunluk sağlanamazsa ikinci tura gidilir.",
+    "options": [
+      "üçte ikisini",
+      "beşte üçünü",
+      "salt çoğunluğunu",
+      "en fazlasını",
+      "yüzde kırkını"
+    ],
+    "answer": "salt çoğunluğunu",
+    "explanation": "Anayasa'nın 101. maddesine göre, 'Genel oyla yapılacak seçimde, geçerli oyların salt çoğunluğunu alan aday, Cumhurbaşkanı seçilir. İlk oylamada bu çoğunluk sağlanamazsa, bu oylamayı izleyen ikinci pazar günü ikinci oylama yapılır.'"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Cumhurbaşkanlığı Kararnamesi ile düzenlenemez?",
+    "options": [
+      "Bakanlıkların kurulması ve teşkilat yapısı",
+      "Devlet Denetleme Kurulunun işleyişi",
+      "Milli Güvenlik Kurulu Genel Sekreterliğinin teşkilatı",
+      "Anayasada münhasıran kanunla düzenlenmesi öngörülen konular",
+      "Üst kademe kamu yöneticilerinin atanmasına ilişkin usul ve esaslar"
+    ],
+    "answer": "Anayasada münhasıran kanunla düzenlenmesi öngörülen konular",
+    "explanation": "Anayasa'nın 104. maddesi Cumhurbaşkanlığı Kararnamesinin sınırlarını çizer. 'Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda' ve 'kanunda açıkça düzenlenen konularda' Cumhurbaşkanlığı kararnamesi çıkarılamaz. Ayrıca, temel haklar, kişi hakları ve ödevleriyle siyasi haklar ve ödevler CBK ile düzenlenemez."
+  },
+  {
+    "question": "I. Yüksek Seçim Kurulunun (YSK) seçimlerin yönetimi ve denetimi ile ilgili kararları\nII. Hâkimler ve Savcılar Kurulunun (HSK) bir hâkimi başka bir ile atama kararı\nIII. Spor federasyonlarının Tahkim Kurulu kararları\nIV. Cumhurbaşkanının bir bakanı görevden alma işlemi 1982 Anayasası'nın getirdiği 'idarenin her türlü eylem ve işlemine karşı yargı yolunun açık olması' ilkesinin istisnaları bulunmaktadır.\n\nBuna göre, aşağıda verilenlerden hangilerine karşı yargı yolu **kapalıdır**?",
+    "options": [
+      "I ve III",
+      "II ve IV",
+      "I, II ve III",
+      "I, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "I, II, III ve IV",
+    "explanation": "Anayasa, temel kural olarak idarenin tüm işlemlerine karşı yargı yolunu açık tutsa da (Madde 125), bazı istisnalar belirlemiştir:\n\n*   **I. YSK Kararları:** Anayasa'nın 79. maddesi uyarınca, Yüksek Seçim Kurulunun kararları kesindir ve bu kararlar aleyhine başka bir mercie başvurulamaz. Bu nedenle yargı yolu **kapalıdır**.\n*   **II. HSK'nın Atama Kararı:** Anayasa'nın 159. maddesine göre, Hâkimler ve Savcılar Kurulunun 'meslekten çıkarma' cezasına ilişkin olanlar dışındaki kararlarına karşı yargı mercilerine başvurulamaz. Bir hâkimin başka bir ile atanması kararı da bu kapsamda olduğu için yargı yolu **kapalıdır**.\n*   **III. Tahkim Kurulu Kararları:** Anayasa'nın 59. maddesine göre, spor federasyonlarının Tahkim Kurulu kararları kesindir ve bu kararlara karşı hiçbir yargı merciine başvurulamaz. Bu nedenle yargı yolu **kapalıdır**.\n*   **IV. Bakanı Görevden Alma:** Bu işlem, Anayasa'nın 104. ve 125. maddelerinde belirtilen 'Cumhurbaşkanının tek başına yaptığı işlemler' kapsamındadır. Bu tür bireysel ve siyasi nitelikteki atama, görevden alma gibi işlemlere karşı yargı yolu **kapalıdır**.\n\nDolayısıyla verilen öncüllerin tamamı, yargı yolu kapalı olan istisnai işlemlerdendir."
+  },
+  {
+    "question": "Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları kaç gün içinde yayımlar?",
+    "options": ["10", "15", "30", "45", "60"],
+    "answer": "15",
+    "explanation": "Anayasa'nın 89. maddesi 'Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları onbeş gün içinde yayımlar.' der."
+  },
+  {
+    "question": "Anayasa Mahkemesi üyelerinin görev süresi kaç yıldır ve bir kimse kaç defa Anayasa Mahkemesi üyesi seçilebilir?",
+    "options": [
+      "10 yıl - Bir defa",
+      "12 yıl - Bir defa",
+      "12 yıl - İki defa",
+      "8 yıl - İki defa",
+      "65 yaşına kadar - Sınırsız"
+    ],
+    "answer": "12 yıl - Bir defa",
+    "explanation": "Anayasa'nın 147. maddesine göre, 'Anayasa Mahkemesi üyeleri oniki yıl için seçilirler. Bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez. Anayasa Mahkemesi üyeleri altmışbeş yaşını doldurunca emekliye ayrılırlar.'"
+  },
+  {
+    "question": "1982 Anayasası'nda düzenlenen bireysel başvuru hakkı ile ilgili aşağıdaki ifadelerden hangileri **doğrudur**?\n\nI. Bireysel başvuru, Anayasada güvence altına alınmış temel hak ve özgürlüklerden, aynı zamanda Avrupa İnsan Hakları Sözleşmesi ve buna ek protokoller kapsamında yer alan herhangi birinin kamu gücü tarafından ihlali iddiasıyla yapılabilir.\nII. Başvurunun, ihlale yol açtığı ileri sürülen işlem veya eylem nedeniyle güncel ve kişisel bir hakkı doğrudan etkilenenler tarafından yapılması gerekir.\nIII. Kanunların veya Cumhurbaşkanlığı kararnamelerinin soyut olarak Anayasaya aykırılığı iddiasıyla bireysel başvuru yoluna gidilebilir.\nIV. Anayasa Mahkemesi, bireysel başvuruları incelerken bir temyiz mercii gibi hareket ederek olayın esasına girip yeniden yargılama yapabilir.",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "III ve IV",
+      "I, II ve III",
+      "II, III ve IV"
+    ],
+    "answer": "I ve II",
+    "explanation": "Bu soru, bireysel başvurunun temel felsefesini ve sınırlarını ölçmektedir:\n\n*   **I. İfade DOĞRUDUR:** Bireysel başvurunun kapsamı, Anayasa ve Avrupa İnsan Hakları Sözleşmesi (AİHS) tarafından ortaklaşa korunan haklarla sınırlıdır. Yani bir hakkın başvuruya konu olabilmesi için her iki metinde de güvence altına alınmış olması gerekir.\n*   **II. İfade DOĞRUDUR:** Anayasa'nın 148. maddesi, başvuru için 'mağduriyet' şartı arar. Yani başvuranın, ihlalden güncel, kişisel ve doğrudan etkilenen kişi olması zorunludur.\n*   **III. İfade YANLIŞTIR:** Bireysel başvuru, soyut norm denetimi yolu değildir. Yani bir kanunun veya kararnamenin kendisi, soyut olarak Anayasa Mahkemesine bireysel başvuru yoluyla götürülemez. Başvuru, ancak bu normun uygulanması sonucu ortaya çıkan somut bir ihlale karşı yapılabilir.\n*   **IV. İfade YANLIŞTIR:** Anayasa Mahkemesi, bireysel başvuruda ikincil (subsidiar) bir rol oynar. Bir temyiz veya süper temyiz mercii değildir. Olayın esasına, delil takdirine veya hukuk kurallarının doğru uygulanıp uygulanmadığına bakmaz. Sadece, ilk derece ve temyiz mahkemelerinin yargılaması sırasında temel bir hakkın ihlal edilip edilmediğini denetler."
+  },
+  {
+    "question": "Mali yılbaşından en az ...... gün önce merkezi yönetim bütçe kanun teklifinin TBMM'ye sunulması gerekir.",
+    "options": ["30", "45", "60", "75", "90"],
+    "answer": "75",
+    "explanation": "Anayasa'nın 161. maddesi, 'Cumhurbaşkanı, merkezî yönetim bütçe kanun teklifini malî yılbaşından en az yetmişbeş gün önce Türkiye Büyük Millet Meclisine sunar.' hükmünü amirdir."
+  },
+  {
+    "question": "Anayasa'nın değiştirilmesi teklifinin TBMM Genel Kurulunda kabul edilmesi için gereken en az oy sayısı kaçtır?",
+    "options": ["301", "360", "400", "450", "600"],
+    "answer": "360",
+    "explanation": "Anayasa'nın 175. maddesine göre, Anayasa'nın değiştirilmesi hakkındaki tekliflerin kabulü, Meclis üye tamsayısının en az beşte üç çoğunluğunun (600'ün 3/5'i = 360) gizli oyuyla mümkündür."
+  },
+  {
+    "question": "1982 Anayasası'nın 2. maddesinde sayılan Cumhuriyetin nitelikleri arasında aşağıdakilerden hangisi yer almaz?",
+    "options": [
+      "Demokratik devlet",
+      "Laik devlet",
+      "İnsan haklarına dayanan devlet",
+      "Sosyal devlet",
+      "Hukuk devleti"
+    ],
+    "answer": "İnsan haklarına dayanan devlet",
+    "explanation": "Anayasa'nın 2. maddesinde 'Türkiye Cumhuriyeti, toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, lâik ve sosyal bir hukuk Devletidir.' ifadesi yer alır. Maddede 'insan haklarına saygılı' ifadesi kullanılır, 'dayanan' ifadesi kullanılmaz. Bu ince bir ayrımdır ve sınavlarda sıkça sorulur."
+  },
+  {
+    "question": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi kime aittir?",
+    "options": [
+      "Türkiye Büyük Millet Meclisine",
+      "Bakanlar Kuruluna",
+      "Başbakana",
+      "Cumhurbaşkanına",
+      "Yargıtay Başkanına"
+    ],
+    "answer": "Cumhurbaşkanına",
+    "explanation": "2017 Anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiştir. Bu kapsamda güncellenen 8. madde, 'Yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından, Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir.' şeklindedir."
+  },
+  {
+    "question": "1982 Anayasası'nın 15. maddesine göre, savaş, seferberlik veya olağanüstü hal gibi durumlarda dahi dokunulamayacak, 'sert çekirdek haklar' olarak nitelendirilen güvenceler bulunmaktadır.\n\nAşağıdakilerden hangileri bu dokunulmaz haklar arasında **yer alır**?\n\nI. Suç ve cezaların geriye yürümezliği ilkesi\nII. Konut dokunulmazlığı\nIII. Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması\nIV. Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+    "options": [
+      "I ve II",
+      "I ve III",
+      "II ve IV",
+      "I, III ve IV",
+      "II, III ve IV"
+    ],
+    "answer": "I ve III",
+    "explanation": "Anayasa'nın 15. maddesi, olağanüstü durumlarda temel hak ve hürriyetlerin kullanımının durdurulmasına izin verirken, bu durumun dahi istisnalarını belirlemiştir. Bu dokunulmaz, 'sert çekirdek haklar' şunlardır:\n\n*   Kişinin yaşama hakkına, maddî ve manevî varlığının bütünlüğüne dokunulamaz (savaş hukukuna uygun ölümler hariç).\n*   Kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve bunlardan dolayı suçlanamaz.\n*   Suç ve cezalar geçmişe yürütülemez.\n*   Suçluluğu mahkeme kararı ile saptanıncaya kadar kimse suçlu sayılamaz (masumiyet karinesi).\n\nBu çerçevede:\n*   **I. ve III. öncüller,** maddede açıkça sayılan çekirdek haklardandır ve bunlara hiçbir durumda dokunulamaz.\n*   **II. ve IV. öncüller,** yani konut dokunulmazlığı ve toplantı-gösteri yürüyüşü hakkı, olağanüstü hallerde kamu düzeni ve güvenliği gerekçesiyle ilk olarak askıya alınabilen veya sınırlanabilen haklardandır. Bu nedenle çekirdek haklar arasında yer almazlar."
+  },
+  {
+    "question": "Anayasa'nın 32. maddesine göre, kişilerin haysiyet ve şereflerine dokunan veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması halinde tanınan düzeltme ve cevap hakkının yerine getirilmediğine dair yapılan müracaatta, hâkim tarafından en geç ...... içinde karar verilmelidir.",
+    "options": ["24 saat", "48 saat", "3 gün", "7 gün", "15 gün"],
+    "answer": "7 gün",
+    "explanation": "Anayasa'nın 32. maddesi, 'Düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç yedi gün içerisinde karar verilir.' hükmünü içerir."
+  },
+  {
+    "question": "1982 Anayasası'na göre aşağıdakilerden hangisi 'Sosyal ve Ekonomik Haklar ve Ödevler'den biri değildir?",
+    "options": [
+      "Konut hakkı",
+      "Sağlık hizmetleri ve çevrenin korunması",
+      "Sendika kurma hakkı",
+      "Dilekçe hakkı",
+      "Çalışma ve sözleşme hürriyeti"
+    ],
+    "answer": "Dilekçe hakkı",
+    "explanation": "Dilekçe, bilgi edinme ve kamu denetçisine başvurma hakkı (Madde 74), Anayasa'nın 'Siyasi Haklar ve Ödevler' başlıklı dördüncü bölümünde yer alır. Diğer şıklar 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümündedir."
+  },
+  {
+    "question": "Anayasa'nın 59. maddesine göre, spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı gidilebilecek tek hukuki yol aşağıdakilerden hangisidir?",
+    "options": [
+      "İdare Mahkemeleri",
+      "Danıştay",
+      "Tahkim Kurulu",
+      "Anayasa Mahkemesi",
+      "Yargıtay"
+    ],
+    "answer": "Tahkim Kurulu",
+    "explanation": "Anayasa'nın 59. maddesi çok nettir: 'Spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir. Tahkim kurulu kararları kesin olup bu kararlara karşı hiçbir yargı merciine başvurulamaz.'"
+  },
+  {
+    "question": "Anayasa'ya göre seçme, seçilme ve siyasi faaliyette bulunma hakkı için yaş sınırı kaçtır?",
+    "options": ["25", "21", "20", "18", "30"],
+    "answer": "18",
+    "explanation": "Anayasa'nın 67. maddesi uyarınca, 'Onsekiz yaşını dolduran her Türk vatandaşı seçme ve halkoylamasına katılma haklarına sahiptir.'"
+  },
+  {
+    "question": "T.C. Anayasası'na göre, siyasi partilerle ilgili hükümler kapsamında, aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Siyasi partiler önceden izin almadan kurulamazlar.",
+      "Silahlı Kuvvetler mensupları ile yükseköğretim öncesi öğrencileri siyasi partilere üye olabilirler.",
+      "Siyasi partiler, ticari faaliyetlere girişemezler.",
+      "Partilere yapılacak yardımın esasları TBMM İçtüzüğü ile düzenlenir.",
+      "Temelli kapatılan bir parti bir başka ad altında kurulabilir."
+    ],
+    "answer": "Siyasi partiler, ticari faaliyetlere girişemezler.",
+    "explanation": "Anayasa'nın 68. maddesine göre; a) Siyasi partiler önceden izin almadan kurulurlar. b) Silahlı Kuvvetler mensupları ve yükseköğretim öncesi öğrencileri partilere üye olamazlar. c) Siyasi partilerin gelir ve giderlerinin amaçlarına uygun olması gerekir ve ticari faaliyete girişemezler. d) Partilere yapılacak devlet yardımı kanunla düzenlenir. e) Temelli kapatılan bir parti başka ad altında kurulamaz."
+  },
+  {
+    "question": "Türkiye Büyük Millet Meclisi (TBMM) toplam ...... milletvekilinden oluşur.",
+    "options": ["550", "450", "600", "650", "Değişkendir"],
+    "answer": "600",
+    "explanation": "Anayasa'nın 75. maddesi, 2017 değişikliği ile 'Türkiye Büyük Millet Meclisi, genel oyla seçilen altıyüz milletvekilinden oluşur.' şeklinde güncellenmiştir."
+  },
+  {
+    "question": "Anayasa'ya göre TBMM ve Cumhurbaşkanı seçimleri kaç yılda bir birlikte yapılır?",
+    "options": ["4", "5", "6", "7", "TBMM'nin belirleyeceği bir sürede"],
+    "answer": "5",
+    "explanation": "Anayasa'nın 77. maddesi, 'Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.' hükmünü içerir."
+  },
+  {
+    "question": "Anayasa'ya göre, savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse, TBMM, seçimlerin ...... süreyle geriye bırakılmasına karar verebilir.",
+    "options": [
+      "altı ay",
+      "bir yıl",
+      "iki yıl",
+      "süre sınırı olmaksızın",
+      "üç ay"
+    ],
+    "answer": "bir yıl",
+    "explanation": "Anayasa'nın 78. maddesi, 'Savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse, Türkiye Büyük Millet Meclisi, seçimlerin bir yıl geriye bırakılmasına karar verebilir. Geri bırakma sebebi ortadan kalkmamışsa, erteleme kararındaki usule göre bu işlem tekrarlanabilir.' der."
+  },
+  {
+    "question": "Anayasa'ya göre seçimlerin genel yönetimi ve denetimini yürütmekle görevli olan kurum aşağıdakilerden hangisidir?",
+    "options": [
+      "İçişleri Bakanlığı",
+      "Anayasa Mahkemesi",
+      "Yüksek Seçim Kurulu",
+      "Danıştay",
+      "Adalet Bakanlığı"
+    ],
+    "answer": "Yüksek Seçim Kurulu",
+    "explanation": "Anayasa'nın 79. maddesi, seçimlerin başlamasından bitimine kadar, seçimin düzen içinde yönetimi ve dürüstlüğü ile ilgili bütün işlemleri yapma ve yaptırma, seçim süresince ve seçimden sonra seçim konularıyla ilgili bütün yolsuzlukları, şikâyet ve itirazları inceleme ve kesin karara bağlama görevinin Yüksek Seçim Kuruluna (YSK) ait olduğunu belirtir."
+  },
+  {
+    "question": "TBMM Genel Kurulu, üye tamsayısının en az ...... ile toplanır ve Anayasada başkaca bir hüküm yoksa toplantıya katılanların ...... ile karar verir. Ancak karar yeter sayısı hiçbir şekilde üye tamsayısının ...... az olamaz.",
+    "options": [
+      "yarısı - salt çoğunluğu - üçte birinden",
+      "üçte biri - salt çoğunluğu - dörtte birinin bir fazlasından",
+      "beşte biri - üçte iki çoğunluğu - yarısından",
+      "üçte biri - basit çoğunluğu - beşte birinin bir fazlasından",
+      "salt çoğunluğu - oybirliği - yarısından"
+    ],
+    "answer": "üçte biri - salt çoğunluğu - dörtte birinin bir fazlasından",
+    "explanation": "Anayasa'nın 96. maddesi toplantı ve karar yeter sayılarını net bir şekilde düzenler: 'Türkiye Büyük Millet Meclisi, yapacağı seçimler dahil bütün işlerinde üye tamsayısının en az üçte biri (200 milletvekili) ile toplanır. Türkiye Büyük Millet Meclisi, Anayasada başkaca bir hüküm yoksa toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından (151 milletvekili) az olamaz.'"
+  },
+  {
+    "question": "Cumhurbaşkanı tarafından bir kanunun tekrar görüşülmek üzere Meclis'e geri gönderilmesi (veto) durumunda, TBMM geri gönderilen kanunu üye tamsayısının ...... ile aynen kabul ederse, kanun Cumhurbaşkanınca yayımlanır.",
+    "options": [
+      "salt çoğunluğu",
+      "üçte iki çoğunluğu",
+      "beşte üç çoğunluğu",
+      "dörtte üç çoğunluğu",
+      "basit çoğunluğu"
+    ],
+    "answer": "salt çoğunluğu",
+    "explanation": "Anayasa'nın 89. maddesi, 'Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları onbeş gün içinde yayımlar... Geri gönderilen kanun, Türkiye Büyük Millet Meclisi üye tamsayısının salt çoğunluğuyla (301 milletvekili) aynen kabul edilirse, kanun Cumhurbaşkanınca yayımlanır.' hükmünü içerir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi TBMM'nin bilgi edinme ve denetim yollarından biri değildir?",
+    "options": [
+      "Meclis araştırması",
+      "Genel görüşme",
+      "Meclis soruşturması",
+      "Yazılı soru",
+      "Gensoru"
+    ],
+    "answer": "Gensoru",
+    "explanation": "Gensoru, parlamenter sistemde hükümetin veya bir bakanın siyasi sorumluluğunu denetleme aracıydı. 2017 Anayasa değişikliği ile Cumhurbaşkanlığı Hükümet Sistemine geçilmesiyle birlikte gensoru, denetim yolları arasından kaldırılmıştır. Anayasa'nın 98. maddesinde mevcut denetim yolları sayılmıştır."
+  },
+  {
+    "question": "1982 Anayasası'na göre Cumhurbaşkanı adayı olabilmek için ...... yaşını doldurmuş olmak gerekir.",
+    "options": ["30", "35", "40", "45", "25"],
+    "answer": "40",
+    "explanation": "Anayasa'nın 101. maddesi, Cumhurbaşkanı adaylık ve seçimi şartlarını düzenler. 'Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından... seçilir.' der."
+  },
+  {
+    "question": "Cumhurbaşkanı hakkında, bir suç işlediği iddiasıyla Türkiye Büyük Millet Meclisi üye tamsayısının ...... vereceği önergeyle soruşturma açılması istenebilir.",
+    "options": [
+      "üçte birinin",
+      "beşte üçünün",
+      "salt çoğunluğunun",
+      "dörtte birinin",
+      "üçte ikisinin"
+    ],
+    "answer": "salt çoğunluğunun",
+    "explanation": "Anayasa'nın 105. maddesi Cumhurbaşkanının cezai sorumluluğunu düzenler. Buna göre, 'Türkiye Büyük Millet Meclisi üye tamsayısının salt çoğunluğunun vereceği önergeyle' soruşturma açılması istenebilir. Meclis, bu istemi en geç bir ay içinde görüşür ve üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verebilir."
+  },
+  {
+    "question": "Cumhurbaşkanı yardımcıları ve bakanlar kime karşı sorumludur?",
+    "options": [
+      "Türkiye Büyük Millet Meclisine",
+      "Anayasa Mahkemesine",
+      "Cumhurbaşkanına",
+      "Halka",
+      "Yüce Divana"
+    ],
+    "answer": "Cumhurbaşkanına",
+    "explanation": "Anayasa'nın 106. maddesi uyarınca, 'Cumhurbaşkanı yardımcıları ve bakanlar, Cumhurbaşkanına karşı sorumludur.' Bu, Cumhurbaşkanlığı Hükümet Sisteminin hiyerarşik yapısının bir gereğidir."
+  },
+  {
+    "question": "TBMM adına kamu idarelerinin ve kamuya ait kuruluşların mali denetimini yapan yüksek denetim organı aşağıdakilerden hangisidir?",
+    "options": [
+      "Devlet Denetleme Kurulu",
+      "Maliye Bakanlığı Teftiş Kurulu",
+      "Hâkimler ve Savcılar Kurulu",
+      "Sayıştay",
+      "Danıştay"
+    ],
+    "answer": "Sayıştay",
+    "explanation": "Anayasa'nın 160. maddesi Sayıştay'ı düzenler ve 'Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek...le görevlidir.' der. Kesin hesap kanun tekliflerini de TBMM'ye sunar."
+  },
+  {
+    "question": "Anayasa'ya göre, Cumhurbaşkanı tarafından ilan edilen olağanüstü hal (OHAL), Resmi Gazete'de yayımlanarak derhal ...... onayına sunulur.",
+    "options": [
+      "Anayasa Mahkemesinin",
+      "Bakanlar Kurulunun",
+      "Yüksek Seçim Kurulunun",
+      "Türkiye Büyük Millet Meclisinin",
+      "Milli Güvenlik Kurulunun"
+    ],
+    "answer": "Türkiye Büyük Millet Meclisinin",
+    "explanation": "Anayasa'nın 119. maddesine göre, Cumhurbaşkanı OHAL ilan edebilir ancak bu karar derhal TBMM'nin onayına sunulmak zorundadır. 'Türkiye Büyük Millet Meclisi tatilde ise derhal toplantıya çağrılır; Meclis, olağanüstü hal süresini değiştirebilir, Cumhurbaşkanının istemi üzerine, her defasında dört ayı geçmemek üzere, süreyi uzatabilir veya olağanüstü hali kaldırabilir.'"
+  },
+  {
+    "question": "Cumhurbaşkanı, en fazla ...... süreyi geçmemek üzere olağanüstü hal ilan edebilir.",
+    "options": ["üç ay", "altı ay", "bir yıl", "dokuz ay", "dört ay"],
+    "answer": "altı ay",
+    "explanation": "Anayasa'nın 119. maddesi, 'Cumhurbaşkanı... yurdun tamamında veya bir bölgesinde, süresi altı ayı geçmemek üzere olağanüstü hal ilân edebilir.' hükmünü içerir. Bu süre TBMM kararıyla uzatılabilir."
+  },
+  {
+    "question": "Anayasa Mahkemesi toplam ...... üyeden oluşur.",
+    "options": ["11", "13", "15", "17", "22"],
+    "answer": "15",
+    "explanation": "Anayasa'nın 146. maddesine göre 'Anayasa Mahkemesi onbeş üyeden kurulur.' Bu üyelerin üçünü TBMM, on ikisini ise Cumhurbaşkanı seçer."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Anayasa Mahkemesi'nin görev ve yetkileri içinde yer almaz?",
+    "options": [
+      "Kanunların Anayasaya şekil ve esas bakımından uygunluğunu denetlemek",
+      "Temel hak ve özgürlüklerin ihlali iddiasıyla yapılan bireysel başvuruları incelemek",
+      "Yüce Divan sıfatıyla Cumhurbaşkanını ve bakanları yargılamak",
+      "Siyasi partilerin kapatılmasına ilişkin davalara bakmak",
+      "Kanunların uygulanmasından doğan uyuşmazlıkları kesin olarak çözümlemek"
+    ],
+    "answer": "Kanunların uygulanmasından doğan uyuşmazlıkları kesin olarak çözümlemek",
+    "explanation": "Kanunların uygulanmasından doğan uyuşmazlıkları çözümlemek, adli ve idari yargı mahkemelerinin (Yargıtay, Danıştay, ilk derece mahkemeleri) görevidir. Anayasa Mahkemesi ise kanunların (normların) Anayasa'ya uygunluğunu denetler (norm denetimi yapar), bireysel başvurulara bakar ve Yüce Divan gibi özel görevleri yerine getirir."
+  },
+  {
+    "question": "Anayasa Mahkemesinin, bir kanun veya Cumhurbaşkanlığı kararnamesinin tamamını veya bir hükmünü iptal etmesi durumunda, iptal kararı geriye ...... .",
+    "options": [
+      "yürür",
+      "yürümez",
+      "ancak bir yıl geriye yürür",
+      "mağduriyet varsa yürür",
+      "TBMM onayıyla yürür"
+    ],
+    "answer": "yürümez",
+    "explanation": "Anayasa'nın 153. maddesi, 'İptal kararları geriye yürümez.' hükmünü açıkça belirtir. Bu, hukuk güvenliği ilkesinin bir gereğidir. İptal kararları Resmi Gazete'de yayımlandığı tarihte hüküm ifade eder."
+  },
+  {
+    "question": "Adli yargı alanındaki mahkemelerce verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii aşağıdakilerden hangisidir?",
+    "options": [
+      "Danıştay",
+      "Anayasa Mahkemesi",
+      "Uyuşmazlık Mahkemesi",
+      "Sayıştay",
+      "Yargıtay"
+    ],
+    "answer": "Yargıtay",
+    "explanation": "Anayasa'nın 154. maddesi, 'Yargıtay, adliye mahkemelerince verilen ve kanunun başka bir adlî yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir.' diyerek Yargıtay'ın adli yargıdaki temyiz mercii olduğunu tanımlar."
+  },
+  {
+    "question": "İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii aşağıdakilerden hangisidir?",
+    "options": [
+      "Yargıtay",
+      "Danıştay",
+      "Sayıştay",
+      "Anayasa Mahkemesi",
+      "Bölge İdare Mahkemesi"
+    ],
+    "answer": "Danıştay",
+    "explanation": "Anayasa'nın 155. maddesi, 'Danıştay, idare mahkemelerince verilen ve kanunun başka bir idarî yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir.' diyerek Danıştay'ın idari yargıdaki en üst mahkeme (temyiz mercii) olduğunu belirtir."
+  },
+  {
+    "question": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili mahkeme hangisidir?",
+    "options": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Uyuşmazlık Mahkemesi",
+      "Hâkimler ve Savcılar Kurulu"
+    ],
+    "answer": "Uyuşmazlık Mahkemesi",
+    "explanation": "Anayasa'nın 158. maddesi, Uyuşmazlık Mahkemesini 'adlî ve idarî yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili' olarak tanımlar."
+  },
+  {
+    "question": "Hâkimler ve Savcılar Kurulu (HSK) toplam ...... üyeden oluşur ve ...... daire halinde çalışır.",
+    "options": ["15 - 3", "13 - 2", "17 - 3", "11 - 2", "22 - 4"],
+    "answer": "13 - 2",
+    "explanation": "Anayasa'nın 159. maddesine göre, Hâkimler ve Savcılar Kurulu onüç üyeden oluşur ve iki daire halinde çalışır. Kurulun Başkanı Adalet Bakanıdır. Adalet Bakanı Yardımcısı da Kurulun doğal üyesidir."
+  },
+  {
+    "question": "Anayasa'ya göre, bütçe kanun teklifini ve merkezi yönetim kesinhesap kanunu teklifini hazırlayıp TBMM'ye sunma görevi kime aittir?",
+    "options": [
+      "Hazine ve Maliye Bakanı",
+      "TBMM Plan ve Bütçe Komisyonu",
+      "Sayıştay Başkanı",
+      "Cumhurbaşkanı",
+      "TBMM Başkanı"
+    ],
+    "answer": "Cumhurbaşkanı",
+    "explanation": "Anayasa'nın 161. maddesi uyarınca, 'Cumhurbaşkanı, merkezî yönetim bütçe kanun teklifini malî yılbaşından en az yetmişbeş gün önce Türkiye Büyük Millet Meclisine sunar.' Kesinhesap kanunu teklifini de yine Cumhurbaşkanı sunar."
+  },
+  {
+    "question": "Anayasa değişikliği teklifi, TBMM üye tamsayısının en az ...... tarafından yazıyla önerilebilir.",
+    "options": [
+      "beşte biri",
+      "dörtte biri",
+      "üçte biri",
+      "salt çoğunluğu",
+      "üçte ikisi"
+    ],
+    "answer": "üçte biri",
+    "explanation": "Anayasa'nın 175. maddesi, anayasa değişikliği sürecini düzenler. 'Anayasanın değiştirilmesi Türkiye Büyük Millet Meclisi üye tamsayısının en az üçte biri (200 milletvekili) tarafından yazıyla teklif edilebilir.' hükmünü içerir."
+  },
+  {
+    "question": "TBMM'de Anayasa değişikliği teklifinin kabul edilebilmesi için gereken asgari çoğunluk nedir?",
+    "options": [
+      "Üye tamsayısının salt çoğunluğu (301)",
+      "Toplantıya katılanların salt çoğunluğu",
+      "Üye tamsayısının üçte iki çoğunluğu (400)",
+      "Üye tamsayısının beşte üç çoğunluğu (360)",
+      "Üye tamsayısının dörtte üç çoğunluğu (450)"
+    ],
+    "answer": "Üye tamsayısının beşte üç çoğunluğu (360)",
+    "explanation": "Anayasa'nın 175. maddesine göre, 'Değiştirme teklifinin kabulü, Meclisin üye tamsayısının beşte üç çoğunluğunun (360) gizli oyuyla mümkündür.' Bu oranın altında kalan teklifler reddedilmiş sayılır."
+  },
+  {
+    "question": "Anayasa'ya göre, kamu hizmetine girme hakkına sahip olan kamu görevlileri ile işçi niteliği taşımayan diğer kamu görevlilerinin aylık ve ödenekleri ile ilgili uyuşmazlıkları çözümleyen yargı organı hangisidir?",
+    "options": [
+      "İş Mahkemeleri",
+      "Yüksek Hakem Kurulu",
+      "Kamu Görevlileri Hakem Kurulu",
+      "Danıştay",
+      "Sayıştay"
+    ],
+    "answer": "Kamu Görevlileri Hakem Kurulu",
+    "explanation": "Anayasa'nın 53. maddesi toplu sözleşme hakkını düzenler. Kamu görevlilerinin toplu sözleşmelerinde uyuşmazlık çıkması halinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir. Bu Kurulun kararları kesindir ve toplu sözleşme hükmündedir."
+  },
+  {
+    "question": "Anayasa'nın 19. maddesine göre, yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç ...... içinde hâkim önüne çıkarılır.",
+    "options": ["24 saat", "36 saat", "48 saat", "72 saat", "12 saat"],
+    "answer": "48 saat",
+    "explanation": "Anayasa'nın 19. maddesi kişi hürriyeti ve güvenliğini düzenler ve 'Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırksekiz saat... içinde hâkim önüne çıkarılır.' hükmünü içerir. Toplu olarak işlenen suçlarda bu süre dört güne kadar uzatılabilir."
+  },
+  {
+    "question": "Anayasa'ya göre, Devlet Denetleme Kurulu kime bağlı olarak görev yapar?",
+    "options": [
+      "Türkiye Büyük Millet Meclisi Başkanlığına",
+      "Adalet Bakanlığına",
+      "Cumhurbaşkanlığına",
+      "Sayıştay Başkanlığına",
+      "Danıştay Başkanlığına"
+    ],
+    "answer": "Cumhurbaşkanlığına",
+    "explanation": "Anayasa'nın 108. maddesi, Devlet Denetleme Kurulunu düzenler ve 'İdarenin hukuka uygunluğunun, düzenli ve verimli şekilde yürütülmesinin ve geliştirilmesinin sağlanması amacıyla, Cumhurbaşkanlığına bağlı olarak kurulan Devlet Denetleme Kurulu, Cumhurbaşkanının isteği üzerine... denetlemeleri yapar.' der."
+  },
+  {
+    "question": "Anayasa'ya göre aşağıdakilerden hangisinin Yüce Divan'da yargılanma usulü yoktur?",
+    "options": [
+      "Cumhurbaşkanı",
+      "Bakanlar",
+      "Anayasa Mahkemesi Başkanı",
+      "Yargıtay Cumhuriyet Başsavcısı",
+      "Milletvekilleri"
+    ],
+    "answer": "Milletvekilleri",
+    "explanation": "Anayasa'nın 148. maddesi Yüce Divan'da yargılanacak kişileri sayar. Bunlar arasında Cumhurbaşkanı, Cumhurbaşkanı yardımcıları, bakanlar, yüksek mahkeme başkan ve üyeleri, HSK ve Sayıştay başkan ve üyeleri, Genelkurmay Başkanı ve kuvvet komutanları bulunur. Milletvekilleri, görevleriyle ilgili suçlardan dolayı Yüce Divan'da yargılanmazlar, ancak dokunulmazlıkları kaldırıldığında genel mahkemelerde yargılanırlar."
+  },
+  {
+    "question": "Anayasa'ya göre, Milli Güvenlik Kurulunun (MGK) gündemini kim belirler?",
+    "options": [
+      "Genelkurmay Başkanı",
+      "Milli Savunma Bakanı",
+      "TBMM Başkanı",
+      "Cumhurbaşkanı",
+      "İçişleri Bakanı"
+    ],
+    "answer": "Cumhurbaşkanı",
+    "explanation": "Anayasa'nın 118. maddesi MGK'yı düzenler. 'Milli Güvenlik Kurulunun gündemi; Cumhurbaşkanı yardımcıları ve Genelkurmay Başkanının önerileri dikkate alınarak Cumhurbaşkanınca düzenlenir.' der. Ayrıca MGK'ya Cumhurbaşkanı başkanlık eder."
+  },
+  {
+    "question": "Anayasa'ya göre, usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar ...... hükmündedir.",
+    "options": ["kanun", "yönetmelik", "Anayasa", "tavsiye kararı", "genelge"],
+    "answer": "kanun",
+    "explanation": "Anayasa'nın 90. maddesi, 'Usulüne göre yürürlüğe konulmuş milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz.' hükmünü içerir. Hatta temel hak ve özgürlüklere ilişkin antlaşmalar ile kanunlar arasında çelişki olursa antlaşma hükümleri esas alınır."
+  },
+  {
+    "question": "Anayasa'ya göre TBMM, üye tamsayısının en az ...... kararıyla seçimlerin yenilenmesine karar verebilir.",
+    "options": [
+      "salt çoğunluğunun",
+      "beşte üçünün",
+      "üçte birinin",
+      "üçte ikisinin",
+      "dörtte üçünün"
+    ],
+    "answer": "beşte üçünün",
+    "explanation": "Anayasa'nın 116. maddesine göre, 'Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Bu halde Türkiye Büyük Millet Meclisi genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır.'"
+  },
+  {
+    "question": "Anayasa'ya göre, Diyanet İşleri Başkanlığı hangi idari yapı içinde yer alır?",
+    "options": [
+      "Doğrudan Cumhurbaşkanlığına bağlıdır.",
+      "Genel idare içinde yer alır.",
+      "Mahalli idareler kapsamındadır.",
+      "Kültür ve Turizm Bakanlığına bağlıdır.",
+      "Kamu kurumu niteliğinde bir meslek kuruluşudur."
+    ],
+    "answer": "Genel idare içinde yer alır.",
+    "explanation": "Anayasa'nın 136. maddesi, 'Genel idare içinde yer alan Diyanet İşleri Başkanlığı, lâiklik ilkesi doğrultusunda, bütün siyasî görüş ve düşünüşlerin dışında kalarak ve milletçe dayanışma ve bütünleşmeyi amaç edinerek, özel kanununda gösterilen görevleri yerine getirir.' hükmünü içerir."
+  },
+  {
+    "question": "1982 Anayasası, Devletin temel organları ve bazı önemli kurumları ismen zikrederek düzenlemiştir.\n\nBuna göre, aşağıda verilen kurumlardan hangileri Anayasa metninde açıkça **isimlendirilerek düzenlenmiştir**?\n\nI. Radyo ve Televizyon Üst Kurulu (RTÜK)\nII. Milli İstihbarat Teşkilatı (MİT)\nIII. Ekonomik ve Sosyal Konsey\nIV. Sermaye Piyasası Kurulu (SPK)",
+    "options": [
+      "Yalnız I",
+      "I ve III",
+      "II ve IV",
+      "I, II ve III",
+      "I, II, III ve IV"
+    ],
+    "answer": "I ve III",
+    "explanation": "Bu soru, hangi kurumların doğrudan anayasal güvence altında olduğunu ve ismen zikredildiğini ölçmektedir:\n\n*   **I. Radyo ve Televizyon Üst Kurulu (RTÜK):** Anayasa'nın 133. maddesinde, radyo ve televizyon faaliyetlerini düzenlemek ve denetlemek amacıyla kurulan bu kurulun adı açıkça geçer. Bu nedenle **doğrudur**.\n*   **II. Milli İstihbarat Teşkilatı (MİT):** Devletin en önemli kurumlarından biri olmasına rağmen, MİT'in adı Anayasa metninde **geçmez**. MİT, Cumhurbaşkanlığına bağlı olarak kendi özel kanunu ile düzenlenmiştir. Anayasal bir kurum değildir.\n*   **III. Ekonomik ve Sosyal Konsey:** Anayasa'nın 166. maddesinde, ekonomik ve sosyal politikaların oluşturulmasında Hükümete (yeni sistemde Cumhurbaşkanlığına) danışmanlık yapmak amacıyla kurulacağı belirtilerek ismi açıkça zikredilmiştir. Bu nedenle **doğrudur**.\n*   **IV. Sermaye Piyasası Kurulu (SPK):** Finansal piyasalar için çok önemli bir düzenleyici kurum olsa da, Anayasa'da adı **geçmez**. SPK da kendi özel kanunu ile kurulmuş bir idari otoritedir.\n\nSonuç olarak, Anayasa metninde ismi açıkça geçen kurumlar RTÜK ve Ekonomik ve Sosyal Konsey'dir."
+  },
+  {
+    "question": "Siyasi partilerin kapatılması davalarına hangi mahkeme bakar?",
+    "options": [
+      "Yargıtay Ceza Genel Kurulu",
+      "Danıştay",
+      "Anayasa Mahkemesi",
+      "Yargıtay Cumhuriyet Başsavcılığı",
+      "Ağır Ceza Mahkemesi"
+    ],
+    "answer": "Anayasa Mahkemesi",
+    "explanation": "Anayasa'nın 69. maddesi uyarınca, 'Siyasî partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır.'"
+  },
+  {
+    "question": "I. Yükseköğrenim yapmış olmak.\nII. Kırk yaşını doldurmuş olmak.\nIII. En az bir dönem milletvekilliği yapmış olmak.\nIV. Milletvekili seçilme yeterliliğine sahip olmak.\n\nYukarıdakilerden hangileri 1982 Anayasası'na göre Cumhurbaşkanı adayı olabilmenin şartlarındandır?",
+    "options": [
+      "I ve II",
+      "III ve IV",
+      "I, II ve IV",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "I, II ve IV",
+    "explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanı adayı olabilmek için; 40 yaşını doldurmuş olmak, yükseköğrenim yapmış olmak ve milletvekili seçilme yeterliliğine sahip olmak gerekir. Daha önce milletvekilliği yapmış olmak bir şart değildir."
+  },
+  {
+    "question": "Anayasa'ya göre, aşağıdakilerden hangisi TBMM'nin görevlerinden birisidir?",
+    "options": [
+      "Cumhurbaşkanını seçmek",
+      "Hükümeti kurmak",
+      "Bütçeyi onaylamak",
+      "Yargı bağımsızlığını sağlamak",
+      "Siyasi partileri denetlemek"
+    ],
+    "answer": "Bütçeyi onaylamak",
+    "explanation": "Anayasa'nın 161. maddesi, 'Türkiye Büyük Millet Meclisi, Cumhurbaşkanlığı bütçe kanun teklifini görüşür ve kabul eder.' diyerek TBMM'nin bütçe onaylama görevini belirtir."
+  },
+  {
+    "question": "Anayasa'ya göre, TBMM bir yasama yılında en çok ...... ay tatil yapabilir; ara verme veya tatil sırasında Cumhurbaşkanı tarafından toplantıya çağrılabilir.",
+    "options": ["bir", "iki", "üç", "dört", "altı"],
+    "answer": "üç",
+    "explanation": "Anayasa'nın 93. maddesi, 'Türkiye Büyük Millet Meclisi, bir yasama yılında en çok üç ay tatil yapabilir; ara verme veya tatil sırasında, doğrudan veya Bakanlar Kurulunun istemi üzerine, Cumhurbaşkanınca toplantıya çağrılır.' hükmünü içerir. (Maddedeki 'Bakanlar Kurulu' ifadesi 2017 değişikliği sonrası zımnen mülga olmuştur, çağırma yetkisi Cumhurbaşkanındadır)."
+  },
+  {
+    "question": "Anayasa'ya göre, TBMM'nin görevleri arasında aşağıdakilerden hangisi yer almaz?",
+    "options": [
+      "Uluslararası antlaşmaları onaylamak",
+      "Bütçe ve kesin hesap kanunlarını kabul etmek",
+      "Siyasi partileri denetlemek",
+      "Cumhurbaşkanını seçmek",
+      "Yasaları yapmak"
+    ],
+    "answer": "Cumhurbaşkanını seçmek",
+    "explanation": "Anayasa'nın 75. maddesi, TBMM'nin görevlerini düzenler. Cumhurbaşkanı seçimi, TBMM'nin doğrudan bir görevi değildir; Cumhurbaşkanı, halk tarafından seçilir."
+  },
+  {
+    "question": "I. Cumhurbaşkanı yardımcıları\nII. Adalet Bakanı\nIII. Jandarma Genel Komutanı\nIV. Milli Güvenlik Kurulu Genel Sekreteri\n\n1982 Anayasası'na göre yukarıdakilerden hangileri Milli Güvenlik Kurulunun (MGK) üyeleri arasında yer alır?",
+    "options": [
+      "I ve II",
+      "III ve IV",
+      "I, II ve IV",
+      "I ve III",
+      "I, II, III ve IV"
+    ],
+    "answer": "I ve II",
+    "explanation": "Anayasa'nın 118. maddesine göre MGK üyeleri: Cumhurbaşkanı, Cumhurbaşkanı yardımcıları, Adalet, Millî Savunma, İçişleri, Dışişleri Bakanları, Genelkurmay Başkanı, Kara, Deniz ve Hava Kuvvetleri Komutanlarıdır. Jandarma Genel Komutanı 2017 değişikliği ile üyelikten çıkarılmıştır. MGK Genel Sekreteri ise üye değildir, toplantılara katılır ve sekreterya hizmetlerini yürütür."
+  },
+  {
+    "question": "1982 Anayasası'na göre, TBMM'nin denetim yollarından biri olan 'Meclis soruşturması' için gereken üye tamsayısının en az ...... tarafından önerge verilmesi gerekir.",
+    "options": [
+      "üçte biri",
+      "beşte biri",
+      "dörtte biri",
+      "salt çoğunluğu",
+      "üçte ikisi"
+    ],
+    "answer": "üçte biri",
+    "explanation": "Anayasa'nın 99. maddesi, 'Türkiye Büyük Millet Meclisi üye tamsayısının en az üçte biri (200 milletvekili) tarafından verilecek önerge ile Meclis soruşturması açılabilir.' hükmünü içerir."
+  },
+  {
+    "question": "I. Meclis Soruşturması\nII. Yazılı Soru\nIII. Gensoru\nIV. Genel Görüşme\n\nYukarıdakilerden hangileri 1982 Anayasası'nın mevcut hükümlerine göre TBMM'nin bilgi edinme ve denetim yolları arasında yer alır?",
+    "options": [
+      "I ve II",
+      "II ve III",
+      "I, II ve IV",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "I, II ve IV",
+    "explanation": "Anayasa'nın 98. maddesine göre TBMM'nin denetim yolları; Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı sorudur. Gensoru, parlamenter sistemde hükümeti düşürmeye yönelik bir denetim yoluydu ve 2017 Anayasa değişikliği ile kaldırılmıştır."
+  },
+  {
+    "question": "I. Yükseköğrenim yapmış olmak.\nII. Kırk yaşını doldurmuş olmak.\nIII. En az bir dönem milletvekilliği yapmış olmak.\nIV. Milletvekili seçilme yeterliliğine sahip olmak.\n\nYukarıdakilerden hangileri 1982 Anayasası'na göre Cumhurbaşkanı adayı olabilmenin şartlarındandır?",
+    "options": [
+      "I ve II",
+      "III ve IV",
+      "I, II ve IV",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "I, II ve IV",
+    "explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanı adayı olabilmek için; 40 yaşını doldurmuş olmak, yükseköğrenim yapmış olmak ve milletvekili seçilme yeterliliğine sahip olmak gerekir. Daha önce milletvekilliği yapmış olmak bir şart değildir."
+  },
+  {
+    "question": "I. Cumhurbaşkanı yardımcıları\nII. Adalet Bakanı\nIII. Jandarma Genel Komutanı\nIV. Milli Güvenlik Kurulu Genel Sekreteri\n\n1982 Anayasası'na göre yukarıdakilerden hangileri Milli Güvenlik Kurulunun (MGK) üyeleri arasında yer alır?",
+    "options": [
+      "I ve II",
+      "III ve IV",
+      "I, II ve IV",
+      "I ve III",
+      "I, II, III ve IV"
+    ],
+    "answer": "I ve II",
+    "explanation": "Anayasa'nın 118. maddesine göre MGK üyeleri: Cumhurbaşkanı, Cumhurbaşkanı yardımcıları, Adalet, Millî Savunma, İçişleri, Dışişleri Bakanları, Genelkurmay Başkanı, Kara, Deniz ve Hava Kuvvetleri Komutanlarıdır. Jandarma Genel Komutanı 2017 değişikliği ile üyelikten çıkarılmıştır. MGK Genel Sekreteri ise üye değildir, toplantılara katılır ve sekreterya hizmetlerini yürütür."
+  },
+  {
+    "question": "1982 Anayasası'na göre, aşağıdakilerden hangisi hem hak hem de ödev olarak düzenlenmiştir?",
+    "options": [
+      "Mülkiyet hakkı",
+      "Çalışma ve sözleşme hürriyeti",
+      "Eğitim ve öğrenim hakkı",
+      "Seçme ve seçilme hakkı",
+      "Dilekçe hakkı"
+    ],
+    "answer": "Eğitim ve öğrenim hakkı",
+    "explanation": "Anayasa'nın 42. maddesi 'Eğitim ve Öğrenim Hakkı ve Ödevi' başlığını taşır. Madde, öğrenimin bir hak, ilköğretimin ise zorunlu olması nedeniyle aynı zamanda bir ödev olduğunu belirtir. Benzer şekilde Vatan hizmeti (Madde 72) ve Vergi ödevi (Madde 73) de hem hak hem ödev niteliğindedir."
+  },
+  {
+    "question": "I. Meclis Soruşturması\nII. Yazılı Soru\nIII. Gensoru\nIV. Genel Görüşme\n\nYukarıdakilerden hangileri 1982 Anayasası'nın mevcut hükümlerine göre TBMM'nin bilgi edinme ve denetim yolları arasında yer alır?",
+    "options": [
+      "I ve II",
+      "II ve III",
+      "I, II ve IV",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "I, II ve IV",
+    "explanation": "Anayasa'nın 98. maddesine göre TBMM'nin denetim yolları; Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı sorudur. Gensoru, parlamenter sistemde hükümeti düşürmeye yönelik bir denetim yoluydu ve 2017 Anayasa değişikliği ile kaldırılmıştır."
+  },
+  {
+    "question": "Anayasa'ya göre, siyasi partilerin kapatılmasına, eylemlerin odağı haline geldiğinin tespit edilmesi halinde Anayasa Mahkemesince karar verilebilir. Bir siyasi partinin bu eylemlerin odağı haline geldiğinin kabul edilebilmesi için, bu nitelikteki fiillerin o partinin üyelerince ...... bir şekilde işlenmesi ve bu durumun partinin ...... tarafından benimsenmesi gerekir.",
+    "options": [
+      "yaygın - genel başkanı",
+      "yoğun - büyük kongresi",
+      "münferit - disiplin kurulu",
+      "sürekli - merkez karar organı",
+      "planlı - kurucular kurulu"
+    ],
+    "answer": "yoğun - büyük kongresi",
+    "explanation": "Anayasa'nın 69. maddesi bu durumu net bir şekilde tanımlar: '...bu nitelikteki fiiller o partinin üyelerince yoğun bir şekilde işlendiği ve bu durumun o partinin büyük kongresi veya genel başkanlığı veya merkez karar veya yönetim organları veya Türkiye Büyük Millet Meclisindeki grup genel kurulu veya grup yönetim kurulunca zımnen veya açıkça benimsendiği...' hallerde parti, eylemlerin odağı sayılır."
+  },
+  {
+    "question": "I. TBMM Başkanı\nII. Cumhurbaşkanı\nIII. Mecliste grubu bulunan siyasi parti grupları\n\nYukarıdakilerden hangileri, Meclis içtüzüğüne veya Anayasa'ya aykırı gördükleri Meclis Genel Kurulu kararlarının iptali için Anayasa Mahkemesine başvurabilir?",
+    "options": [
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "Yalnız I",
+      "I, II ve III"
+    ],
+    "answer": "Yalnız II",
+    "explanation": "Bu, çok spesifik ve karıştırılan bir konudur. Anayasa'nın 85. maddesi, milletvekilliğinin düşmesi kararlarına karşı, 148. maddesi ise yasama dokunulmazlığının kaldırılması kararlarına karşı dava açılabileceğini belirtir. Ancak genel olarak Meclis'in parlamento kararlarına (içtüzük hariç) karşı yargı yolu kapalıdır. Bu bir istisnadır ve bu istisnai dava hakkı sadece Cumhurbaşkanına ve TBMM üyelerinin beşte birine tanınmıştır."
+  },
+  {
+    "question": "Anayasa Mahkemesi iptal kararlarının yürürlüğünü en fazla ...... süreyle erteleyebilir.",
+    "options": ["üç ay", "altı ay", "bir yıl", "iki yıl", "süre sınırı yoktur"],
+    "answer": "bir yıl",
+    "explanation": "Anayasa'nın 153. maddesine göre, 'Anayasa Mahkemesi, bir kanun veya Cumhurbaşkanlığı kararnamesinin tamamını veya bir hükmünü iptal ederken, kanun koyucu gibi hareketle yeni bir uygulamaya yol açacak biçimde hüküm tesis edemez.' ve devamında 'Kararın Resmî Gazetede yayımlanmasından başlayarak bir yılı geçmemek üzere ayrı bir tarih belirleyebilir.' der. Bu, iptalden doğacak hukuki boşluğu önlemek içindir."
+  },
+  {
+    "question": "1982 Anayasası'na göre 'temel hak ve hürriyetlerin korunması' ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma hakkına sahiptir.",
+      "İdarenin her türlü eylem ve işlemlerine karşı yargı yolu açıktır.",
+      "Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz.",
+      "Anayasa Mahkemesinin Yüce Divan sıfatıyla verdiği kararlara karşı yeniden inceleme başvurusu yapılamaz.",
+      "Herkes, Anayasada güvence altına alınmış temel hak ve özgürlüklerinden, Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla Anayasa Mahkemesine başvurabilir."
+    ],
+    "answer": "Anayasa Mahkemesinin Yüce Divan sıfatıyla verdiği kararlara karşı yeniden inceleme başvurusu yapılamaz.",
+    "explanation": "Anayasa'nın 148. maddesine 2010 yılında eklenen hükümle, 'Yüce Divan kararlarına karşı yeniden inceleme başvurusu yapılabilir. Genel Kurulun yeniden inceleme sonucunda verdiği kararlar kesindir.' denilmiştir. Dolayısıyla bu kararlara karşı yeniden inceleme yolu açılmıştır. Diğer şıklar hak arama hürriyeti ve yargı denetimi ile ilgili doğru ifadelerdir."
+  },
+  {
+    "question": "I. Sendika kurma hakkı\nII. Grev hakkı\nIII. Toplu sözleşme hakkı\nIV. Dernek kurma hakkı\n\nYukarıdakilerden hangileri kamu görevlilerine (memurlara) Anayasa tarafından tanınmış haklardandır?",
+    "options": [
+      "I ve III",
+      "II ve IV",
+      "I, II ve III",
+      "I, III ve IV",
+      "Yalnız I"
+    ],
+    "answer": "I ve III",
+    "explanation": "Anayasa'nın 51. maddesi sendika kurma hakkını hem işçilere hem de memurlara tanır. 53. madde memurlara toplu sözleşme yapma hakkı verir. Ancak 54. madde 'Grev Hakkı ve Lokavt' başlığını taşır ve bu hak memurlara tanınmamıştır; memurların sendikal uyuşmazlıkları Kamu Görevlileri Hakem Kurulunda çözülür. Dernek kurma hakkı (Madde 33) ise tüm vatandaşlara tanınmış genel bir haktır ancak soru, sendikal haklar bağlamında değerlendirilmelidir. Bu bağlamda memurların sendikası vardır ve toplu sözleşme yaparlar ama grev yapamazlar."
+  },
+  {
+    "question": "TBMM Başkanlık Divanı için bir yasama döneminde ...... seçim yapılır. İlk seçilenlerin görev süresi ...... yıldır, ikinci devre için seçilenlerin görev süresi o yasama döneminin sonuna kadar devam eder.",
+    "options": ["bir - beş", "iki - iki", "iki - üç", "üç - iki", "bir - dört"],
+    "answer": "iki - iki",
+    "explanation": "Anayasa'nın 94. maddesi, 'Türkiye Büyük Millet Meclisi Başkanlık Divanı, Meclis üyeleri arasından seçilen Meclis Başkanı, başkanvekilleri, kâtip üyeler ve idare amirlerinden oluşur... Başkanlık Divanı için, bir yasama döneminde iki seçim yapılır. İlk seçilenlerin görev süresi iki yıldır, ikinci devre için seçilenlerin görev süresi ise o yasama döneminin sonuna kadar devam eder.' hükmünü içerir."
+  },
+  {
+    "question": "1982 Anayasası'na göre yerel yönetimlerle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Mahalli idarelerin seçimleri dört yılda bir yapılır.",
+      "Görevleriyle ilgili bir suç sebebiyle hakkında soruşturma veya kovuşturma açılan mahalli idare organları, kesin hükme kadar İçişleri Bakanı tarafından görevden uzaklaştırılabilir.",
+      "Mahalli idarelerin karar organları, kanunda gösterilen seçmenler tarafından seçilerek oluşturulur.",
+      "Büyük yerleşim merkezleri için özel yönetim biçimleri sadece kanun hükmünde kararname ile getirilebilir.",
+      "Merkezi idare, mahalli idareler üzerinde sadece hukuka uygunluk denetimi yapabilir, yerindelik denetimi yapamaz."
+    ],
+    "answer": "Mahalli idarelerin karar organları, kanunda gösterilen seçmenler tarafından seçilerek oluşturulur.",
+    "explanation": "Madde 127'ye göre; A yanlıştır, seçimler beş yılda bir yapılır. B yanlıştır, görevden uzaklaştırma kararı geçici bir tedbir olarak İçişleri Bakanı tarafından verilir ancak organlık sıfatının kaybı ancak Danıştay kararıyla olur. D yanlıştır, özel yönetim biçimleri ancak kanunla getirilebilir. E yanlıştır, merkezi idarenin mahalli idareler üzerinde idari vesayet yetkisi vardır ki bu hem hukuka uygunluk hem de sınırlı da olsa yerindelik denetimini içerebilir. C şıkkı ise 'Mahallî idarelerin karar organları, kanunda gösterilen seçmenler tarafından seçilerek oluşturulur.' diyerek Anayasa'da aynen yer almaktadır."
+  },
+  {
+    "question": "Anayasa'ya göre, TBMM veya Cumhurbaşkanı tarafından seçimlerin yenilenmesine karar verilmesi halinde, bu karar Resmî Gazete’de yayımlandıktan sonraki ...... günü takip eden ilk Pazar günü Cumhurbaşkanı ile TBMM genel seçimi birlikte yapılır.",
+    "options": [
+      "otuzuncu",
+      "kırkbeşinci",
+      "altmışıncı",
+      "yetmişbeşinci",
+      "doksanıncı"
+    ],
+    "answer": "altmışıncı",
+    "explanation": "Anayasa'nın 116. maddesi seçimlerin yenilenmesini düzenler. 'Yenileme kararının Resmî Gazetede yayımlanmasından sonra gelen altmışıncı günü takip eden ilk Pazar günü Cumhurbaşkanı seçimi ile Türkiye Büyük Millet Meclisi genel seçimi birlikte yapılır.' hükmü geçerlidir."
+  },
+  {
+    "question": "I. Danıştay üyelerinin tamamı\nII. Yargıtay Cumhuriyet Başsavcısı ve vekili\nIII. Hakimler ve Savcılar Kurulu üyeleri\nIV. Rektörler\n\nYukarıdakilerden hangileri Cumhurbaşkanı tarafından seçilir veya atanır?",
+    "options": [
+      "I ve II",
+      "II ve IV",
+      "II, III ve IV",
+      "I, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "answer": "II, III ve IV",
+    "explanation": "I yanlıştır, Danıştay üyelerinin dörtte birini Cumhurbaşkanı, dörtte üçünü ise HSK seçer (Madde 155). II doğrudur, Yargıtay Cumhuriyet Başsavcısı ve vekilini Cumhurbaşkanı, Yargıtay Genel Kurulunun göstereceği adaylar arasından seçer (Madde 154). III doğrudur, HSK'nın 13 üyesinden 7'sini TBMM, 4'ünü Cumhurbaşkanı seçer, Adalet Bakanı ve yardımcısı da doğal üyedir (Madde 159); dolayısıyla Cumhurbaşkanı üye seçer. IV doğrudur, Rektörler Cumhurbaşkanınca atanır (Madde 130)."
+  }
+]
