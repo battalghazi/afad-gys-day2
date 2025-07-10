@@ -598,5 +598,953 @@
     ],
     "answer": "Gümrük resmi ve ilgili diğer vergi, resim ve hisselerden muaftır",
     "explanation": "Madde 43/d: '...İthal edilen bu mallar gümrük resminden, bu resimle birlikte alınan diğer vergi ve resimlerle belediye hissesinden ve ithalatla ilgili Hazine hissesinden muaftır.'"
+  },
+   {
+    "question": "7269 sayılı Kanunun 1. maddesine göre, bir afetin 'genel hayata etkili' olup olmadığına karar verilirken aşağıdakilerden hangisi göz önünde tutulan hususlardan biri değildir?",
+    "options": [
+      "Yıkılan veya oturulmaz hale gelen bina sayısı",
+      "Zararın kamuoyundaki tepkisi",
+      "Afetzedelerin siyasi görüşleri",
+      "Mahallin ekonomik ve sosyal özellikleri",
+      "Normal hayat düzenindeki aksamalar"
+    ],
+    "answer": "Afetzedelerin siyasi görüşleri",
+    "explanation": "Madde 1: '...yıkılan, oturulmaz hale gelen bina sayısı, zarar gören yapı ve tesislerin genel hayata etki derecesi, mahallin ekonomik ve sosyal özellikleri, zararın kamu oyundaki tepkisi, normal hayat düzenindeki aksamalar ve benzeri hususlar gözönünde tutulmak suretiyle...' afetlerin genel hayata etkililiğine karar verilir."
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, yer sarsıntısı, yer kayması ve çığ gibi afetlere uğrayabilir bölgeleri tespit etme ve afete maruz bölge olarak kararlaştırılmasını sağlama yetkisi kime aittir?",
+    "options": [
+      "İçişleri Bakanlığı",
+      "Valilik ve Belediye Başkanlığı müştereken",
+      "Afet ve Acil Durum Yönetimi Başkanlığı (AFAD)",
+      "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+      "Devlet Su İşleri Genel Müdürlüğü"
+    ],
+    "answer": "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+    "explanation": "Madde 2: '...yer sarsıntısı, yer kayması, kaya düşmesi ve çığ gibi afetlere uğramış veya uğrayabilir bölgeler ise, İmar ve İskan Bakanlığınca tespit... olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 3. maddesine göre, yönetmelik esaslarına aykırı yapılar için sahiplerine yapılan tebligatla tehlikeli durumun giderilmesi için en çok ne kadar süre verilir?",
+    "options": [
+      "15 gün",
+      "1 ay",
+      "45 gün",
+      "3 ay",
+      "6 ay"
+    ],
+    "answer": "3 ay",
+    "explanation": "Madde 3: '...sahiplerine tebligat yapılarak, en çok 3 aylık süre içinde hatanın ve tehlikeli durumun giderilmesi bildirilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 6. maddesine göre, afet anında mülki amirlerin el koyma yetkisiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Bedeli sonradan ödenmek üzere canlı ve cansız her türlü taşıt aracına el koyabilirler.",
+      "Sadece kamuya ait makine, alet ve edevata el koyabilirler.",
+      "Bu yetki afetin sona ermesinden itibaren 15 gün sürer.",
+      "Yetki süresi İmar ve İskan Bakanlığınca (ilgili Bakanlıkça) uzatılabilir.",
+      "Devlete ait taşınmazları geçici olarak işgal edebilirler."
+    ],
+    "answer": "Sadece kamuya ait makine, alet ve edevata el koyabilirler.",
+    "explanation": "Madde 6: '...bedeli, ücreti veya kirası sonradan ödenmek üzere canlı, cansız, resmi ve özel her türlü taşıt araçlarına ve gerekli makina, alat ve edevatına el koymaya... yetkilidir.' Bu yetki hem resmi hem de özel mülkiyeti kapsar."
+  },
+  {
+    "question": "7269 sayılı Kanunun 7. maddesine göre, afet bölgelerindeki askeri birlik komutanlarının, mülki amirlerin yardım talebini yerine getirme yükümlülüğü nasıldır?",
+    "options": [
+      "Genelkurmay Başkanlığından onay alarak",
+      "Milli Savunma Bakanlığından talimat bekleyerek",
+      "Üstlerinden emir beklemeksizin",
+      "Sadece lojistik destekle sınırlı olarak",
+      "Kendi takdirlerine bağlı olarak"
+    ],
+    "answer": "Üstlerinden emir beklemeksizin",
+    "explanation": "Madde 7: '...kendilerinden vali veya kaymakamlar tarafından istenilecek yardımları üstlerinden emir beklemeksizin yapmıya mecburdurlar.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 8. maddesine göre, afet haberlerinin ulaştırılmasıyla ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Tüm haberleşmeler ücretli olup, bedeli sonradan Afetler Fonundan karşılanır.",
+      "Sadece PTT merkezleri haberleşmeyi ücretsiz yapar.",
+      "Askeri muhabere teşkilleri bu haberleşmeleri her işe tercihan ve parasız yapar.",
+      "Radyo istasyonlarından sadece ücreti karşılığında faydalanılabilir.",
+      "Sadece valiliklerin resmi haberleşme kanalları kullanılır."
+    ],
+    "answer": "Askeri muhabere teşkilleri bu haberleşmeleri her işe tercihan ve parasız yapar.",
+    "explanation": "Madde 8: '...telgraf, telefon, telsiz muhaberelerini, telgraf ve telefon merkezleri, demiryolu istasyonları, askeri muhabere teşkilleri her işe tercihan parasız kabule ve muhataplarına ulaştırmaya mecburdurlar.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 13. maddesine göre, fen kurullarının yıktırılması ve boşaltılması gereken binalar hakkında düzenlediği rapor kime verilir?",
+    "options": [
+      "Doğrudan bina sahibine",
+      "Cumhurbaşkanlığına",
+      "İmar ve İskan Bakanlığına (ilgili Bakanlığa)",
+      "O il ve ilçenin en büyük mülkiye amirine",
+      "Belediye Başkanlığına"
+    ],
+    "answer": "O il ve ilçenin en büyük mülkiye amirine",
+    "explanation": "Madde 13: 'Arazinin tehlikeli durumu ve binaların gördüğü hasar bakımından yıktırılması ve boşaltılması gerekenler hakkında, o il ve ilçenin en büyük mülkiye amirine ayrı bir rapor verilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, fen kurullarının yıkım kararına karşı mal sahibi kaç gün içinde ve hangi kurula itiraz edebilir?",
+    "options": [
+      "7 gün içinde Asliye Hukuk Mahkemesine",
+      "3 gün içinde yetkili idare kurullarına",
+      "15 gün içinde Bölge İdare Mahkemesine",
+      "3 gün içinde Belediye Encümenine",
+      "5 gün içinde Valilik Makamına"
+    ],
+    "answer": "3 gün içinde yetkili idare kurullarına",
+    "explanation": "Madde 13: 'Mal sahibi veya vekili, bu bildiriye karşı 3 gün içinde yetkili idare kurullarına itiraz edebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 13. maddesine göre, idare kurulları yıkım kararına yapılan itirazı en geç kaç gün içinde inceleyip karara bağlar?",
+    "options": [
+      "1 gün",
+      "3 gün",
+      "5 gün",
+      "7 gün",
+      "10 gün"
+    ],
+    "answer": "3 gün",
+    "explanation": "Madde 13: 'İdare kurulları bu itirazı en geç 3 gün içinde inceler ve karara bağlar.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, yapı ve ikamet için 'yasaklanmış afet bölgesi' ilan edilen bir yerde, yasağa aykırı olarak yapılmakta olan bir binaya ne işlem uygulanır?",
+    "options": [
+      "İnşaat mühürlenir ve para cezası kesilir.",
+      "Mal sahibine 1 yıl süre verilir.",
+      "Yıkma parası yıkıntı malzemesinden karşılanmak üzere vali veya kaymakam emriyle yıktırılır.",
+      "Bina Hazine adına tescil edilir.",
+      "Sadece imar para cezası uygulanır."
+    ],
+    "answer": "Yıkma parası yıkıntı malzemesinden karşılanmak üzere vali veya kaymakam emriyle yıktırılır.",
+    "explanation": "Madde 14: 'Hilafına hareket edildiği takdirde, mevcut ve yapılmakta olan binalar, yıkma parası yıkıntı malzemesinden karşılanmak, yetmemesi halinde kalan kısmı afetler fonundan tamamlanmak üzere vali ve kaymakamların emri ile yıktırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle bir topluluğun başka bir yere taşınması, afet bölgesinin bulunduğu il sınırları dışında bir yere yapılacaksa karar hangi makam tarafından verilir?",
+    "options": [
+      "İçişleri Bakanı ve ilgili Vali müştereken",
+      "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+      "Bakanlar Kurulu",
+      "Cumhurbaşkanı",
+      "TBMM Genel Kurulu"
+    ],
+    "answer": "Cumhurbaşkanı",
+    "explanation": "Madde 16: 'Genel hayata etkili afetlerden önce veya sonra kesin lüzum üzerine meskün bir topluluğun bir kısmının veya tamamının kaldırılarak başka mahallere toplu olarak veyahut dağıtılarak yerleştirilmesi ... Cumhurbaşkanı Kararı ile ... yaptırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 19. maddesine göre, kıymet takdir komisyonlarınca belirlenen bedellere karşı açılacak davalar hangi usule tabidir ve bu davalarda ihtiyati tedbir kararı verilebilir mi?",
+    "options": [
+      "Genel muhakeme usulü - Tedbir kararı verilebilir",
+      "Basit muhakeme usulü - Tedbir kararı verilemez",
+      "Yazılı yargılama usulü - Tedbir kararı verilebilir",
+      "Basit muhakeme usulü - Sadece teminatla tedbir kararı verilebilir",
+      "Sözlü yargılama usulü - Tedbir kararı verilemez"
+    ],
+    "answer": "Basit muhakeme usulü - Tedbir kararı verilemez",
+    "explanation": "Madde 19: 'Bu davalar basit muhakeme usulüne tabidir... Bu davalar dolayısiyle, mahkemelerce ihtiyati tedbir kararı verilemez.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 21. maddesine göre, yeni iskan alanları için Vakıflar Genel Müdürlüğüne ait taşınmaz mallar bedelsiz olarak tahsis edilebilir mi?",
+    "options": [
+      "Evet, tüm vakıf malları bedelsiz tahsis edilir.",
+      "Hayır, vakıf malları bu kapsamın dışındadır.",
+      "Evet, ama sadece rayiç bedelinin yarısı ödenerek.",
+      "Evet, ama sadece Cumhurbaşkanı kararıyla.",
+      "Hayır, sadece kiralanabilirler."
+    ],
+    "answer": "Hayır, vakıf malları bu kapsamın dışındadır.",
+    "explanation": "Madde 21: '...(Vakıflar Genel Müdürlüğü taşınmaz malları ile, Hazineye, özel idare ve belediyeye ait taşınmaz mallardan bir kamu hizmetine tahsis edilenler hariç) ihtiyaca tekabül eden miktarı, ... bedelsiz olarak bu işe tahsis ve temlik olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 23. maddesine göre, imar planında ibadet yerleri için ayrılan arsaların durumu ne olur?",
+    "options": [
+      "Açık artırma ile satılır.",
+      "İlgili müesseselere rayiç bedeli üzerinden devredilir.",
+      "İlgili Bakanlığın izni ile ilgili müesseselere bedelsiz olarak verilir.",
+      "Hazine mülkiyetinde kalır.",
+      "Kura ile cemaat temsilcilerine verilir."
+    ],
+    "answer": "İlgili Bakanlığın izni ile ilgili müesseselere bedelsiz olarak verilir.",
+    "explanation": "Madde 23: 'İmar planında kamu hizmet tesisleriyle ibadet yerleri için gösterilen yerler İmar ve İskan Bakanlığının izni ile ilgili müesseselere bedelsiz olarak verilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, 'hak sahipliği' ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Mülkiyeti tüzel kişilere ait olan binalara yardım yapılmaz.",
+      "Kendisine veya eşine ait o yerde aynı cins hasarsız başka binası olanlara kredi verilmez.",
+      "Yıkık veya ağır hasarlı binada ebeveyni ile oturan evli kişiler de ayrı bir hak sahibi sayılabilir.",
+      "Hasarlı işyeri sigortalı ise, yapılacak yardımdan sigorta tutarı indirilir.",
+      "Ruhsatsız yapı sahipleri hak sahibi kabul edilmez."
+    ],
+    "answer": "Hasarlı işyeri sigortalı ise, yapılacak yardımdan sigorta tutarı indirilir.",
+    "explanation": "Madde 29: '(Değişik son fıkra: 29/5/2003-4864/3 md.) Hasarlı bina veya işyeri sigortalı ise yapılacak yardımdan sigorta tutarı indirilmez.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 30. maddesine göre, yıkılan bir binada birden fazla aile ikamet ediyorsa, bu ailelerin hak sahipliği durumu nedir?",
+    "options": [
+      "Sadece tapu sahibine bir konut verilir.",
+      "Her aile bu kanun hükümlerinden ayrı ayrı faydalanabilir.",
+      "Sadece bir aileye yardım yapılır, diğerlerine kira yardımı verilir.",
+      "Tüm ailelere ortak bir konut verilir.",
+      "Bu durum kanunda düzenlenmemiştir."
+    ],
+    "answer": "Her aile bu kanun hükümlerinden ayrı ayrı faydalanabilir.",
+    "explanation": "Madde 30: '...birden fazla aile ikamet ettiği takdirde, her aile bu kanun hükümlerinden ayrı ayrı faydalanabilirler.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 40. maddesine göre, afetzedelere verilen konutların borçlandırma taksitlerinin geri ödemesi için belirlenen vade ve faiz oranı nedir?",
+    "options": [
+      "15 yıl vade, %2 faizli",
+      "20 yıl vade, faizsiz",
+      "En az 20 ve en çok 30 yıl vade, faizsiz",
+      "10 yıl vade, %4 faizli",
+      "En az 10 ve en çok 20 yıl vade, faizsiz"
+    ],
+    "answer": "En az 20 ve en çok 30 yıl vade, faizsiz",
+    "explanation": "Madde 40: 'Konut ve konut inşaası ve sair yardımlar için yapılacak borçlandırmalar faizsizdir. Borçlandırma bedelleri, konut, konut inşası, arsa ve sair yardımlarda en az 20 ve en çok 30... yılda ve eşit taksitler halinde tahsil edilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, vadesinde ödenmeyen taksitlere uygulanacak gecikme faizi oranı ve mevcut borcunu defaten ödeyen hak sahibine uygulanacak indirim oranı sırasıyla nedir?",
+    "options": [
+      "Yıllık %4 gecikme faizi, %15 indirim",
+      "Yıllık %5 gecikme faizi, %20 indirim",
+      "Yıllık %10 gecikme faizi, %20 indirim",
+      "Yıllık %5 gecikme faizi, %25 indirim",
+      "Yıllık %4 gecikme faizi, %10 indirim"
+    ],
+    "answer": "Yıllık %5 gecikme faizi, %20 indirim",
+    "explanation": "Madde 40: 'Vadesinde ödenmeyen taksitlere dair borç, gecikilen her gün için yıllık % 5 gecikme faizi ile tahsil olunur. ...mevcut borcu defaten ödeyen hak sahibinin borcu % 20 indirime tâbi tutulur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, bir borçlunun üst üste kaç yıl taksidini ödememesi halinde borcunun tamamı muacceliyet kesbeder (hemen ödenmesi gerekir)?",
+    "options": [
+      "Bir yıl",
+      "İki yıl",
+      "Üç yıl",
+      "Dört yıl",
+      "Beş yıl"
+    ],
+    "answer": "Üç yıl",
+    "explanation": "Madde 40: 'Üstüste üç yıl taksidini ödemeyenlerin borçları muacceliyet kesbedeceği gibi...'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, ilgili Bakanlık dış memleketlerden ithal edeceği yapı malzemesi, makine ve araçlar için mevcut kotalara bağlı mıdır ve bu ithalat gümrük resminden muaf mıdır?",
+    "options": [
+      "Kotalara bağlıdır ve gümrük resminden muaf değildir.",
+      "Kotalara bağlı değildir ancak gümrük resminden de muaf değildir.",
+      "Kotalara bağlıdır ancak gümrük resminden muaftır.",
+      "Kotalara bağlı değildir ve gümrük resminden muaftır.",
+      "Sadece acil durumlarda kotalara bağlı değildir."
+    ],
+    "answer": "Kotalara bağlı değildir ve gümrük resminden muaftır.",
+    "explanation": "Madde 43/d: '...dış memleketlerden, mevcut kotalara bağlı kalınmaksızın, öncelikle ve ivedilikle, ...ithal edilebilir veya ettirilebilir. İthal edilen bu mallar gümrük resminden... muaftır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 46. maddesine göre, afet tertiplerinden yapılacak harcamalar hangi kanunlara tabi değildir?",
+    "options": [
+      "Sadece Artırma, Eksiltme ve İhale Kanununa",
+      "Sadece Divanı Muhasebat (Sayıştay) Kanununa",
+      "Sadece Muhasebei Umumiye Kanununa",
+      "Artırma, Eksiltme ve İhale, Divanı Muhasebat ve Muhasebei Umumiye kanunlarına",
+      "Ceza Kanunu ve Medeni Kanuna"
+    ],
+    "answer": "Artırma, Eksiltme ve İhale, Divanı Muhasebat ve Muhasebei Umumiye kanunlarına",
+    "explanation": "Madde 46: '33 üncü maddede yazılı afet tertiplerinden yapılacak sarfiyat Artırma, Eksiltme ve İhale, Divanı Muhasebat ve Muhasebei Umumiye kanunlarına tabi değildir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 47. maddesine göre, afetzedelere yardım amacıyla verilen devlet malını satan veya başka maksatla kullanan kişiye verilecek ceza nedir?",
+    "options": [
+      "1 yıla kadar hapis cezası",
+      "100 TL idari para cezası",
+      "Yüz günden az olmamak üzere adlî para cezası",
+      "Kamu görevinden ihraç",
+      "Sadece malın bedelinin 2 katı tazminat"
+    ],
+    "answer": "Yüz günden az olmamak üzere adlî para cezası",
+    "explanation": "Madde 47/b: '...verilen inşaat malzemesi veya alat ve edevatı veya diğer malları satan veya devreden veya başka maksatlarla kullananlar hakkında, ... yüz günden az olmamak üzere adlî para cezasına hükmolunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun Ek Madde 4'üne göre, maliyet ve borçlandırma bedellerinde en fazla ne kadar indirim yapılabilir ve bu indirim kararı kim tarafından verilir?",
+    "options": [
+      "%25'e kadar - İlgili Bakan",
+      "%50'ye kadar - Cumhurbaşkanı",
+      "%75'e kadar - TBMM",
+      "%50'ye kadar - Vali",
+      "%100'e kadar - Cumhurbaşkanı"
+    ],
+    "answer": "%50'ye kadar - Cumhurbaşkanı",
+    "explanation": "Ek Madde 4: '...zorunlu hallerde Cumhurbaşkanı karariyle maliyet ve borçlandırma bedellerinin yarısına kadar indirim yapılabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afete uğrayan ve hak sahibi olan vatandaşların kamu kurumlarına olan borçlarının ertelenmesi hangi kanunların hükümlerini saklı tutar?",
+    "options": [
+      "Ticaret Kanunu ve Borçlar Kanunu",
+      "Vergi Usul Kanunu ve Amme Alacaklarının Tahsil Usulü Hakkındaki Kanun",
+      "İcra ve İflas Kanunu",
+      "Medeni Kanun",
+      "Hiçbir kanun hükmü saklı tutulmaz."
+    ],
+    "answer": "Vergi Usul Kanunu ve Amme Alacaklarının Tahsil Usulü Hakkındaki Kanun",
+    "explanation": "Ek Madde 3: '...adı geçen kurumlarca ertelenir. (Vergi Usul Kanunu ile Amme Alacaklarının Tahsil Usulü hakkındaki Kanun hükümleri saklıdır.)'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet hizmetlerinin yoğunlaştığı hallerde, ilgili Bakanlıklardan personel, araç ve gereç talebinde bulunma yetkisi kime aittir?",
+    "options": [
+      "Vali",
+      "İçişleri Bakanı",
+      "İmar ve İskan Bakanı (ilgili Bakan)",
+      "Cumhurbaşkanı",
+      "AFAD Başkanı"
+    ],
+    "answer": "İmar ve İskan Bakanı (ilgili Bakan)",
+    "explanation": "Ek Madde 5: 'Afet hizmetlerinin yoğunlaştığı ve şümullendiği hallerde, ilgili Bakanlıklar ve kurumlar, İmar ve İskan Bakanının isteği üzerine, yeteri kadar teknik ve idari personeli... vermekle yükümlüdürler.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, yeni yerleşim alanları sağlamak amacıyla mera vasfı taşıyan yerlerin tahsis amacı değiştirildikten sonra, bu arsalar hangi bakanlığa tahsis edilmiş sayılır?",
+    "options": [
+      "Tarım ve Orman Bakanlığı",
+      "Maliye Bakanlığı",
+      "Bayındırlık ve İskân Bakanlığı (ilgili Bakanlık)",
+      "İçişleri Bakanlığı",
+      "Enerji ve Tabii Kaynaklar Bakanlığı"
+    ],
+    "answer": "Bayındırlık ve İskân Bakanlığı (ilgili Bakanlık)",
+    "explanation": "Ek Madde 9: '...Hazine adına arsa olarak tescil ettirilir. Bu arsalar, tescil tarihi itibarıyla öngörülen amaçla kullanılmak üzere Bayındırlık ve İskân Bakanlığına tahsis edilmiş sayılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun Ek 10. maddesine göre, afetzedelerin iskanı için orman alanlarının tahsisi en fazla kaç yıl süreyle ve hangi bedelle yapılabilir?",
+    "options": [
+      "29 yıl süreyle, rayiç bedelle",
+      "49 yıl süreyle, bedelsiz olarak",
+      "99 yıl süreyle, sembolik bir bedelle",
+      "49 yıl süreyle, rayiç bedelin yarısı ile",
+      "Süresiz olarak, bedelsiz"
+    ],
+    "answer": "49 yıl süreyle, bedelsiz olarak",
+    "explanation": "Ek Madde 10: '...afetzedelerin iskanının temini için Bayındırlık ve İskan Bakanlığına 49 yıl süre ile bedelsiz olarak tahsis edilebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun Ek 13. maddesine göre, afet yaşanan yerlerde elektrik ve doğalgaz borçlarının ertelenmesine ilişkin karar verme yetkisi kime aittir ve erteleme süresi en fazla ne kadardır?",
+    "options": [
+      "Enerji Bakanı - 6 ay",
+      "Cumhurbaşkanı - 1 yıl",
+      "Vali - 3 ay",
+      "EPDK - 2 yıl",
+      "Cumhurbaşkanı - 2 yıl"
+    ],
+    "answer": "Cumhurbaşkanı - 1 yıl",
+    "explanation": "Ek Madde 13: '...1 yıla kadar ertelenmesi ... Cumhurbaşkanınca karar verilebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 4. maddesine göre, afet anında uygulanacak acil yardım programları kim tarafından düzenlenir?",
+    "options": [
+      "Kaymakamlıklar",
+      "Belediyeler",
+      "AFAD Başkanlığı",
+      "Valilikler",
+      "Kızılay"
+    ],
+    "answer": "Valilikler",
+    "explanation": "Madde 4: '...uygulanmak üzere görev ve görevlileri tayin, toplanma yerlerini tespit eden bir program valiliklerce düzenlenir...'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 11. maddesine göre, afet anında ilk kurtarma işlerinde 3 günden fazla çalışanlara ödeme yapılır mı?",
+    "options": [
+      "Hayır, hiçbir durumda ödeme yapılmaz.",
+      "Evet, 3. günden sonraki çalışmaları için asgari ücret ödenir.",
+      "Bu durum kanunda belirtilmemiştir, mülki amirin takdirindedir.",
+      "Sadece yiyecek ve barınma sağlanır.",
+      "Evet, ancak bu ödemeler borçlandırmaya tabidir."
+    ],
+    "answer": "Bu durum kanunda belirtilmemiştir, mülki amirin takdirindedir.",
+    "explanation": "Madde 11, sadece 'en çok üç güne kadar' çalıştırılacaklara ücret verilmeyeceğini düzenler. Üç günden sonrası için açık bir hüküm yoktur, bu durum genel hükümlere ve mülki amirin 6. maddedeki yetkilerine göre değerlendirilir."
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetten dolayı memur olan veya olmayan kişilerden fevkalade yararlık gösterenlere verilecek ikramiyelerle ilgili esasları kim belirler?",
+    "options": [
+      "Vali",
+      "İlgili Bakan",
+      "Cumhurbaşkanı",
+      "TBMM Bütçe Komisyonu",
+      "Sayıştay"
+    ],
+    "answer": "Cumhurbaşkanı",
+    "explanation": "Madde 12: '...fevkalade yararlık gösterenlere verilebilecek ikramiyeler... ve diğer hususlara dair esaslar Cumhurbaşkanınca belirlenir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 13. maddesine göre, 'ıslahı mümkün' hasarlı bir bina, mal sahibi tarafından ne kadar sürede tamir ettirilmezse yıktırılabilir?",
+    "options": [
+      "6 ay",
+      "1 yıl",
+      "18 ay",
+      "2 yıl",
+      "3 yıl"
+    ],
+    "answer": "1 yıl",
+    "explanation": "Madde 13/b: 'Bu binalar 1 yıl içinde tamir ettirilmediği ve itiraz da olmadığı takdirde yukarıdaki esaslar dahilinde yıktırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, hasar tespit raporlarına karşı gayrimenkulü 'hasarsız' olarak tespit edilen veya hiç tespiti yapılmayan bir vatandaş, yargı yoluna gitmeden önce ne yapmalıdır?",
+    "options": [
+      "Doğrudan Asliye Hukuk Mahkemesinde dava açmalıdır.",
+      "İlan tarihinden itibaren 30 gün içinde ilgili idareye başvurmalıdır.",
+      "Noter aracılığıyla ihtarname çekmelidir.",
+      "Bölge İdare Mahkemesine başvurmalıdır.",
+      "Herhangi bir başvuru zorunluluğu yoktur."
+    ],
+    "answer": "İlan tarihinden itibaren 30 gün içinde ilgili idareye başvurmalıdır.",
+    "explanation": "Madde 13: 'Gayrimenkulleri kesin bir şekilde hasarsız olarak tespit edilenlerin veya gayrimenkullerinin hasar tespiti hiç yapılmayanların, yargı yoluna gitmeden önce, mahallî ilân tarihinden itibaren otuz gün içinde ilgili idareye başvurmaları zorunludur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, yeniden kurulacak bir iskan yerinde Hazine arazisi temini mümkün olmazsa, hangi yollara başvurulabilir?",
+    "options": [
+      "Sadece arazi satın alınabilir.",
+      "Sadece kamulaştırma yapılabilir.",
+      "Arazi ve bina satın alınabileceği gibi, kamulaştırma da yapılabilir.",
+      "Vakıf arazileri zorunlu olarak devralınır.",
+      "Proje iptal edilir."
+    ],
+    "answer": "Arazi ve bina satın alınabileceği gibi, kamulaştırma da yapılabilir.",
+    "explanation": "Madde 21: '...arazi temini mümkün olmıyan hallerde ... arazi ve bina satınalınabileceği gibi, kamulaştırma mevzuatı dahilinde, kamulaştırma da yapılabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetzedelere arsa verilerek yapısını kendi yapmasını taahhüt eden bir kişiye, arsa dışında ne gibi yardımlar yapılabilir?",
+    "options": [
+      "Sadece arsa verilir, başka yardım yapılmaz.",
+      "Sadece nakit para yardımı yapılır.",
+      "Teknik yardım, yapı malzemesi ve para yardımı yapılabilir.",
+      "Sadece işçilik desteği sağlanır.",
+      "Sadece proje çizim desteği verilir."
+    ],
+    "answer": "Teknik yardım, yapı malzemesi ve para yardımı yapılabilir.",
+    "explanation": "Madde 23: '...yapısını belli süre içerisinde yapmayı taahhüt edenlere noter huzurunda kura çekilerek arsaları verilebileceği gibi, bunlara ayrıca teknik yardım ve borçlandırmak suretiyle yapı malzemesi ve para yardımıda yapılabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle inşa edilen binalarla ilgili emlak vergisi muafiyet beyannamesi ne zamana kadar verilir?",
+    "options": [
+      "İnşaatın başladığı tarihten itibaren 1 ay içinde",
+      "Binaların hak sahiplerine teslimi tarihinden itibaren 3 ay içinde",
+      "Borçlandırma senedinin imzalandığı tarihten itibaren 1 ay içinde",
+      "İskan ruhsatının alındığı tarihten itibaren 6 ay içinde",
+      "Bu binalar emlak vergisinden süresiz muaftır, beyanname gerekmez."
+    ],
+    "answer": "Binaların hak sahiplerine teslimi tarihinden itibaren 3 ay içinde",
+    "explanation": "Madde 32: '...bu maddeler mucibince verilmesi meşrut olan beyannameler, binaların hak sahiplerine teslimi tarihinden itibaren üç ay içerisinde verilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 33. maddesine göre, acil durumlarda il valilikleri adına açılan acil afet hesaplarının denetimini kim yapar?",
+    "options": [
+      "İçişleri Bakanlığı müfettişleri",
+      "Maliye Bakanlığı denetim elemanları",
+      "Sayıştay",
+      "Vali tarafından görevlendirilen bir komisyon",
+      "İl genel meclisi denetim komisyonu"
+    ],
+    "answer": "Sayıştay",
+    "explanation": "Madde 33: 'Bu hesaplardan yapılacak harcamaların belgeleri il özel idaresinde saklanır ve il özel idare bütçesi ile birlikte Sayıştayca denetlenir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, 'Evini Yapana Yardım' (EYY) yönteminde borçlandırma taksitlerinin geri ödemesi ne zaman başlar?",
+    "options": [
+      "İlk kredi dilimi ödendiği tarihten itibaren",
+      "Son kredi dilimi ödendiği tarihten itibaren 1 yıl sonra",
+      "Son kredi dilimi ödendiği tarihten itibaren 2 yıl sonra",
+      "İnşaat bittiği tarihten itibaren",
+      "İskan ruhsatı alındığı tarihten 6 ay sonra"
+    ],
+    "answer": "Son kredi dilimi ödendiği tarihten itibaren 2 yıl sonra",
+    "explanation": "Madde 40: '...Evini Yapana Yardım Yönteminde... ise son kredi diliminin hak sahibine ödendiği tarihten itibaren iki yıl sonra başlar.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, ayrı tarihlerde iki defa hak sahibi olarak konut yardımı almış bir kişinin, üçüncü bir afette konutu yine oturulamaz hale gelirse ve ödeme gücünü kaybederse, önceki borçları ne olabilir?",
+    "options": [
+      "Borçlar %50 indirimli olarak yeniden yapılandırılır.",
+      "Borçların vadesi 10 yıl daha uzatılır.",
+      "Cumhurbaşkanı Kararı ile önceki borç bakiyeleri terkin olunabilir.",
+      "Borçlar silinmez, yeni borçla birleştirilir.",
+      "Sadece faizleri silinir."
+    ],
+    "answer": "Cumhurbaşkanı Kararı ile önceki borç bakiyeleri terkin olunabilir.",
+    "explanation": "Madde 40: '...genel hayata etkili üçüncü bir afetten konutları oturulamıyacak derecede zarar gören hak sahiplerinin ödeme güçlerini kaybetmeleri halinde, Cumhurbaşkanı Kararı ile önceki borç bakiyeleri terkin olunabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 6. maddesi uyarınca mülki amirlerce yapılan acil satın alma ve kiralamalarda afetzedelere nakdi ödeme yapılması kimin muvafakatine bağlıdır?",
+    "options": [
+      "Valinin doğrudan yetkisindedir.",
+      "İçişleri Bakanlığının muvafakatine bağlıdır.",
+      "Maliye Bakanlığının muvafakatine bağlıdır.",
+      "İmar ve İskan Bakanlığının (ilgili Bakanlığın) muvafakatine bağlıdır.",
+      "Cumhurbaşkanının onayına bağlıdır."
+    ],
+    "answer": "İmar ve İskan Bakanlığının (ilgili Bakanlığın) muvafakatine bağlıdır.",
+    "explanation": "Madde 6: 'Yedirme, giydirme, barındırma, onarım için afetzedelere nakdi ödemede bulunulması ... İmar ve İskan Bakanlığının muvafakatine bağlıdır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, 'afete maruz bölge' ilan edilen bir yerde, imar planı bulunmayan kasaba ve köylerde bu bölgenin sınırları neye işlenir?",
+    "options": [
+      "Tapu kütüğüne şerh düşülür.",
+      "Köy karar defterine yazılır.",
+      "Belli edildikçe harita veya krokilere işlenir.",
+      "Sadece ilan panolarında duyurulur.",
+      "Belediye web sitesinde yayınlanır."
+    ],
+    "answer": "Belli edildikçe harita veya krokilere işlenir.",
+    "explanation": "Madde 2: '...imar planı bulunmıyan kasaba ve köylerde de belli edildikçe harita veya krokilere işlenmek suretiyle, afete maruz bölge olarak Cumhurbaşkanınca kararlaştırılır...'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 3. maddesi uyarınca yönetmeliğe aykırı yapının sahibi verilen sürede hatayı gidermezse, yıkım işlemi belediye encümeni veya il/ilçe idare kurulu tarafından kararlaştırılır. Yıkım parası yıkıntı malzemesinden karşılanamazsa, kalan kısım nereden tamamlanır?",
+    "options": [
+      "Bina sahibinden haciz yoluyla alınır.",
+      "Belediye bütçesinden karşılanır.",
+      "Afetler fonundan (ilgili afet ödeneğinden) tamamlanır.",
+      "İl özel idaresi bütçesinden karşılanır.",
+      "Genel bütçeden karşılanır."
+    ],
+    "answer": "Afetler fonundan (ilgili afet ödeneğinden) tamamlanır.",
+    "explanation": "Madde 3: '...yıkma parası yıkıntı malzemesinden karşılanmak, yetmemesi halinde kalan kısmı afetler fonundan tamamlanmak üzere yıktırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, acil yardım teşkilatı ve programlarına ilişkin genel esasları kapsayan yönetmelik hangi bakanlıklarca hazırlanır?",
+    "options": [
+      "Sadece İçişleri Bakanlığı",
+      "İçişleri ve Sağlık Bakanlıkları",
+      "İçişleri, İmar ve İskan, Bayındırlık, Sağlık ve Sosyal Yardım ve Tarım Bakanlıkları",
+      "İçişleri ve Milli Savunma Bakanlıkları",
+      "Sadece İmar ve İskan Bakanlığı"
+    ],
+    "answer": "İçişleri, İmar ve İskan, Bayındırlık, Sağlık ve Sosyal Yardım ve Tarım Bakanlıkları",
+    "explanation": "Madde 4: 'İçişleri, İmar ve İskan, Bayındırlık, Sağlık ve Sosyal Yardım ve Tarım Bakanlıklarınca acil yardım teşkilatı ve programları hakkında genel esasları kapsıyan bir yönetmelik yapılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 5. maddesi, afetlerin neticelerini tahlil etmek ve öğretim/yayın yapmak üzere hangi bakanlığa bağlı kurumlar kurulabilmesine olanak tanır?",
+    "options": [
+      "Milli Eğitim Bakanlığı",
+      "İçişleri Bakanlığı",
+      "Bayındırlık Bakanlığı",
+      "İmar ve İskan Vekaleti (ilgili Bakanlık)",
+      "Kültür ve Turizm Bakanlığı"
+    ],
+    "answer": "İmar ve İskan Vekaleti (ilgili Bakanlık)",
+    "explanation": "Madde 5: '...umumun faydalanmasına sunmak üzere İmar ve İskan Vekaletine bağlı ve hükmi şahsiyeti haiz enstitü veya kurumlar kurulabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 9. maddesine göre, afet bölgelerine yardım ekipleri ve malzemelerinin sevkiyatında, kamu kurumlarına ait taşıtların kullanılması zorunludur. Bu zorunluluk hangi durumda özel şahıs ve şirketlere de teşmil edilebilir?",
+    "options": [
+      "Her zaman teşmil edilebilir.",
+      "Sadece Cumhurbaşkanı kararıyla",
+      "İhtiyaç hissedilen mahallerde",
+      "Sadece seferberlik halinde",
+      "Teşmil edilemez, özel mülkiyet kapsam dışıdır."
+    ],
+    "answer": "İhtiyaç hissedilen mahallerde",
+    "explanation": "Madde 9: 'İhtiyaç hissedilen mahallerde bu mecburiyet ve mükellefiyetler hakiki şahıslarla her türlü şirket ve müesseselere de teşmil edilebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afette çalışan ve yaralanan bir kişinin, resmi hastanelerde yer olmaması nedeniyle özel bir hastanede tedavi görmesi durumunda tedavi ücreti ne olur?",
+    "options": [
+      "Kişinin kendisi öder.",
+      "Ücretin yarısını devlet, yarısını kişi öder.",
+      "Tedavi ücretleri sonradan bu kanun gereğince ödenir.",
+      "Kişinin sosyal güvencesi varsa SGK öder, yoksa ödenmez.",
+      "Sadece acil müdahale ücreti ödenir."
+    ],
+    "answer": "Tedavi ücretleri sonradan bu kanun gereğince ödenir.",
+    "explanation": "Madde 10: 'Resmi hastane ve tedavi evlerinde yer olmaması veya tedavi imkanı bulunmaması gibi sebeplerle zaruri olarak hususi hastanelerde yapılan tedavi ücretleri sonradan bu kanun mucibince ödenir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 13. maddesine göre, yer kayması gibi afetlerde tehlikenin devamı nedeniyle boşaltılan bir binanın, tehlike giderilinceye kadar tamirine izin verilir mi?",
+    "options": [
+      "Evet, mal sahibinin sorumluluğunda izin verilir.",
+      "Hayır, tamirine müsaade edilmez.",
+      "Sadece dış cephe tamirine izin verilir.",
+      "Valinin özel izniyle tamir edilebilir.",
+      "Sadece geçici onarımlara izin verilir."
+    ],
+    "answer": "Hayır, tamirine müsaade edilmez.",
+    "explanation": "Madde 13/ç: '...boşaltılan binaların tehlikeye karşı kesin tedbir alınıncaya kadar işgaline veya hasara uğrıyanların tamirine müsaade edilmez.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, tehlikeli bir arazideki yapıların yıkılması ve topluluğun başka yere taşınması, arazide tedbir almaktan daha ekonomik görülürse, bu tedbirlerin ödeneği nereden karşılanır ve bu harcamalar borçlandırılır mı?",
+    "options": [
+      "Genel Bütçeden - Evet, borçlandırılır.",
+      "Afetler Fonundan (ilgili ödenekten) - Hayır, borçlandırılmaz.",
+      "Belediye Bütçesinden - Evet, borçlandırılır.",
+      "Afetler Fonundan (ilgili ödenekten) - Evet, borçlandırılır.",
+      "Genel Bütçeden - Hayır, borçlandırılmaz."
+    ],
+    "answer": "Afetler Fonundan (ilgili ödenekten) - Hayır, borçlandırılmaz.",
+    "explanation": "Madde 13/ç: '...bu tedbirlerin alınması için lüzumlu ödenek 33 üncü maddede yazılı fondan ödenir. Tehlikenin giderilmesiyle ilgili tedbirler için yapılan harcamalar borçlanmaya tabi tutulmaz.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 17. maddesine göre, hangi durumdaki taşınmaz mallar için kıymet belgesi düzenlenmez?",
+    "options": [
+      "Orta hasarlı binalar için",
+      "Yeniden yerleşme yapılmayacak afet yerlerindeki taşınmaz mallar için",
+      "İşyerleri için",
+      "Tarımsal araziler için",
+      "Hisseli mülkiyetler için"
+    ],
+    "answer": "Yeniden yerleşme yapılmayacak afet yerlerindeki taşınmaz mallar için",
+    "explanation": "Madde 17: '(Yeniden yerleşme yapılmıyacak afet yerlerindeki taşınmaz mallar için kıymet belgesi düzenlenmez.)'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle kadastro yapılması gerektiğinde, kadastro postalarına bilirkişileri kim verir?",
+    "options": [
+      "Kadastro müdürü seçer.",
+      "Vali atar.",
+      "Belediye ve köy ihtiyar heyeti verir.",
+      "Tapu müdürü görevlendirir.",
+      "Asliye Hukuk Mahkemesi belirler."
+    ],
+    "answer": "Belediye ve köy ihtiyar heyeti verir.",
+    "explanation": "Madde 18: '...kadastro postalarına belediyece ve köy ihtiyar heyetince iki bilirkişi verilmek... suretiyle... öncelikle Tapu ve Kadastro Genel Müdürlüğünce yaptırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetzede hak sahiplerinden taahhüdünden dönenlere verilecek tazminat tutarı ne kadardır?",
+    "options": [
+      "Sabit 1000 TL",
+      "500 liradan 2000 liraya kadar",
+      "1000 liradan 5000 liraya kadar",
+      "İnşaat maliyetinin %10'u",
+      "Herhangi bir tazminat alınmaz."
+    ],
+    "answer": "500 liradan 2000 liraya kadar",
+    "explanation": "Madde 28: '...taahhüdünden dönenlerden, kusurlarının derecesine göre, 500 liradan 2000 liraya kadar tazminat alınarak fona yatırılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetler nedeniyle Milli Yardım Komitelerine makbuz karşılığı yapılacak bağışların vergi durumu nedir?",
+    "options": [
+      "Sadece KDV'den muaftır.",
+      "Sadece gelir vergisinden düşülebilir.",
+      "Her türlü vergi, resim ve harçtan müstesnadır ve mükelleflerce masraf kaydedilebilir.",
+      "Vergi muafiyeti yoktur.",
+      "Sadece kurumlar vergisi mükellefleri masraf yazabilir."
+    ],
+    "answer": "Her türlü vergi, resim ve harçtan müstesnadır ve mükelleflerce masraf kaydedilebilir.",
+    "explanation": "Madde 45: '...makbuz mukabilinde yapılacak bağış ve yardımlar her türlü vergi, resim ve harcdan müstesna olduğu gibi bunların gelir ve kurumlar vergileri mükellefleri tarafından masraf kaydı da caizdir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, bu kanun uyarınca vazife ve hizmetlere tahsis edilmiş olan para ve kıymetli evrak ne sayılır?",
+    "options": [
+      "Belediye malı",
+      "Özel emanet",
+      "Devlet malı",
+      "Vakıf malı",
+      "Zimmet"
+    ],
+    "answer": "Devlet malı",
+    "explanation": "Madde 50: 'Bu kanunda yazılı vazife ve hizmetlere tahsis edilmiş olan menkul ve gayrimenkul mallarla her türlü hak ve alacaklar, para ve para hükmündeki kıymetli evrak Devlet mallarından sayılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun Ek Madde 12'sine göre, ilgili Bakanlık hak sahibi ailelere verilmek üzere konut yaptırma veya satın alma işini hangi kuruma verebilir?",
+    "options": [
+      "İller Bankasına",
+      "Milli Emlak Genel Müdürlüğüne",
+      "Toplu Konut İdaresi Başkanlığına (TOKİ)",
+      "Türkiye Kızılay Derneğine",
+      "Belediyelere"
+    ],
+    "answer": "Toplu Konut İdaresi Başkanlığına (TOKİ)",
+    "explanation": "Ek Madde 12: 'Bayındırlık ve İskan Bakanlığı tarafından Toplu Konut İdaresi Başkanlığına, bu Kanun ... göre hak sahibi olan ailelere verilmek üzere konut yaptırılabilir ya da Başkanlığın yaptığı veya yapacağı konutlar satın alınabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet bölgelerindeki bir topluluğun aynı belediye sınırı içinde başka bir yere taşınması kararı kim tarafından verilir?",
+    "options": [
+      "Sadece Belediye Başkanı",
+      "Belediye Meclisi",
+      "İçişleri Bakanlığı ve İmar ve İskan Bakanlığı (ilgili Bakanlık) müştereken",
+      "Vali",
+      "Cumhurbaşkanı"
+    ],
+    "answer": "İçişleri Bakanlığı ve İmar ve İskan Bakanlığı (ilgili Bakanlık) müştereken",
+    "explanation": "Madde 16: 'Ancak bu toplu nakiller aynı belediye ve köy sınırları içinde ise Cumhurbaşkanı kararına lüzum kalmaksızın İçişleri ve İmar ve İskan Bakanlıklarınca müştereken yapılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, hak sahiplerine arsa olarak dağıtılan veya üzerinde bina inşa edilen taşınmaz mallar üzerine, borçlandırma senetlerine dayanılarak hangi banka lehine kanuni ipotek tesis olunur?",
+    "options": [
+      "Ziraat Bankası",
+      "Halk Bankası",
+      "İller Bankası",
+      "Vakıflar Bankası",
+      "Türkiye Emlak Kredi Bankası (veya onun görevlerini üstlenen yetkili banka)"
+    ],
+    "answer": "Türkiye Emlak Kredi Bankası (veya onun görevlerini üstlenen yetkili banka)",
+    "explanation": "Madde 40: 'Bu taşınmaz mallar üzerine, Türkiye Emlak Kredi Bankasının isteği ile, bu banka lehine, tapu dairelerince borçlandırma senetlerine dayanılarak, kanuni ipotek tesis olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet hizmetlerine ilişkin harcamaların denetimi Sayıştayca ne zaman yapılır?",
+    "options": [
+      "Harcama yapıldıktan hemen sonra",
+      "Her ayın sonunda",
+      "Her üç ayda bir",
+      "Ait olduğu yılın sonunda",
+      "Denetim yapılmaz, kanun kapsamı dışındadır."
+    ],
+    "answer": "Ait olduğu yılın sonunda",
+    "explanation": "Ek Madde 6: '...afet tertiplerinden yapılacak harcamaların denetimi, Sayıştayca, ait olduğu yılın sonunda Afet Harcamaları Yönetmeliği esaslarına göre yapılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 13. maddesi gereği 'ıslahı mümkün' görülen bir binanın sahibi, verilen 1 yıllık tamir süresine itiraz eder ve itirazı yerinde görülürse, süre en fazla ne kadar daha uzatılabilir?",
+    "options": [
+      "3 ay",
+      "6 ay",
+      "1 yıl",
+      "2 yıl",
+      "Süre uzatılamaz."
+    ],
+    "answer": "6 ay",
+    "explanation": "Madde 13/b: 'İtiraz sebepleri yerinde görüldüğü takdirde süre 6 ay daha uzatılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle yapılacak kadastro işlemlerinde anlaşmazlıklar nerede çözümlenir?",
+    "options": [
+      "Kadastro Mahkemelerinde",
+      "Mahalli mahkemelerde",
+      "Bölge İdare Mahkemelerinde",
+      "Yargıtay'da",
+      "Tapu ve Kadastro Genel Müdürlüğü Komisyonunda"
+    ],
+    "answer": "Mahalli mahkemelerde",
+    "explanation": "Madde 18: 'Anlaşmazlıklar mahalli mahkemelerce hallolunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 29. maddesine göre, yıkılan veya ağır hasar gören bir binada hak sahibi ebeveyni ile birlikte oturan evli kişilerin durumu nasıl tespit edilir?",
+    "options": [
+      "Doğrudan ayrı hak sahibi sayılırlar.",
+      "Hak sahibi sayılmazlar.",
+      "İlgili Bakanlıkça hazırlanacak bir yönetmelik gereğince takdir ve tespit edilir.",
+      "Valilik tarafından oluşturulan bir komisyonca belirlenir.",
+      "Belediye meclisi kararıyla belirlenir."
+    ],
+    "answer": "İlgili Bakanlıkça hazırlanacak bir yönetmelik gereğince takdir ve tespit edilir.",
+    "explanation": "Madde 29: 'Aynı bina içinde hak sahibi ebeveyn ile birlikte oturan evli kişilerin durumu, Bayındırlık ve İskan Bakanlığınca bu konuda hazırlanacak yönetmelik gereğince takdir ve tespit edilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, 'Evini Yapana Yardım' (EYY) yöntemiyle kredisinin %35'inden fazlasını kullanıp inşaatına devam etmeyen hak sahibinin kredisi nasıl geri alınır?",
+    "options": [
+      "Defaten ve faizsiz olarak",
+      "Beş yılda ve yıllık %5 faizli olarak yıllık eşit taksitler halinde",
+      "On yılda ve faizsiz olarak",
+      "Defaten ve yıllık %5 faizli olarak",
+      "Borç silinir, hak sahipliği iptal edilir."
+    ],
+    "answer": "Beş yılda ve yıllık %5 faizli olarak yıllık eşit taksitler halinde",
+    "explanation": "Madde 40: '...% 35'lik dilimden fazlasını kullanmış olanların kredileri beş yılda ve yıllık % 5 faizli olarak yıllık eşit taksitler halinde, tahsil edilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, kıymet takdir komisyonu tarafından belirlenen bedelleri gösteren cetveller ne kadar süreyle ilan edilir?",
+    "options": [
+      "7 gün",
+      "10 gün",
+      "15 gün",
+      "30 gün",
+      "1 ay"
+    ],
+    "answer": "10 gün",
+    "explanation": "Madde 19: '...takdir edilen bedeli içine alan cetveller, 10 gün süre ile, mahalli imkan ve şartlara göre ilan olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetzedeye ait kıymet belgesindeki bedelin, yeni yapılan konutun maliyetinden fazla olması durumunda ne yapılır?",
+    "options": [
+      "Fark Hazineye gelir kaydedilir.",
+      "Fark sahibine ödenir.",
+      "Fark bir sonraki afet için emanete alınır.",
+      "Fark Kızılay'a bağışlanır.",
+      "Fark dikkate alınmaz."
+    ],
+    "answer": "Fark sahibine ödenir.",
+    "explanation": "Madde 27: 'Kıymet belgelerindeki bedellerin fazla olması halinde aradaki fark sahiplerine ödenir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetzedelere yapılan arsa veya bina tahsisleri tapuya tescil edilirken vergi borçlarının durumu ne olur?",
+    "options": [
+      "Vergi borçları ödenmeden tescil yapılmaz.",
+      "Vergi borçları tapuca tescil muamelesinin yapılmasına mani teşkil etmez.",
+      "Vergi borçları silinir.",
+      "Vergi borçları 5 yıl ertelenir.",
+      "Sadece emlak vergisi borcu aranmaz."
+    ],
+    "answer": "Vergi borçları tapuca tescil muamelesinin yapılmasına mani teşkil etmez.",
+    "explanation": "Madde 25: 'Bu kanunun şümulüne giren gayrimenkullerin vergi borçları tapuca tescil muamelesinin yapılmasına mani teşkil etmez.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sonrası imar planı tamamen değiştirilmesi gereken bir yerde, yeni plan yapılıncaya kadar esaslı inşaat yapılmasına kimin izniyle müsaade edilebilir?",
+    "options": [
+      "Belediye Başkanı",
+      "Vali",
+      "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+      "Çevre Komisyonu",
+      "Hiçbir şekilde izin verilemez."
+    ],
+    "answer": "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+    "explanation": "Madde 15: 'Bu planlar yapılıncaya kadar gelecekteki planlara göre esaslı inşaat yaptırılmasına İmar ve İskan Bakanlığınca izin verilebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetten arta kalan arsa ve binalar, kamu kurum ve kuruluşlarına hangi şartlarda devredilebilir?",
+    "options": [
+      "Bedelsiz olarak",
+      "Faizsiz ve en çok 2 yıl vade ile",
+      "%25 peşin, %20 faiz ve 5 yıl vade ile",
+      "Sadece kiralama yoluyla",
+      "Rayiç bedel üzerinden peşin ödeme ile"
+    ],
+    "answer": "Faizsiz ve en çok 2 yıl vade ile",
+    "explanation": "Madde 31: '...Kamu kurum ve kuruluşlarına, faizsiz ve en çok 2 yıl vade ile... satılabilir veya devredilebilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 40. maddesi uyarınca muacceliyet kesbeden borcun takibi için satışa çıkarılan taşınmaz mala istekli çıkmazsa, yetkili banka ihaleye hangi bedelle iştirak edebilir?",
+    "options": [
+      "Takdir edilen kıymetin tamamı üzerinden",
+      "Takdir edilen kıymetin %75'ine kadar",
+      "Takdir edilen kıymetin %50'sine kadar",
+      "Takdir edilen kıymetin %25'ine kadar",
+      "Banka ihaleye iştirak edemez."
+    ],
+    "answer": "Takdir edilen kıymetin %50'sine kadar",
+    "explanation": "Madde 40: '...banka en son yapılan satışta, takdir edilen kıymetin % 50 sine (Yüzde ellisine) kadar ihaleye iştirak ederek fon hesabına satın alabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle çeşitli kanunlarda Afetler Fonuna yapılan atıflar, günümüzde neye yapılmış sayılır?",
+    "options": [
+      "Genel Bütçeye",
+      "Hazineye",
+      "İlgili Bakanlığın döner sermayesine",
+      "Afet tertiplerine veya acil afet hesaplarına",
+      "Türkiye Kızılay Derneğine"
+    ],
+    "answer": "Afet tertiplerine veya acil afet hesaplarına",
+    "explanation": "Madde 33: 'Çeşitli kanunlarda Afetler Fonuna yapılan atıflar, afet tertiplerine veya acil afet hesaplarına yapılmış sayılır.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetzedelere geçici barınma tedbirlerini kendileri almak isteyenlere ne tür bir yardım yapılabilir?",
+    "options": [
+      "Sadece malzeme yardımı",
+      "Sadece arsa tahsisi",
+      "Nakdi yardım yapılabilir.",
+      "Sadece faizli kredi verilir.",
+      "Bu durumda yardım yapılmaz."
+    ],
+    "answer": "Nakdi yardım yapılabilir.",
+    "explanation": "Madde 13/d: 'Bu tedbirlerin, kısa zamanda yerine getirilmesinin mümkün olamıyacağı hallerde, geçici iskan tedbirlerini kendileri almak isteyenlere nakdi yardım da yapılabilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet sebebiyle yapılacak bina ve tesislere gerekli inşaat malzemelerinin öncelikle tahsisini kimin isteği üzerine ilgili resmi müesseseler yapar?",
+    "options": [
+      "Vali",
+      "Belediye Başkanı",
+      "Hak sahibi afetzede",
+      "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+      "Müteahhit firma"
+    ],
+    "answer": "İmar ve İskan Bakanlığı (ilgili Bakanlık)",
+    "explanation": "Ek Madde 1: 'Bu kanun gereğince yapılacak bina ve tesislere gerekli inşaat malzemeleri, İmar ve İskan Bakanlığının isteği üzerine ilgili resmi müesseselerce öncelikle tahsis olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afetten zarar görenlere tahsis edilmek üzere tertip edilen konser ve spor eğlenceleri hangi vergi, resim ve harçlardan muaftır?",
+    "options": [
+      "Sadece KDV'den",
+      "Sadece gelir vergisinden",
+      "Sadece eğlence vergisinden",
+      "Her türlü vergi, resim ve harçtan",
+      "Muafiyet yoktur."
+    ],
+    "answer": "Her türlü vergi, resim ve harçtan",
+    "explanation": "Madde 45: 'Afetlerden zarar görenlere tahsis edilmek üzere tertip edilen temsil,konser ve spor eğlenceleri de her türlü vergi, resim ve harctan muaf tutulur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, afet anında mülki amirlerin el koyma yetkisi hangi meslek gruplarını kapsamaz?",
+    "options": [
+      "Doktorlar ve hemşireler",
+      "Öğretmenler ve mühendisler",
+      "Askerler ve hakimler",
+      "Gazeteciler ve avukatlar",
+      "Çiftçiler ve esnaflar"
+    ],
+    "answer": "Askerler ve hakimler",
+    "explanation": "Madde 6: '...vali ve kaymakamlar (Askerler ve hakim sınıfından bulunanlar hariç olmak üzere) 18 - 65 yaş arasındaki bütün erkeklere görev vermeye... yetkilidir.'"
+  },
+  {
+    "question": "7269 sayılı Kanun uyarınca hak sahibi olmadığı halde afet konutuna yerleştirilen bir kişiye, oturduğu bina hangi bedel üzerinden devredilir?",
+    "options": [
+      "Maliyet bedeli",
+      "Rayiç bedel",
+      "Emlak vergi değeri",
+      "Borçlandırma bedeli",
+      "Bedelsiz olarak"
+    ],
+    "answer": "Rayiç bedel",
+    "explanation": "Geçici Madde 9: '...hak sahibi olmadığı halde yerleştirilmiş bulunan ve halen mülkiyeti üzerlerine devir edilmemiş olanlara, oturdukları binalar, rayiç bedeli karşılığında devredilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, yangın afetine uğraması muhtemel olan sahaları köylerde kim tespit eder?",
+    "options": [
+      "Muhtar",
+      "Köy ihtiyar heyeti",
+      "Kaymakam",
+      "Jandarma komutanı",
+      "Köy derneği"
+    ],
+    "answer": "Köy ihtiyar heyeti",
+    "explanation": "Madde 2: '...yangın afetine uğraması muhtemel olan sahalar, şehir ve kasabalarda belediye meclisleri, köylerde ihtiyar heyetleri tarafından tespit... olunur.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, 'Evini Yapana Yardım' (EYY) yöntemiyle kredisinin %20'sine kadarını kullanmış olan hak sahibinin kredisi nasıl geri alınır?",
+    "options": [
+      "Defaten ve faizsiz olarak",
+      "Beş yılda ve faizli olarak",
+      "On beş yılda ve faizsiz olarak",
+      "Defaten ve faizli olarak",
+      "Borç silinir."
+    ],
+    "answer": "Defaten ve faizsiz olarak",
+    "explanation": "Madde 40: '...açılan kredinin; a) % 20'sine kadarını kullanmış olanların kredileri defaten faizsiz olarak... tahsil edilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, arta kalan afet konutları veya arsaları için çeşitli nedenlerle hak sahibi olamayanlara satış yapılırken, fazla müracaat olması durumunda hangi usul uygulanır?",
+    "options": [
+      "Açık artırma usulü",
+      "Pazarlık usulü",
+      "En yüksek teklifi verene satış",
+      "Kura usulü",
+      "İlk başvuran önceliklidir."
+    ],
+    "answer": "Kura usulü",
+    "explanation": "Geçici Madde 11: 'Valiliklerce yapılacak satış işleminde fazla müracaat halinde gerektiğinde kura usulüne başvurulur.'"
+  },
+  {
+    "question": "7269 sayılı Kanunun 19. maddesine göre kıymet takdir komisyonu köylerde kimlerden oluşur?",
+    "options": [
+      "Muhtar, imam ve bir öğretmen",
+      "Köy ihtiyar heyetinden bir kişi, bir fen elemanı ve mahalli maliye veya tapu teşkilatından bir kişi",
+      "Sadece kaymakamın atadığı üç kişi",
+      "Muhtar ve iki aza",
+      "Kadastro müdürü, jandarma komutanı ve muhtar"
+    ],
+    "answer": "Köy ihtiyar heyetinden bir kişi, bir fen elemanı ve mahalli maliye veya tapu teşkilatından bir kişi",
+    "explanation": "Madde 19: '...köylerde köy ihtiyar heyetlerinden bir kişi, mahallin en büyük mülkiye amirince görevlendirilecek bir fen elemanı ve mahalli maliye veya tapu teşkilatından bir kişiden... meydana gelecek üç kişilik komisyon marifetiyle takdir ettirilir.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, borcunun tamamı ödenmeden taşınmaz malını başkasına satan hak sahibinin borç durumu ne olur?",
+    "options": [
+      "Borç yeni malike devredilir.",
+      "Borcun tamamı muacceliyet kesbeder.",
+      "Sadece bir yıllık taksit peşin alınır.",
+      "Borç vadesinde ödenmeye devam eder.",
+      "Borç %10 artırılarak yeniden yapılandırılır."
+    ],
+    "answer": "Borcun tamamı muacceliyet kesbeder.",
+    "explanation": "Madde 40: '...borcun tamamı ödenmeden taşınmaz malların başkalarına satılması halinde de borcun tamamı muacceliyet kesbeder.'"
+  },
+  {
+    "question": "7269 sayılı Kanuna göre, ilçe ve köylerdeki ayrıntılı çalışma ve uygulama programları kim tarafından düzenlenir ve kimin onayı ile kesinleşir?",
+    "options": [
+      "Vali tarafından düzenlenir ve İçişleri Bakanı onayıyla kesinleşir.",
+      "Kaymakam ve bucak müdürleri tarafından düzenlenir ve valinin onayıyla kesinleşir.",
+      "İl kurtarma komitesi tarafından düzenlenir ve vali tarafından onaylanır.",
+      "AFAD il müdürü tarafından düzenlenir ve AFAD Başkanı tarafından onaylanır.",
+      "Belediye başkanı tarafından düzenlenir ve vali tarafından onaylanır."
+    ],
+    "answer": "Kaymakam ve bucak müdürleri tarafından düzenlenir ve valinin onayıyla kesinleşir.",
+    "explanation": "Madde 4: '...ilçelerde kaymakamlar, bucak ve köylerde bucak müdürleri tarafından düzenlenir; il kurtarma ve yardım komitesinin incelemesinden sonra valilerin onayı ile kesinleşir.'"
   }
 ]
